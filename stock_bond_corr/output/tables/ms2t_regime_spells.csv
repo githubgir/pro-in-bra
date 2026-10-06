@@ -1,0 +1,11 @@
+state,months,start,end
+positive (rho=0.30),11,1953-05,1954-03
+negative (rho=-0.40),85,1954-04,1961-04
+positive (rho=0.30),3,1961-05,1961-07
+negative (rho=-0.40),2,1961-08,1961-09
+positive (rho=0.30),467,1961-10,2000-08
+negative (rho=-0.40),32,2000-09,2003-04
+positive (rho=0.30),44,2003-05,2006-12
+negative (rho=-0.40),171,2007-01,2021-03
+positive (rho=0.30),55,2021-04,2025-10
+negative (rho=-0.40),10,2025-11,2026-08

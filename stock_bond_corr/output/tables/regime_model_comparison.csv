@@ -1,0 +1,13 @@
+data,model,K,loglik,k_par,BIC,state_corrs,durations_m
+raw returns,"MS-1 Gaussian (means, vols, corr switch)",1.0,-4137.461208902148,5,8308.822027341657,[0.05],[inf]
+raw returns,"MS-2 Gaussian (means, vols, corr switch)",2.0,-3989.210971239371,12,8059.781005368409,"[0.07, 0.1]","[8.0, 22.1]"
+raw returns,"MS-3 Gaussian (means, vols, corr switch)",3.0,-3942.767301474412,21,8027.912963005741,"[-0.09, -0.03, 0.38]","[28.1, 7.0, 22.1]"
+raw returns,"MS-2 Gaussian, vols switch / corr CONSTANT",2.0,-3989.836982802476,11,8054.253106587147,[np.float64(0.09)],
+raw returns,"1-state bivariate t (constant corr, fat tails)",1.0,-4032.1945722600576,6,8105.068675964949,[np.float64(0.07)],
+GARCH-standardised,"Constant corr, Student-t shocks",1.0,-2467.0279703197066,2,4947.615784454358,[np.float64(0.05)],
+GARCH-standardised,"DCC(1,1) Gaussian (smooth time variation)",,-2497.6575021388653,3,5015.654770000147,,
+GARCH-standardised,"MS-1 corr-only, Gaussian",1.0,-2527.2640881024754,1,5061.308098112423,[0.02],[inf]
+GARCH-standardised,"MS-2 corr-only, Gaussian",2.0,-2490.9998367223993,4,5009.119361074688,"[-0.32, 0.32]","[118.4, 161.8]"
+GARCH-standardised,"MS-2 corr-only, Student-t shocks",2.0,-2438.4421026120463,5,4910.783814761454,"[-0.4, 0.3]","[82.0, 130.1]"
+GARCH-standardised,"MS-3 corr-only, Gaussian",3.0,-2483.031409474582,9,5027.082116116414,"[-0.63, -0.05, 0.31]","[10.8, 12.9, 229.5]"
+GARCH-standardised,"MS-3 corr-only, Student-t shocks",3.0,-2437.1736133437203,10,4942.146445762163,"[-0.55, -0.05, 0.31]","[16.5, 15.1, 237.2]"

@@ -1,0 +1,6 @@
+pandas>=2.0
+numpy
+scipy
+matplotlib
+xlrd>=2.0.1
+arch
