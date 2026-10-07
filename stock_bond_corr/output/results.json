@@ -267,6 +267,13 @@
   "Shock ENTRY": 1.5608332261313635,
   "Shock EXIT (window artifact)": 2.747807986880267
  },
+ "two_source_split": {
+  "level_var_share_gradual_trim3": 0.6392917187699239,
+  "level_var_share_gradual_spearman": 0.9334109913687806,
+  "12m_change_var_share_gradual": 0.35959809225873457,
+  "36m_change_var_share_gradual": 0.44146487539227625,
+  "swing_share_shock_top3": 0.6323098517617592
+ },
  "latest": {
   "month": "2026-08",
   "6m": -0.15555157113940993,

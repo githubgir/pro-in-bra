@@ -6,6 +6,31 @@
 
 ---
 
+## Summary: two sources, gradual shift vs. shock
+
+Condensed to two sources, **the gradual shift sets where the correlation is, and shocks cause most of the movement you see in the rolling line.** Shocks move it fast and then undo it when they leave the window, so they leave no lasting mark. The gradual shift is slow, but it sets the sign and lasts 7–11 years.
+
+Here "shock" means the few most extreme months in each window, including the reversal when such a month *leaves* the window. "Gradual" is everything else, measured by the correlation after dropping the top-3 months.
+
+| What you measure | Gradual shift | Shock |
+|---|---|---|
+| **Level** of the 36m correlation (positive vs negative, regimes) | **~65%** (about 90% on rank correlation) | ~35% |
+| **Changes** in the 36m correlation over 1–3 years | ~35–45% | **~55–65%** |
+| **Size of the 19 big swings** (≥0.30) | ~35–40% | ~60–65% |
+
+**What this means in practice**
+
+1. **The sign and the regime come from the gradual shift.** The correlation was positive from about 1965 to 1999 and negative from about 2000 to 2021. That changed because many months moved together, not because of single events. Removing the 3 most extreme months from each window barely changes this picture, and rank correlation explains about 90% of it.
+2. **Most of the visible swings come from shocks, and each shock hits twice.** It moves the correlation when it enters the window and moves it back 36 months later when it leaves. Nov-1987, Aug-2011 and Mar-2020 each moved the correlation by 0.4–0.6, with no lasting effect on the level.
+3. **The two sources look different on the chart.** A gradual shift shows up in every window length, from 12 to 60 months, and builds over years. A shock shows up as a step in the 36-month line, a reverse step exactly 36 months later, and little change in the 60-month line.
+4. **2021–24 shows both at once.** The correlation went from −0.54 to +0.57. About 40% of that is Mar-2020 leaving the window. The other 60% is a real move to positive correlation during the 2022–23 inflation and rate shock.
+
+**One-line version:** stocks and bonds have shifted slowly between a positive regime (about +0.3) and a negative one (about −0.4), each lasting roughly a decade. Rolling correlations exaggerate how often this happens, because single crash months create large temporary swings on top of the slow trend.
+
+These shares are approximate (ranges of ±5–10 points); the exact figures are under `two_source_split` in `output/results.json`. Dropping the top 3 months each window overstates the shock share of the level a little. Crediting each swing to its 3 biggest months overstates it in long swings such as 1957–71.
+
+---
+
 ## 0. Bottom line
 
 > **The correlation's big moves between strongly negative and strongly positive are regime changes, not shock artifacts.** But a large share of the *medium-sized, sudden* moves (about 0.3–0.5) are produced by **one or two extreme months entering, and especially *leaving*, the 36-month window.**

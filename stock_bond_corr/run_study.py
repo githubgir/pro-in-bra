@@ -301,6 +301,17 @@ def main():
     ti.to_csv(TAB / "episode_top_influential_months.csv", index=False)
     results["episodes_by_class"] = ep.classification.value_counts().to_dict()
     results["episode_abs_swing_by_class"] = ep.assign(a=ep.d_rho36.abs()).groupby("classification").a.sum().to_dict()
+    # Two-source condensation: "shock" = the few most extreme months (incl. their exit echo),
+    # "gradual" = everything else, proxied by the top-3-trimmed correlation.
+    dd = diag.dropna(subset=["rho"])
+    two = {"level_var_share_gradual_trim3": float(np.cov(dd.rho, dd.rho_trim3)[0, 1] / dd.rho.var()),
+           "level_var_share_gradual_spearman": float(np.cov(dd.rho, dd.spearman)[0, 1] / dd.rho.var())}
+    for h in (12, 36):
+        ch = pd.DataFrame({"r": dd.rho.diff(h), "t": dd.rho_trim3.diff(h)}).dropna()
+        two[f"{h}m_change_var_share_gradual"] = float(np.cov(ch.r, ch.t)[0, 1] / ch.r.var())
+    a = ep.d_rho36.abs()
+    two["swing_share_shock_top3"] = float((ep.top3_share.clip(0, 1) * a).sum() / a.sum())
+    results["two_source_split"] = two
     results["latest"] = {"month": str(r.index[-1]), **{k: float(v) for k, v in rc.iloc[-1].items()},
                          "trim3": float(diag.rho_trim3.iloc[-1]), "max_LOO": float(diag.max_abs_influence.iloc[-1]),
                          "max_LOO_month": diag.max_influence_month.iloc[-1], "P_pos_regime": float(prob_pos.iloc[-1])}
