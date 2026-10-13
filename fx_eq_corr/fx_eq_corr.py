@@ -6,18 +6,25 @@ so a positive FX return = the foreign currency appreciates, i.e. LOC weakens.
 A negative correlation means the local currency strengthens when local equities
 fall (safe-haven / funding-currency behaviour).
 
-FX from FRED H.10 noon NY buying rates; crosses (EUR/JPY, EUR/CHF) are built from
-the same fixings, so both legs are synchronous:
-    DEXJPUS JPY per USD, DEXSZUS CHF per USD, DEXUSEU USD per EUR
+FX from FRED H.10 noon NY buying rates; EUR crosses (EUR/JPY, EUR/GBP, ...) are built
+from the same fixings, so both legs are synchronous:
+    DEXJPUS JPY per USD, DEXSZUS CHF per USD, DEXCAUS CAD per USD,
+    DEXUSEU USD per EUR, DEXUSUK USD per GBP, DEXUSAL USD per AUD
 
 Markets
     nikkei   NIKKEI225 (daily)                   LOC=JPY  weekly returns
     jp_oecd  OECD Japan share prices (monthly)   LOC=JPY  monthly
     ch_oecd  OECD Swiss share prices (monthly)   LOC=CHF  monthly  (FRED has no SMI)
+    uk_oecd  OECD UK share prices (monthly)      LOC=GBP  monthly
+    ca_oecd  OECD Canada share prices (monthly)  LOC=CAD  monthly
+    au_oecd  OECD Australia share prices (monthly) LOC=AUD monthly
     nasdaq   NASDAQCOM (daily)                   LOC=USD  weekly
     sp500    SP500 (daily, FRED keeps 10y only)  LOC=USD  weekly
     us_oecd  OECD US share prices (monthly)      LOC=USD  monthly
-    ez_oecd  OECD euro-area share prices (monthly) LOC=EUR monthly
+    ez_oecd  OECD euro-area share prices (monthly) LOC=EUR monthly (FRED series ends Jan 2026)
+
+The monthly OECD indices are the like-for-like cross-country comparison; FRED has
+no daily equity index for UK, Canada, euro area, Switzerland or Australia.
 
 OECD share price indices are monthly averages of daily prices, so FX is averaged by
 month too. Daily FX (NY noon) is non-synchronous with Tokyo closes, hence weekly
@@ -40,7 +47,8 @@ import matplotlib.pyplot as plt
 FRED_URL = "https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}&cosd={start}"
 
 # value of one unit of each currency in USD, as (FRED id, exponent)
-USD_VALUE = {"EUR": ("DEXUSEU", +1), "JPY": ("DEXJPUS", -1), "CHF": ("DEXSZUS", -1)}
+USD_VALUE = {"EUR": ("DEXUSEU", +1), "GBP": ("DEXUSUK", +1), "AUD": ("DEXUSAL", +1),
+             "JPY": ("DEXJPUS", -1), "CHF": ("DEXSZUS", -1), "CAD": ("DEXCAUS", -1)}
 FOREIGN = ["USD", "EUR"]
 
 WEEKLY_WINDOWS = {"26w": 26, "52w": 52, "3y": 156}
@@ -50,6 +58,9 @@ MARKETS = {
     "nikkei": dict(eq="NIKKEI225", name="Nikkei 225", loc="JPY", freq="W"),
     "jp_oecd": dict(eq="SPASTT01JPM661N", name="Japan share prices (OECD)", loc="JPY", freq="M"),
     "ch_oecd": dict(eq="SPASTT01CHM661N", name="Swiss share prices (OECD)", loc="CHF", freq="M"),
+    "uk_oecd": dict(eq="SPASTT01GBM661N", name="UK share prices (OECD)", loc="GBP", freq="M"),
+    "ca_oecd": dict(eq="SPASTT01CAM661N", name="Canada share prices (OECD)", loc="CAD", freq="M"),
+    "au_oecd": dict(eq="SPASTT01AUM661N", name="Australia share prices (OECD)", loc="AUD", freq="M"),
     "nasdaq": dict(eq="NASDAQCOM", name="Nasdaq Composite", loc="USD", freq="W"),
     "sp500": dict(eq="SP500", name="S&P 500 (10y on FRED)", loc="USD", freq="W"),
     "us_oecd": dict(eq="SPASTT01USM661N", name="US share prices (OECD)", loc="USD", freq="M"),
@@ -153,6 +164,62 @@ def plot_compare(series: dict, title: str, path: Path):
     plt.close(fig)
 
 
+FX_COLORS = {"USD": "#1f4e8c", "EUR": "#c0392b"}
+
+
+def plot_grid(markets, all_corrs, path: Path):
+    """Small multiples: 3y (thick) and 12m (thin) monthly rolling corr per market."""
+    n = len(markets)
+    ncol = 2
+    nrow = -(-n // ncol)
+    fig, axes = plt.subplots(nrow, ncol, figsize=(13, 2.6 * nrow), sharex=True, sharey=True)
+    axes = axes.ravel()
+    for ax, (k, lab) in zip(axes, markets):
+        loc = MARKETS[k]["loc"]
+        for f in FOREIGN:
+            if (k, f) not in all_corrs:
+                continue
+            c = all_corrs[(k, f)]
+            ax.plot(c.index, c["12m"], lw=0.7, alpha=0.4, color=FX_COLORS[f])
+            ax.plot(c.index, c["3y"], lw=1.8, color=FX_COLORS[f])
+        ax.axhline(0, color="black", lw=0.6)
+        ax.set_ylim(-1, 1)
+        ax.set_title(f"{lab} (equities in {loc})", fontsize=10, loc="left")
+        ax.grid(alpha=0.3)
+    for i, ax in enumerate(axes[n:], start=n):
+        ax.set_visible(False)
+        axes[i - ncol].tick_params(labelbottom=True)  # panel above the gap needs date labels
+    handles = [plt.Line2D([], [], color=c, lw=1.8) for c in FX_COLORS.values()]
+    fig.legend(handles, ["price of USD in LOC", "price of EUR in LOC"], loc="lower right",
+               bbox_to_anchor=(0.92, 0.1), frameon=False)
+    fig.suptitle("Rolling corr of local equities (OECD, monthly, in LOC) with price of USD / EUR in LOC  -  "
+                 "3y thick, 12m thin\n+ = local currency weakens as local equities rise")
+    fig.tight_layout()
+    fig.savefig(path, dpi=130)
+    plt.close(fig)
+
+
+def plot_bars(table: pd.DataFrame, markets, path: Path):
+    """Full-sample, pre-2020 and 2020+ correlations per market / FX pair (OECD monthly)."""
+    names = [MARKETS[k]["name"] for k, _ in markets]
+    t = table.loc[[ix for ix in table.index if ix[0] in names]]
+    labels = [f"{dict((MARKETS[k]['name'], l) for k, l in markets)[m]}\n{fx}" for m, fx in t.index]
+    x = np.arange(len(t))
+    fig, ax = plt.subplots(figsize=(13, 5))
+    for i, (col, color) in enumerate([("full_sample", "#34495e"), ("pre_2020", "#95a5a6"), ("2020_on", "#e67e22")]):
+        ax.bar(x + (i - 1) * 0.27, t[col].astype(float), width=0.27, color=color, label=col.replace("_", " "))
+    ax.axhline(0, color="black", lw=0.6)
+    ax.set_xticks(x)
+    ax.set_xticklabels(labels, fontsize=8)
+    ax.set_ylabel("Correlation")
+    ax.set_title("Local equities (OECD, monthly, in LOC) vs price of USD / EUR in LOC  (+ = LOC weakens as equities rise)")
+    ax.legend(frameon=False)
+    ax.grid(alpha=0.3, axis="y")
+    fig.tight_layout()
+    fig.savefig(path, dpi=130)
+    plt.close(fig)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--years", type=int, default=20)
@@ -212,15 +279,12 @@ def main():
     (out / "summary.txt").write_text(text)
     print(text)
 
-    c = {"JPY": "#1f4e8c", "CHF": "#c0392b", "USD": "#e67e22", "EUR": "#27ae60"}
-    plot_compare({f"{lab}: {f}/{MARKETS[k]['loc']}": (all_corrs[(k, f)]["3y"], c[MARKETS[k]["loc"]],
-                                                         "-" if f == "USD" else "--")
-                  for k, lab in [("jp_oecd", "Japan"), ("ch_oecd", "Switzerland"),
-                                 ("us_oecd", "US"), ("ez_oecd", "Euro area")]
-                  for f in FOREIGN if (k, f) in all_corrs},
-                 "3y rolling corr, monthly OECD share prices (in LOC) vs price of USD (solid) / EUR (dashed) in LOC"
-                 "\n+ = local currency weakens with local equities rising",
-                 out / "compare_monthly_3y.png")
+    oecd = [("jp_oecd", "Japan"), ("uk_oecd", "UK"), ("us_oecd", "US"), ("ca_oecd", "Canada"),
+            ("ez_oecd", "Euro area"), ("ch_oecd", "Switzerland"), ("au_oecd", "Australia")]
+    plot_grid(oecd, all_corrs, out / "compare_monthly_3y.png")
+    plot_bars(table, oecd, out / "compare_full_sample.png")
+
+    c = {"JPY": "#1f4e8c", "USD": "#e67e22", "EUR": "#27ae60"}
     plot_compare({f"{lab}: {f}/{MARKETS[k]['loc']}": (all_corrs[(k, f)]["52w"], col, ls)
                   for k, lab, f, col, ls in [("nikkei", "Nikkei", "USD", c["JPY"], "-"),
                                              ("nikkei", "Nikkei", "EUR", c["JPY"], "--"),

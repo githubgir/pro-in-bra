@@ -5,6 +5,12 @@ Japan share prices (OECD),USD/JPY,monthly,0.565,0.684,0.242,-0.393,0.443
 Japan share prices (OECD),EUR/JPY,monthly,0.557,0.611,0.316,0.052,0.444
 Swiss share prices (OECD),USD/CHF,monthly,0.144,0.192,0.021,-0.333,0.149
 Swiss share prices (OECD),EUR/CHF,monthly,0.304,0.378,0.099,0.166,0.262
+UK share prices (OECD),USD/GBP,monthly,-0.22,-0.14,-0.412,-0.341,-0.056
+UK share prices (OECD),EUR/GBP,monthly,-0.06,0.065,-0.472,0.203,-0.21
+Canada share prices (OECD),USD/CAD,monthly,-0.572,-0.597,-0.55,-0.275,-0.184
+Canada share prices (OECD),EUR/CAD,monthly,-0.283,-0.275,-0.334,0.684,-0.07
+Australia share prices (OECD),USD/AUD,monthly,-0.493,-0.47,-0.575,-0.325,-0.347
+Australia share prices (OECD),EUR/AUD,monthly,-0.443,-0.407,-0.54,0.073,-0.358
 Nasdaq Composite,EUR/USD,weekly,0.229,0.19,0.325,0.289,0.119
 S&P 500 (10y on FRED),EUR/USD,weekly,0.289,0.008,0.37,0.376,0.13
 US share prices (OECD),EUR/USD,monthly,0.325,0.359,0.241,0.763,0.118
