@@ -84,7 +84,6 @@ MARKETS = {
     "nasdaq": dict(eq="NASDAQCOM", name="Nasdaq Composite", loc="USD", freq="W", group="weekly"),
     "sp500": dict(eq="SP500", name="S&P 500 (10y)", loc="USD", freq="W", group="weekly"),
 }
-GROUPS = {"DM": "Developed markets", "EM": "Emerging markets", "weekly": "Daily indices, weekly returns"}
 
 
 class Fred:
@@ -175,46 +174,62 @@ def jumps(s: pd.Series) -> tuple[float, float]:
     return d.max(), d.quantile(0.95)
 
 
-def plot_group(keys, all_corr, title, path):
-    """Rows = markets, col 1 = price of USD in LOC, col 2 = price of EUR in LOC."""
-    nrow = len(keys)
-    h = 2.0 * nrow + 1.2
-    fig, axes = plt.subplots(nrow, 2, figsize=(13, h), sharex=True, sharey=True, squeeze=False)
-    for i, k in enumerate(keys):
-        cfg = MARKETS[k]
-        for j, f in enumerate(FOREIGN):
-            ax = axes[i, j]
-            ax.set_ylim(-1, 1)
-            if (k, f) not in all_corr:
-                ax.set_title(f"{cfg['name']}: {f}/{cfg['loc']}", fontsize=9.5, loc="left")
-                ax.text(0.5, 0.5, f"n/a (local currency is {f})", transform=ax.transAxes,
-                        ha="center", va="center", color="#7f8c8d")
-                continue
-            ax.axhline(0, color="black", lw=0.6)
-            ax.grid(alpha=0.3)
-            c = all_corr[(k, f)]
-            ax.plot(c.index, c["raw"], lw=1.0, color="#9aa7b8")
-            ax.plot(c.index, c["robust"], lw=1.8, color="#1f4e8c" if f == "USD" else "#c0392b")
-            ex = c.index[c["excluded"] == 1]
-            ax.plot(ex, np.full(len(ex), -0.93), "|", color="#e67e22", ms=7, mew=1.2)
-            ax.set_title(f"{cfg['name']}: {f}/{cfg['loc']}   ({len(ex)} of {len(c)} periods excluded)",
-                         fontsize=9.5, loc="left")
-    for j, f in enumerate(FOREIGN):
-        axes[0, j].annotate(f"Price of {f} in LOC", xy=(0.5, 1.2), xycoords="axes fraction",
-                            ha="center", fontsize=11, weight="bold")
-    fp = FREQ[MARKETS[keys[0]]["freq"]]
-    handles = [plt.Line2D([], [], color="#9aa7b8", lw=1.0),
-               plt.Line2D([], [], color="#34495e", lw=1.8),
-               plt.Line2D([], [], color="#e67e22", ls="none", marker="|", ms=7, mew=1.2)]
-    fig.legend(handles, [f"raw: equal-weight {fp['label']} window, all returns",
-                         f"robust: extremes (|z|>{Z_CUT:g}) excluded, exp. weighted (half-life {fp['window'] // 2} "
-                         f"{'months' if fp['unit'] == 'monthly' else 'weeks'})",
-                         "excluded period"],
-               loc="upper center", bbox_to_anchor=(0.5, 1 - 0.5 / h), ncol=3, frameon=False, fontsize=9)
-    fig.suptitle(f"{title}: local equities ({fp['unit']}, in LOC) vs price of USD / EUR in LOC  "
-                 f"(+ = LOC weakens as equities rise)", y=1 - 0.12 / h)
-    fig.tight_layout(rect=(0, 0, 1, 1 - 0.75 / h), h_pad=1.2)
-    fig.savefig(path, dpi=120)
+FX_COLORS = {"USD": ("#1f4e8c", "#c9d6ea"), "EUR": ("#b03a2e", "#f0cdc9")}  # (ink, tint)
+
+
+def plot_ranges(foreign: str, all_corr: dict, path: Path):
+    """Range of the rolling corr per market (bar), first (hollow) and last (filled) value,
+    arrow first -> last. Top panel raw, bottom panel robust. Monthly OECD markets only."""
+    keys = [k for k, cfg in MARKETS.items() if cfg["freq"] == "M" and (k, foreign) in all_corr]
+    ink, tint = FX_COLORS[foreign]
+    x = np.arange(len(keys))
+    fp = FREQ["M"]
+    fig, axes = plt.subplots(2, 1, figsize=(12, 8.5), sharex=True, sharey=True)
+    panels = [("raw", f"Raw: equal-weight {fp['label']} window, all returns"),
+              ("robust", f"Robust: extremes (|z|>{Z_CUT:g}) excluded, exponentially weighted "
+                         f"(half-life {fp['window'] // 2} months)")]
+    first_dates, last_dates = [], []
+    for ax, (col, title) in zip(axes, panels):
+        for xi, k in zip(x, keys):
+            s = all_corr[(k, foreign)][col].dropna()
+            first_dates.append(s.index[0])
+            last_dates.append(s.index[-1])
+            lo, hi, v0, v1 = s.min(), s.max(), s.iloc[0], s.iloc[-1]
+            ax.bar(xi, hi - lo, bottom=lo, width=0.42, color=tint, edgecolor="none", zorder=1)
+            if abs(v1 - v0) > 0.08:  # shorter arrows would hide under the markers
+                ax.annotate("", xy=(xi, v1), xytext=(xi, v0), zorder=3,
+                            arrowprops=dict(arrowstyle="-|>", color="#2c3e50", lw=1.4,
+                                            shrinkA=5, shrinkB=5, mutation_scale=12))
+            ax.plot(xi, v0, "o", ms=8, mfc="white", mec=ink, mew=1.8, zorder=4)
+            ax.plot(xi, v1, "o", ms=8, color=ink, mec="white", mew=1.0, zorder=5)
+            ax.text(xi + 0.26, v1, f"{v1:+.2f}", va="center", ha="left", fontsize=8, color="#2c3e50")
+        ax.axhline(0, color="#2c3e50", lw=0.8, zorder=2)
+        ax.set_ylim(-1, 1)
+        ax.set_ylabel("Correlation")
+        ax.set_title(title, fontsize=10.5, loc="left")
+        ax.grid(alpha=0.25, axis="y")
+        for side in ("top", "right"):
+            ax.spines[side].set_visible(False)
+        n_dm = sum(MARKETS[k]["group"] == "DM" for k in keys)
+        ax.axvline(n_dm - 0.5, color="#95a5a6", lw=0.8, ls=":")
+        ax.text(n_dm - 0.55, 0.95, "Developed", ha="right", va="top", fontsize=8.5, color="#7f8c8d")
+        ax.text(n_dm - 0.45, 0.95, "Emerging", ha="left", va="top", fontsize=8.5, color="#7f8c8d")
+    axes[1].set_xticks(x)
+    d0, d1 = min(first_dates), max(last_dates)
+    ends = {k: all_corr[(k, foreign)]["raw"].dropna().index[-1] for k in keys}
+    axes[1].set_xticklabels([f"{MARKETS[k]['name']}\n{foreign}/{MARKETS[k]['loc']}"
+                             + (f"\n(to {ends[k]:%b %Y})" if ends[k] < d1 else "") for k in keys], fontsize=9)
+    handles = [plt.Rectangle((0, 0), 1, 1, color=tint),
+               plt.Line2D([], [], ls="none", marker="o", ms=8, mfc="white", mec=ink, mew=1.8),
+               plt.Line2D([], [], ls="none", marker="o", ms=8, color=ink),
+               plt.Line2D([], [], color="#2c3e50", lw=1.4, marker=">", ms=6)]
+    fig.legend(handles, [f"range of rolling {fp['label']} corr", f"first ({d0:%b %Y})",
+                         f"latest ({d1:%b %Y}, value labelled)", "change first \u2192 latest"],
+               loc="upper center", bbox_to_anchor=(0.5, 0.945), ncol=4, frameon=False, fontsize=9)
+    fig.suptitle(f"Local equities (OECD, monthly, in LOC) vs price of {foreign} in LOC  "
+                 f"(+ = LOC weakens as equities rise)", y=0.985, fontsize=12)
+    fig.tight_layout(rect=(0, 0, 1, 0.92))
+    fig.savefig(path, dpi=130)
     plt.close(fig)
 
 
@@ -314,9 +329,8 @@ def main():
     (out / "summary.txt").write_text(text)
     print(text)
 
-    for g, title in GROUPS.items():
-        keys = [k for k, cfg in MARKETS.items() if cfg["group"] == g]
-        plot_group(keys, all_corr, title, out / f"grid_{g.lower()}.png")
+    for f in FOREIGN:
+        plot_ranges(f, all_corr, out / f"corr_range_{f.lower()}_in_loc.png")
     plot_bars(table, out / "compare_full_sample.png")
 
 
