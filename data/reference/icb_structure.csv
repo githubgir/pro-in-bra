@@ -1,0 +1,174 @@
+ind_code,industry,ss_code,supersector,sec_code,sector,sub_code,subsector
+10,Technology,1010,Technology,101010,Software and Computer Services,10101010,Computer Services
+10,Technology,1010,Technology,101010,Software and Computer Services,10101015,Software
+10,Technology,1010,Technology,101010,Software and Computer Services,10101020,Consumer Digital Services 
+10,Technology,1010,Technology,101020,Technology Hardware and Equipment,10102010,Semiconductors
+10,Technology,1010,Technology,101020,Technology Hardware and Equipment,10102015,Electronic Components
+10,Technology,1010,Technology,101020,Technology Hardware and Equipment,10102020,Production Technology Equipment
+10,Technology,1010,Technology,101020,Technology Hardware and Equipment,10102030,Computer Hardware
+10,Technology,1010,Technology,101020,Technology Hardware and Equipment,10102035,Electronic Office Equipment
+15,Telecommunications,1510,Telecommunications,151010,Telecommunications Equipment,15101010,Telecommunications Equipment
+15,Telecommunications,1510,Telecommunications,151020,Telecommunications Service Providers ,15102010,Cable Television Services
+15,Telecommunications,1510,Telecommunications,151020,Telecommunications Service Providers ,15102015,Telecommunications Services
+20,Health Care ,2010,Health Care  ,201010,Health Care Providers,20101010,Health Care Facilities
+20,Health Care ,2010,Health Care  ,201010,Health Care Providers,20101020,Health Care Management Services
+20,Health Care ,2010,Health Care  ,201010,Health Care Providers,20101025,Health Care Services
+20,Health Care ,2010,Health Care  ,201010,Health Care Providers,20101030,Health Care: Misc.
+20,Health Care ,2010,Health Care  ,201020,Medical Equipment and Services,20102010,Medical Equipment
+20,Health Care ,2010,Health Care  ,201020,Medical Equipment and Services,20102015,Medical Supplies
+20,Health Care ,2010,Health Care  ,201020,Medical Equipment and Services,20102020,Medical Services
+20,Health Care ,2010,Health Care  ,201030,Pharmaceuticals and Biotechnology,20103010,Biotechnology
+20,Health Care ,2010,Health Care  ,201030,Pharmaceuticals and Biotechnology,20103015,Pharmaceuticals 
+20,Health Care ,2010,Health Care  ,201030,Pharmaceuticals and Biotechnology,20103020,Cannabis Producers
+30,Financials,3010,Banks,301010,Banks,30101010,Banks
+30,Financials,3020,Financial Services ,302010,Finance and Credit Services,30201020,Consumer Lending
+30,Financials,3020,Financial Services ,302010,Finance and Credit Services,30201025,Mortgage Finance
+30,Financials,3020,Financial Services ,302010,Finance and Credit Services,30201030,Financial Data Providers
+30,Financials,3020,Financial Services ,302020,Investment Banking and Brokerage Services ,30202000,Diversified Financial Services 
+30,Financials,3020,Financial Services ,302020,Investment Banking and Brokerage Services ,30202010,Asset Managers and Custodians
+30,Financials,3020,Financial Services ,302020,Investment Banking and Brokerage Services ,30202015,Investment Services
+30,Financials,3020,Financial Services ,302030,Mortgage Real Estate Investment Trusts,30203000,Mortgage REITs: Diversified
+30,Financials,3020,Financial Services ,302030,Mortgage Real Estate Investment Trusts,30203010,Mortgage REITs: Commercial
+30,Financials,3020,Financial Services ,302030,Mortgage Real Estate Investment Trusts,30203020,Mortgage REITs: Residential
+30,Financials,3020,Financial Services ,302040,Closed End Investments,30204000,Closed End Investments
+30,Financials,3020,Financial Services ,302050,Open End and Miscellaneous Investment Vehicles,30205000,Open End and Miscellaneous Investment Vehicles
+30,Financials,3030,Insurance,303010,Life Insurance,30301010,Life Insurance
+30,Financials,3030,Insurance,303020,Non-life Insurance,30302010,Full Line Insurance
+30,Financials,3030,Insurance,303020,Non-life Insurance,30302015,Insurance Brokers
+30,Financials,3030,Insurance,303020,Non-life Insurance,30302020,Reinsurance
+30,Financials,3030,Insurance,303020,Non-life Insurance,30302025,Property and Casualty Insurance
+35,Real Estate,3510,Real Estate ,351010,Real Estate Investment and Services Development,35101010,Real Estate Holding and Development 
+35,Real Estate,3510,Real Estate ,351010,Real Estate Investment and Services Development,35101015,Real Estate Services
+35,Real Estate,3510,Real Estate ,351020,Real Estate Investment Trusts,35102000,Diversified REITs
+35,Real Estate,3510,Real Estate ,351020,Real Estate Investment Trusts,35102010,Health Care REITs
+35,Real Estate,3510,Real Estate ,351020,Real Estate Investment Trusts,35102015,Hotel and Lodging REITs
+35,Real Estate,3510,Real Estate ,351020,Real Estate Investment Trusts,35102020,Industrial REITs
+35,Real Estate,3510,Real Estate ,351020,Real Estate Investment Trusts,35102025,Infrastructure REITs
+35,Real Estate,3510,Real Estate ,351020,Real Estate Investment Trusts,35102030,Office REITs
+35,Real Estate,3510,Real Estate ,351020,Real Estate Investment Trusts,35102040,Residential REITs
+35,Real Estate,3510,Real Estate ,351020,Real Estate Investment Trusts,35102045,Retail REITs
+35,Real Estate,3510,Real Estate ,351020,Real Estate Investment Trusts,35102050,Storage REITs
+35,Real Estate,3510,Real Estate ,351020,Real Estate Investment Trusts,35102060,Timber REITs
+35,Real Estate,3510,Real Estate ,351020,Real Estate Investment Trusts,35102070,Other Specialty REITs
+40,Consumer Discretionary,4010,Automobiles and Parts,401010,Automobiles and Parts,40101010,Auto Services 
+40,Consumer Discretionary,4010,Automobiles and Parts,401010,Automobiles and Parts,40101015,Tires
+40,Consumer Discretionary,4010,Automobiles and Parts,401010,Automobiles and Parts,40101020,Automobiles
+40,Consumer Discretionary,4010,Automobiles and Parts,401010,Automobiles and Parts,40101025,Auto Parts
+40,Consumer Discretionary,4020,Consumer Products and Services,402010,Consumer Services ,40201010,Education Services
+40,Consumer Discretionary,4020,Consumer Products and Services,402010,Consumer Services ,40201020,Funeral Parlors and Cemetery
+40,Consumer Discretionary,4020,Consumer Products and Services,402010,Consumer Services ,40201030,Printing and Copying Services
+40,Consumer Discretionary,4020,Consumer Products and Services,402010,Consumer Services ,40201040,Rental and Leasing Services: Consumer
+40,Consumer Discretionary,4020,Consumer Products and Services,402010,Consumer Services ,40201050,Storage Facilities
+40,Consumer Discretionary,4020,Consumer Products and Services,402010,Consumer Services ,40201060,Vending and Catering Service
+40,Consumer Discretionary,4020,Consumer Products and Services,402010,Consumer Services ,40201070,Consumer Services: Misc.
+40,Consumer Discretionary,4020,Consumer Products and Services,402020,Household Goods and Home Construction,40202010,Home Construction
+40,Consumer Discretionary,4020,Consumer Products and Services,402020,Household Goods and Home Construction,40202015,Household Furnishings
+40,Consumer Discretionary,4020,Consumer Products and Services,402020,Household Goods and Home Construction,40202020,Household Appliance
+40,Consumer Discretionary,4020,Consumer Products and Services,402020,Household Goods and Home Construction,40202025,Household Equipment and Products
+40,Consumer Discretionary,4020,Consumer Products and Services,402030,Leisure Goods,40203010,Consumer Electronics
+40,Consumer Discretionary,4020,Consumer Products and Services,402030,Leisure Goods,40203040,Electronic Entertainment
+40,Consumer Discretionary,4020,Consumer Products and Services,402030,Leisure Goods,40203045,Toys
+40,Consumer Discretionary,4020,Consumer Products and Services,402030,Leisure Goods,40203050,Recreational Products
+40,Consumer Discretionary,4020,Consumer Products and Services,402030,Leisure Goods,40203055,Recreational Vehicles and Boats
+40,Consumer Discretionary,4020,Consumer Products and Services,402030,Leisure Goods,40203060,Photography
+40,Consumer Discretionary,4020,Consumer Products and Services,402040,Personal Goods,40204020,Clothing and Accessories
+40,Consumer Discretionary,4020,Consumer Products and Services,402040,Personal Goods,40204025,Footwear
+40,Consumer Discretionary,4020,Consumer Products and Services,402040,Personal Goods,40204030,Luxury Items
+40,Consumer Discretionary,4020,Consumer Products and Services,402040,Personal Goods,40204035,Cosmetics
+40,Consumer Discretionary,4030,Media,403010,Media,40301010,Entertainment
+40,Consumer Discretionary,4030,Media,403010,Media,40301020,Media Agencies
+40,Consumer Discretionary,4030,Media,403010,Media,40301030,Publishing
+40,Consumer Discretionary,4030,Media,403010,Media,40301035,Radio and TV Broadcasters
+40,Consumer Discretionary,4040,Retail ,404010,Retailers ,40401010,Diversified Retailers
+40,Consumer Discretionary,4040,Retail ,404010,Retailers ,40401020,Apparel Retailers
+40,Consumer Discretionary,4040,Retail ,404010,Retailers ,40401025,Home Improvement Retailers
+40,Consumer Discretionary,4040,Retail ,404010,Retailers ,40401030,Specialty Retailers 
+40,Consumer Discretionary,4050,Travel and Leisure,405010,Travel and Leisure,40501010,Airlines
+40,Consumer Discretionary,4050,Travel and Leisure,405010,Travel and Leisure,40501015,Travel and Tourism
+40,Consumer Discretionary,4050,Travel and Leisure,405010,Travel and Leisure,40501020,Casinos and Gambling
+40,Consumer Discretionary,4050,Travel and Leisure,405010,Travel and Leisure,40501025,Hotels and Motels 
+40,Consumer Discretionary,4050,Travel and Leisure,405010,Travel and Leisure,40501030,Recreational Services
+40,Consumer Discretionary,4050,Travel and Leisure,405010,Travel and Leisure,40501040,Restaurants and Bars
+45,Consumer Staples ,4510,"Food, Beverage and Tobacco ",451010,Beverages,45101010,Brewers
+45,Consumer Staples ,4510,"Food, Beverage and Tobacco ",451010,Beverages,45101015,Distillers and Vintners
+45,Consumer Staples ,4510,"Food, Beverage and Tobacco ",451010,Beverages,45101020,Soft Drinks
+45,Consumer Staples ,4510,"Food, Beverage and Tobacco ",451020,Food Producers,45102010,"Farming, Fishing, Ranching and Plantations"
+45,Consumer Staples ,4510,"Food, Beverage and Tobacco ",451020,Food Producers,45102020,Food Products
+45,Consumer Staples ,4510,"Food, Beverage and Tobacco ",451020,Food Producers,45102030,Fruit and Grain Processing
+45,Consumer Staples ,4510,"Food, Beverage and Tobacco ",451020,Food Producers,45102035,Sugar
+45,Consumer Staples ,4510,"Food, Beverage and Tobacco ",451030,Tobacco,45103010,Tobacco
+45,Consumer Staples ,4520,"Personal Care, Drug and Grocery Stores ",452010,"Personal Care, Drug and Grocery Stores ",45201010,Food Retailers and Wholesalers 
+45,Consumer Staples ,4520,"Personal Care, Drug and Grocery Stores ",452010,"Personal Care, Drug and Grocery Stores ",45201015,Drug Retailers
+45,Consumer Staples ,4520,"Personal Care, Drug and Grocery Stores ",452010,"Personal Care, Drug and Grocery Stores ",45201020,Personal Products
+45,Consumer Staples ,4520,"Personal Care, Drug and Grocery Stores ",452010,"Personal Care, Drug and Grocery Stores ",45201030,Nondurable Household Products
+45,Consumer Staples ,4520,"Personal Care, Drug and Grocery Stores ",452010,"Personal Care, Drug and Grocery Stores ",45201040,Miscellaneous Consumer Staple Goods
+50,Industrials,5010,Construction and Materials,501010,Construction and Materials ,50101010,Construction
+50,Industrials,5010,Construction and Materials,501010,Construction and Materials ,50101015,Engineering and Contracting Services
+50,Industrials,5010,Construction and Materials,501010,Construction and Materials ,50101020,"Building, Roofing/Wallboard and Plumbing"
+50,Industrials,5010,Construction and Materials,501010,Construction and Materials ,50101025,Building: Climate Control
+50,Industrials,5010,Construction and Materials,501010,Construction and Materials ,50101030,Cement
+50,Industrials,5010,Construction and Materials,501010,Construction and Materials ,50101035,Building Materials: Other
+50,Industrials,5020,Industrial Goods and Services,502010,Aerospace and Defense,50201010,Aerospace
+50,Industrials,5020,Industrial Goods and Services,502010,Aerospace and Defense,50201020,Defense
+50,Industrials,5020,Industrial Goods and Services,502020,Electronic and Electrical Equipment,50202010,Electrical Components 
+50,Industrials,5020,Industrial Goods and Services,502020,Electronic and Electrical Equipment,50202020,Electronic Equipment: Control and Filter
+50,Industrials,5020,Industrial Goods and Services,502020,Electronic and Electrical Equipment,50202025,Electronic Equipment: Gauges and Meters
+50,Industrials,5020,Industrial Goods and Services,502020,Electronic and Electrical Equipment,50202030,Electronic Equipment: Pollution Control
+50,Industrials,5020,Industrial Goods and Services,502020,Electronic and Electrical Equipment,50202040,Electronic Equipment: Other
+50,Industrials,5020,Industrial Goods and Services,502030,General Industrials,50203000,Diversified Industrials
+50,Industrials,5020,Industrial Goods and Services,502030,General Industrials,50203010,Paints and Coatings
+50,Industrials,5020,Industrial Goods and Services,502030,General Industrials,50203015,Plastics
+50,Industrials,5020,Industrial Goods and Services,502030,General Industrials,50203020,Glass
+50,Industrials,5020,Industrial Goods and Services,502030,General Industrials,50203030,Containers and Packaging
+50,Industrials,5020,Industrial Goods and Services,502040,Industrial Engineering,50204000,Machinery: Industrial
+50,Industrials,5020,Industrial Goods and Services,502040,Industrial Engineering,50204010,Machinery: Agricultural
+50,Industrials,5020,Industrial Goods and Services,502040,Industrial Engineering,50204020,Machinery: Construction and Handling
+50,Industrials,5020,Industrial Goods and Services,502040,Industrial Engineering,50204030,Machinery: Engines
+50,Industrials,5020,Industrial Goods and Services,502040,Industrial Engineering,50204040,Machinery: Tools
+50,Industrials,5020,Industrial Goods and Services,502040,Industrial Engineering,50204050,Machinery: Specialty
+50,Industrials,5020,Industrial Goods and Services,502050,Industrial Support Services,50205010,Industrial Suppliers
+50,Industrials,5020,Industrial Goods and Services,502050,Industrial Support Services,50205015,Transaction Processing Services
+50,Industrials,5020,Industrial Goods and Services,502050,Industrial Support Services,50205020,Professional Business Support Services
+50,Industrials,5020,Industrial Goods and Services,502050,Industrial Support Services,50205025,Business Training and Employment Agencies
+50,Industrials,5020,Industrial Goods and Services,502050,Industrial Support Services,50205030,Forms and Bulk Printing Services
+50,Industrials,5020,Industrial Goods and Services,502050,Industrial Support Services,50205040,Security Services
+50,Industrials,5020,Industrial Goods and Services,502060,Industrial Transportation,50206010,Trucking
+50,Industrials,5020,Industrial Goods and Services,502060,Industrial Transportation,50206015,Commercial Vehicles and Parts
+50,Industrials,5020,Industrial Goods and Services,502060,Industrial Transportation,50206020,Railroads
+50,Industrials,5020,Industrial Goods and Services,502060,Industrial Transportation,50206025,Railroad Equipment
+50,Industrials,5020,Industrial Goods and Services,502060,Industrial Transportation,50206030,Marine Transportation
+50,Industrials,5020,Industrial Goods and Services,502060,Industrial Transportation,50206040,Delivery Services
+50,Industrials,5020,Industrial Goods and Services,502060,Industrial Transportation,50206050,Commercial Vehicle-Equipment Leasing
+50,Industrials,5020,Industrial Goods and Services,502060,Industrial Transportation,50206060,Transportation Services
+55,Basic Materials,5510,Basic Resources,551010,Industrial Materials,55101000,Diversified Materials
+55,Basic Materials,5510,Basic Resources,551010,Industrial Materials,55101010,Forestry
+55,Basic Materials,5510,Basic Resources,551010,Industrial Materials,55101015,Paper
+55,Basic Materials,5510,Basic Resources,551010,Industrial Materials,55101020,Textile Products
+55,Basic Materials,5510,Basic Resources,551020,Industrial Metals and Mining,55102000,General Mining
+55,Basic Materials,5510,Basic Resources,551020,Industrial Metals and Mining,55102010,Iron and Steel
+55,Basic Materials,5510,Basic Resources,551020,Industrial Metals and Mining,55102015,Metal Fabricating
+55,Basic Materials,5510,Basic Resources,551020,Industrial Metals and Mining,55102035,Aluminum
+55,Basic Materials,5510,Basic Resources,551020,Industrial Metals and Mining,55102040,Copper
+55,Basic Materials,5510,Basic Resources,551020,Industrial Metals and Mining,55102050,Nonferrous Metals
+55,Basic Materials,5510,Basic Resources,551030,Precious Metals and Mining,55103020,Diamonds and Gemstones
+55,Basic Materials,5510,Basic Resources,551030,Precious Metals and Mining,55103025,Gold Mining
+55,Basic Materials,5510,Basic Resources,551030,Precious Metals and Mining,55103030,Platinum and Precious Metals
+55,Basic Materials,5520,Chemicals,552010,Chemicals,55201000,Chemicals: Diversified
+55,Basic Materials,5520,Chemicals,552010,Chemicals,55201010,Chemicals and Synthetic Fibers
+55,Basic Materials,5520,Chemicals,552010,Chemicals,55201015,Fertilizers
+55,Basic Materials,5520,Chemicals,552010,Chemicals,55201020,Specialty Chemicals
+60,Energy,6010,Energy,601010,"Oil, Gas and Coal",60101000,Integrated Oil and Gas
+60,Energy,6010,Energy,601010,"Oil, Gas and Coal",60101010,Oil: Crude Producers
+60,Energy,6010,Energy,601010,"Oil, Gas and Coal",60101015,Offshore Drilling and Other Services
+60,Energy,6010,Energy,601010,"Oil, Gas and Coal",60101020,Oil Refining and Marketing
+60,Energy,6010,Energy,601010,"Oil, Gas and Coal",60101030,Oil Equipment and Services
+60,Energy,6010,Energy,601010,"Oil, Gas and Coal",60101035,Pipelines
+60,Energy,6010,Energy,601010,"Oil, Gas and Coal",60101040,Coal
+60,Energy,6010,Energy,601020,Alternative Energy,60102010,Alternative Fuels 
+60,Energy,6010,Energy,601020,Alternative Energy,60102020,Renewable Energy Equipment 
+65,Utilities,6510,Utilities,651010,Electricity,65101010,Alternative Electricity
+65,Utilities,6510,Utilities,651010,Electricity,65101015,Conventional Electricity
+65,Utilities,6510,Utilities,651020,"Gas, Water and Multi-utilities ",65102000,Multi-Utilities
+65,Utilities,6510,Utilities,651020,"Gas, Water and Multi-utilities ",65102020,Gas Distribution
+65,Utilities,6510,Utilities,651020,"Gas, Water and Multi-utilities ",65102030,Water
+65,Utilities,6510,Utilities,651030,Waste and Disposal Services,65103035,Waste and Disposal Services

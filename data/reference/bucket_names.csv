@@ -1,0 +1,44 @@
+icio_codes,bucket_id,bucket_name,reporting_icb_industry
+A01;A03,AGRI,"Agriculture, farming and fishing",Consumer Staples
+A02;C16,FORE,Forestry and wood,Basic Materials
+B05,COAL,Coal mining,Energy
+B06;C19,OILG,Oil and gas (extraction and refining),Energy
+B07;B08;C241_2431;C242_2432,METL,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+B09,OSRV,Oil and mining services,Energy
+C10T12,FOOD,"Food, beverages and tobacco",Consumer Staples
+C13T15,TEXT,"Textiles, apparel and leather",Consumer Discretionary
+C17_18,PAPR,Paper and printing,Basic Materials
+C20,CHEM,Chemicals and personal/household products,Basic Materials
+C21,PHRM,Pharmaceuticals and biotech,Health Care
+C22,RUBP,"Rubber, plastics and packaging",Industrials
+C23,NMMN,"Building materials, glass and cement",Industrials
+C25,FMET,Fabricated metal products,Basic Materials
+C26,ELEC,"Computers, electronics and semiconductors",Technology
+C27,EEQP,Electrical equipment,Industrials
+C28,MACH,Machinery,Industrials
+C29,AUTO,Motor vehicles and parts,Consumer Discretionary
+C301;C302T309,OTRN,"Aerospace, defence, rail and ships",Industrials
+C31T33,OMFG,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+D,UTIL,Electricity and gas utilities,Utilities
+E,WATR,Water and waste,Utilities
+F,CONS,Construction,Industrials
+G,TRAD,Wholesale and retail trade,Consumer Discretionary
+H49,LTRN,Land transport and pipelines,Industrials
+H50,WTRN,Water transport,Industrials
+H51,ATRN,Air transport,Consumer Discretionary
+H52,TSRV,Warehousing and transport infrastructure,Industrials
+H53,POST,Postal and courier,Industrials
+I,HOTL,"Hotels, restaurants and catering",Consumer Discretionary
+J58T60,MDIA,"Publishing, media and video games",Consumer Discretionary
+J61,TELE,Telecommunications,Telecommunications
+J62_63,ITSV,"Software, IT and digital services",Technology
+K,FINS,Financials (banks and insurance),Financials
+L,REAL,Real estate (excluding imputed rent),Real Estate
+M,PROF,Professional and technical services,Industrials
+N,ADMN,Administrative and support services,Industrials
+R,RECR,"Arts, gambling and recreation",Consumer Discretionary
+S,OSVC,Other personal services,Consumer Discretionary
+O,X_O,Out of scope: public administration,Out of scope
+P,X_P,Out of scope: education,Out of scope
+Q,X_Q,Out of scope: health and social work,Out of scope
+T,X_T,Out of scope: households,Out of scope

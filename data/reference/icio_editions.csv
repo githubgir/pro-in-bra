@@ -1,0 +1,8 @@
+edition,assumed_available_from,last_data_year,first_data_year,note
+TiVA/ICIO 2013 (first release),2013-01-31,2009,1995,"Benchmark years 1995, 2000, 2005, 2008, 2009 only; treated as supplying 2009"
+TiVA/ICIO 2015,2015-10-31,2011,1995,
+ICIO 2016,2016-12-31,2011,1995,
+ICIO 2018,2018-12-31,2015,2005,
+ICIO 2021,2021-11-30,2018,1995,
+ICIO 2023,2023-11-30,2020,1995,
+ICIO 2025,2025-11-30,2022,1995,"Vintage actually used for all data (latest revised edition, 1995-2022, 50 industries)"

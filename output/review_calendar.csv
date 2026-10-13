@@ -1,0 +1,56 @@
+review,review_year,review_month,data_cutoff,effective_date,provisional,imf_year,imf_weo_release,imf_vintage,imf_point_in_time,imf_vintage_used,icio_year,icio_edition_available,icio_lag_years,imf_lag_years,n_countries
+2000-03,2000,3,2000-03-01,2000-03-20,False,1998,1999-10,WEO,False,"WEO 2026-10 (latest, revised)",1996,"simulated (pre-2013, 4-year lag)",4,2,47
+2000-09,2000,9,2000-08-30,2000-09-18,False,1999,2000-04,WEO,False,"WEO 2026-10 (latest, revised)",1996,"simulated (pre-2013, 4-year lag)",4,1,47
+2001-03,2001,3,2001-02-28,2001-03-19,False,1999,2000-10,WEO,False,"WEO 2026-10 (latest, revised)",1997,"simulated (pre-2013, 4-year lag)",4,2,47
+2001-09,2001,9,2001-09-05,2001-09-24,False,2000,2001-04,WEO,False,"WEO 2026-10 (latest, revised)",1997,"simulated (pre-2013, 4-year lag)",4,1,47
+2002-03,2002,3,2002-02-27,2002-03-18,False,2000,2001-10,WEO,False,"WEO 2026-10 (latest, revised)",1998,"simulated (pre-2013, 4-year lag)",4,2,47
+2002-09,2002,9,2002-09-04,2002-09-23,False,2001,2002-04,WEO,False,"WEO 2026-10 (latest, revised)",1998,"simulated (pre-2013, 4-year lag)",4,1,47
+2003-03,2003,3,2003-03-05,2003-03-24,False,2001,2002-10,WEO,False,"WEO 2026-10 (latest, revised)",1999,"simulated (pre-2013, 4-year lag)",4,2,47
+2003-09,2003,9,2003-09-03,2003-09-22,False,2002,2003-04,WEO,False,"WEO 2026-10 (latest, revised)",1999,"simulated (pre-2013, 4-year lag)",4,1,47
+2004-03,2004,3,2004-03-03,2004-03-22,False,2002,2003-10,WEO,False,"WEO 2026-10 (latest, revised)",2000,"simulated (pre-2013, 4-year lag)",4,2,47
+2004-09,2004,9,2004-09-01,2004-09-20,False,2003,2004-04,WEO,False,"WEO 2026-10 (latest, revised)",2000,"simulated (pre-2013, 4-year lag)",4,1,47
+2005-03,2005,3,2005-03-02,2005-03-21,False,2003,2004-10,WEO,False,"WEO 2026-10 (latest, revised)",2001,"simulated (pre-2013, 4-year lag)",4,2,47
+2005-09,2005,9,2005-08-31,2005-09-19,False,2004,2005-04,WEO,False,"WEO 2026-10 (latest, revised)",2001,"simulated (pre-2013, 4-year lag)",4,1,47
+2006-03,2006,3,2006-03-01,2006-03-20,False,2004,2005-10,WEO,False,"WEO 2026-10 (latest, revised)",2002,"simulated (pre-2013, 4-year lag)",4,2,47
+2006-09,2006,9,2006-08-30,2006-09-18,False,2005,2006-04,WEO,False,"WEO 2026-10 (latest, revised)",2002,"simulated (pre-2013, 4-year lag)",4,1,47
+2007-03,2007,3,2007-02-28,2007-03-19,False,2005,2006-10,WEO,False,"WEO 2026-10 (latest, revised)",2003,"simulated (pre-2013, 4-year lag)",4,2,47
+2007-09,2007,9,2007-09-05,2007-09-24,False,2006,2007-04,WEO,False,"WEO 2026-10 (latest, revised)",2003,"simulated (pre-2013, 4-year lag)",4,1,47
+2008-03,2008,3,2008-03-05,2008-03-24,False,2006,2007-10,WEO,False,"WEO 2026-10 (latest, revised)",2004,"simulated (pre-2013, 4-year lag)",4,2,47
+2008-09,2008,9,2008-09-03,2008-09-22,False,2007,2008-04,WEO,False,"WEO 2026-10 (latest, revised)",2004,"simulated (pre-2013, 4-year lag)",4,1,47
+2009-03,2009,3,2009-03-04,2009-03-23,False,2007,2008-10,WEO,False,"WEO 2026-10 (latest, revised)",2005,"simulated (pre-2013, 4-year lag)",4,2,47
+2009-09,2009,9,2009-09-02,2009-09-21,False,2008,2009-04,WEO,False,"WEO 2026-10 (latest, revised)",2005,"simulated (pre-2013, 4-year lag)",4,1,47
+2010-03,2010,3,2010-03-03,2010-03-22,False,2008,2009-10,WEO,False,"WEO 2026-10 (latest, revised)",2006,"simulated (pre-2013, 4-year lag)",4,2,47
+2010-09,2010,9,2010-09-01,2010-09-20,False,2009,2010-04,WEO,False,"WEO 2026-10 (latest, revised)",2006,"simulated (pre-2013, 4-year lag)",4,1,47
+2011-03,2011,3,2011-03-02,2011-03-21,False,2009,2010-10,WEO,False,"WEO 2026-10 (latest, revised)",2007,"simulated (pre-2013, 4-year lag)",4,2,47
+2011-09,2011,9,2011-08-31,2011-09-19,False,2010,2011-04,WEO,False,"WEO 2026-10 (latest, revised)",2007,"simulated (pre-2013, 4-year lag)",4,1,47
+2012-03,2012,3,2012-02-29,2012-03-19,False,2010,2011-10,WEO,False,"WEO 2026-10 (latest, revised)",2008,"simulated (pre-2013, 4-year lag)",4,2,47
+2012-09,2012,9,2012-09-05,2012-09-24,False,2011,2012-04,WEO,False,"WEO 2026-10 (latest, revised)",2008,"simulated (pre-2013, 4-year lag)",4,1,47
+2013-03,2013,3,2013-02-27,2013-03-18,False,2011,2012-10,WEO,False,"WEO 2026-10 (latest, revised)",2009,TiVA/ICIO 2013 (first release),4,2,47
+2013-09,2013,9,2013-09-04,2013-09-23,False,2012,2013-04,WEO,False,"WEO 2026-10 (latest, revised)",2009,TiVA/ICIO 2013 (first release),4,1,47
+2014-03,2014,3,2014-03-05,2014-03-24,False,2012,2013-10,WEO,False,"WEO 2026-10 (latest, revised)",2009,TiVA/ICIO 2013 (first release),5,2,47
+2014-09,2014,9,2014-09-03,2014-09-22,False,2013,2014-04,WEO,False,"WEO 2026-10 (latest, revised)",2009,TiVA/ICIO 2013 (first release),5,1,47
+2015-03,2015,3,2015-03-04,2015-03-23,False,2013,2014-10,WEO,False,"WEO 2026-10 (latest, revised)",2009,TiVA/ICIO 2013 (first release),6,2,47
+2015-09,2015,9,2015-09-02,2015-09-21,False,2014,2015-04,WEO,False,"WEO 2026-10 (latest, revised)",2009,TiVA/ICIO 2013 (first release),6,1,46
+2016-03,2016,3,2016-03-02,2016-03-21,False,2014,2015-10,WEO,False,"WEO 2026-10 (latest, revised)",2011,TiVA/ICIO 2015,5,2,46
+2016-09,2016,9,2016-08-31,2016-09-19,False,2015,2016-04,WEO,False,"WEO 2026-10 (latest, revised)",2011,TiVA/ICIO 2015,5,1,46
+2017-03,2017,3,2017-03-01,2017-03-20,False,2015,2016-10,WEO,False,"WEO 2026-10 (latest, revised)",2011,ICIO 2016,6,2,47
+2017-09,2017,9,2017-08-30,2017-09-18,False,2016,2017-04,WEO,False,"WEO 2026-10 (latest, revised)",2011,ICIO 2016,6,1,47
+2018-03,2018,3,2018-02-28,2018-03-19,False,2016,2017-10,WEO,False,"WEO 2026-10 (latest, revised)",2011,ICIO 2016,7,2,47
+2018-09,2018,9,2018-09-05,2018-09-24,False,2017,2018-04,WEO,False,"WEO 2026-10 (latest, revised)",2011,ICIO 2016,7,1,47
+2019-03,2019,3,2019-02-27,2019-03-18,False,2017,2018-10,WEO,False,"WEO 2026-10 (latest, revised)",2015,ICIO 2018,4,2,48
+2019-09,2019,9,2019-09-04,2019-09-23,False,2018,2019-04,WEO,False,"WEO 2026-10 (latest, revised)",2015,ICIO 2018,4,1,48
+2020-03,2020,3,2020-03-04,2020-03-23,False,2018,2019-10,WEO,False,"WEO 2026-10 (latest, revised)",2015,ICIO 2018,5,2,49
+2020-09,2020,9,2020-09-02,2020-09-21,False,2019,2020-04,WEO,False,"WEO 2026-10 (latest, revised)",2015,ICIO 2018,5,1,49
+2021-03,2021,3,2021-03-03,2021-03-22,False,2019,2020-10,WEO,False,"WEO 2026-10 (latest, revised)",2015,ICIO 2018,6,2,49
+2021-09,2021,9,2021-09-01,2021-09-20,False,2020,2021-04,WEO,False,"WEO 2026-10 (latest, revised)",2015,ICIO 2018,6,1,49
+2022-03,2022,3,2022-03-02,2022-03-21,False,2020,2021-10,WEO,False,"WEO 2026-10 (latest, revised)",2018,ICIO 2021,4,2,48
+2022-09,2022,9,2022-08-31,2022-09-19,False,2021,2022-04,WEO,False,"WEO 2026-10 (latest, revised)",2018,ICIO 2021,4,1,49
+2023-03,2023,3,2023-03-01,2023-03-20,False,2021,2022-10,WEO,False,"WEO 2026-10 (latest, revised)",2018,ICIO 2021,5,2,49
+2023-09,2023,9,2023-08-30,2023-09-18,False,2022,2023-04,WEO,False,"WEO 2026-10 (latest, revised)",2018,ICIO 2021,5,1,49
+2024-03,2024,3,2024-02-28,2024-03-18,False,2022,2023-10,WEO,False,"WEO 2026-10 (latest, revised)",2020,ICIO 2023,4,2,49
+2024-09,2024,9,2024-09-04,2024-09-23,False,2023,2024-04,WEO,False,"WEO 2026-10 (latest, revised)",2020,ICIO 2023,4,1,48
+2025-03,2025,3,2025-03-05,2025-03-24,False,2023,2024-10,WEO,False,"WEO 2026-10 (latest, revised)",2020,ICIO 2023,5,2,48
+2025-09,2025,9,2025-09-03,2025-09-22,False,2024,2025-04,WEO,False,"WEO 2026-10 (latest, revised)",2020,ICIO 2023,5,1,48
+2026-03,2026,3,2026-03-04,2026-03-23,False,2024,2025-10,WEO_2025_OCT_VINTAGE,True,WEO 2025-10,2022,ICIO 2025,4,2,48
+2026-09,2026,9,2026-09-02,2026-09-21,False,2025,2026-04,WEO_2026_APR_VINTAGE,True,WEO 2026-04,2022,ICIO 2025,4,1,48
+2027-03,2027,3,2027-03-03,2027-03-22,True,2025,2026-10,WEO,True,WEO 2026-10,2022,ICIO 2025,5,2,48

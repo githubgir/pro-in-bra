@@ -1,0 +1,6 @@
+pandas>=2.2
+numpy>=1.26
+requests>=2.31
+openpyxl>=3.1
+plotly>=5.24
+pytest>=8

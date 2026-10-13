@@ -1,0 +1,55 @@
+country,iso3_members,icio_proxy,first_review,last_review,exit_effective,exit_type,flag,source_note
+Australia,AUS,,2000-03,,,,,Developed throughout
+Austria,AUT,,2000-03,,,,,Developed throughout
+Belgium/Luxembourg,BEL;LUX,,2000-03,,,,,FTSE treats Belgium/Luxembourg as one market; IMF and ICIO values summed
+Canada,CAN,,2000-03,,,,,Developed throughout
+Denmark,DNK,,2000-03,,,,,Developed throughout
+Finland,FIN,,2000-03,,,,,Developed throughout
+France,FRA,,2000-03,,,,,Developed throughout
+Germany,DEU,,2000-03,,,,,Developed throughout
+Greece,GRC,,2000-03,,,,,Developed -> Advanced Emerging Mar-2016 -> Developed Sep-2026 (always in All-World)
+Hong Kong,HKG,,2000-03,,,,,Developed throughout
+Ireland,IRL,,2000-03,,,,,Developed throughout
+Israel,ISR,,2000-03,,,,,Advanced Emerging -> Developed 2008 (always in All-World)
+Italy,ITA,,2000-03,,,,,Developed throughout
+Japan,JPN,,2000-03,,,,,Developed throughout
+Netherlands,NLD,,2000-03,,,,,Developed throughout
+New Zealand,NZL,,2000-03,,,,,Developed throughout
+Norway,NOR,,2000-03,,,,,Developed throughout
+Portugal,PRT,,2000-03,,,,,Developed throughout
+Singapore,SGP,,2000-03,,,,,Developed throughout
+South Korea,KOR,,2000-03,,,,,Advanced Emerging -> Developed Sep-2009 (always in All-World)
+Spain,ESP,,2000-03,,,,,Developed throughout
+Sweden,SWE,,2000-03,,,,,Developed throughout
+Switzerland,CHE,,2000-03,,,,,Developed throughout
+UK,GBR,,2000-03,,,,,Developed throughout
+USA,USA,,2000-03,,,,,Developed throughout
+Brazil,BRA,,2000-03,,,,,Advanced Emerging throughout
+Mexico,MEX,,2000-03,,,,,Advanced Emerging throughout
+South Africa,ZAF,,2000-03,,,,,Advanced Emerging throughout
+Taiwan,TWN,,2000-03,,,,,Advanced Emerging throughout
+Hungary,HUN,,2000-03,,,,,Secondary -> Advanced Emerging Jun-2008
+Poland,POL,,2000-03,,,,,Secondary -> Advanced Emerging Jun-2008 -> Developed Sep-2018
+Czech Republic,CZE,,2000-03,,,,,Secondary -> Advanced Emerging Sep-2011
+Malaysia,MYS,,2000-03,,,,,Secondary -> Advanced Emerging Sep-2011
+Turkey,TUR,,2000-03,,,,,Secondary -> Advanced Emerging Sep-2011
+Thailand,THA,,2000-03,,,,,Secondary -> Advanced Emerging 2012
+Chile,CHL,,2000-03,,,,,Secondary Emerging throughout
+China,CHN,,2000-03,,,,,"Secondary Emerging; Red Chips moved from HK to China Sep-2009, China A from Jun-2019 (country-level weight unaffected)"
+Colombia,COL,,2000-03,,,,,Secondary Emerging throughout
+Egypt,EGY,,2000-03,,,,,Secondary Emerging throughout (watch-listed 2023-2026 but retained)
+India,IND,,2000-03,,,,,Secondary Emerging throughout
+Indonesia,IDN,,2000-03,,,,,Secondary Emerging throughout
+Philippines,PHL,,2000-03,,,,,Secondary Emerging throughout
+Argentina,ARG,,2000-03,2010-03,,,,Demoted Secondary Emerging -> Frontier effective Sep-2010 (FTSE CC update 2009)
+Morocco,MAR,,2000-03,2015-03,2015-06-22,intra_review,,Demoted Secondary Emerging -> Frontier with the June-2015 quarterly review (FTSE CC update 2014); intra-review deletion
+Peru,PER,,2000-03,2020-03,,,,Demoted Secondary Emerging -> Frontier effective Sep-2020 (FTSE CC update 2020)
+Russia,RUS,,2000-03,2021-09,2022-03-07,intra_review,,Deleted from all FTSE Russell equity indices effective 07-Mar-2022 (FTSE CC update 2022); intra-review deletion
+Pakistan,PAK,,2000-03,2024-03,,,,"Secondary Emerging -> Frontier effective 23-Sep-2024 (announced 03-Jul-2024). Proposed removal in 2008 was rescinded (Jan-2008 update)"
+UAE,ARE,,2010-09,,,,,Promoted to Secondary Emerging effective Sep-2010 (FTSE CC update 2009)
+Qatar,QAT,SAU,2017-03,,,,no_icio,"Promoted to Secondary Emerging in two tranches Sep-2016/Mar-2017; enters at first review after phase-in completes. Not in ICIO: Saudi Arabia industry mix used as proxy"
+Kuwait,KWT,SAU,2019-03,,,,no_icio,"Promoted to Secondary Emerging in two tranches Sep-2018/Dec-2018; enters at first review after phase-in completes. Not in ICIO: Saudi Arabia industry mix used as proxy"
+Saudi Arabia,SAU,,2020-03,,,,,"Phased in Mar-2019 to Mar-2020; FTSE GDP Weighted ground rules (footnote 5) state eligibility from Mar-2020"
+Romania,ROU,,2020-09,,,,thin_market,"Frontier -> Secondary Emerging effective Sep-2020. May carry few or no large/mid-cap All-World constituents"
+Iceland,ISL,,2022-09,,,,thin_market,"Frontier -> Secondary Emerging effective Sep-2022. May carry few or no large/mid-cap All-World constituents"
+Vietnam,VNM,,2099-03,,,,pending,"Frontier -> Secondary Emerging commencing 21-Sep-2026 with an initial 10% tranche; enters after phase-in completes (date not yet known)"

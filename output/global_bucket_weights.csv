@@ -1,0 +1,2224 @@
+effective_date,review,event,bucket_id,weight,bucket_name,reporting_icb_industry
+2000-03-20,2000-03,review,ADMN,0.0358870125,Administrative and support services,Industrials
+2000-03-20,2000-03,review,AGRI,0.0618042476,"Agriculture, farming and fishing",Consumer Staples
+2000-03-20,2000-03,review,ATRN,0.0052198255,Air transport,Consumer Discretionary
+2000-03-20,2000-03,review,AUTO,0.0185495983,Motor vehicles and parts,Consumer Discretionary
+2000-03-20,2000-03,review,CHEM,0.018436325,Chemicals and personal/household products,Basic Materials
+2000-03-20,2000-03,review,COAL,0.0041417419,Coal mining,Energy
+2000-03-20,2000-03,review,CONS,0.0733504922,Construction,Industrials
+2000-03-20,2000-03,review,EEQP,0.0105461613,Electrical equipment,Industrials
+2000-03-20,2000-03,review,ELEC,0.0212271941,"Computers, electronics and semiconductors",Technology
+2000-03-20,2000-03,review,FINS,0.0710629342,Financials (banks and insurance),Financials
+2000-03-20,2000-03,review,FMET,0.0168856182,Fabricated metal products,Basic Materials
+2000-03-20,2000-03,review,FOOD,0.03194601,"Food, beverages and tobacco",Consumer Staples
+2000-03-20,2000-03,review,FORE,0.0099396777,Forestry and wood,Basic Materials
+2000-03-20,2000-03,review,HOTL,0.0304878139,"Hotels, restaurants and catering",Consumer Discretionary
+2000-03-20,2000-03,review,ITSV,0.0141610343,"Software, IT and digital services",Technology
+2000-03-20,2000-03,review,LTRN,0.0334985063,Land transport and pipelines,Industrials
+2000-03-20,2000-03,review,MACH,0.0198738872,Machinery,Industrials
+2000-03-20,2000-03,review,MDIA,0.0147880964,"Publishing, media and video games",Consumer Discretionary
+2000-03-20,2000-03,review,METL,0.0214101272,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2000-03-20,2000-03,review,NMMN,0.0117931276,"Building materials, glass and cement",Industrials
+2000-03-20,2000-03,review,OILG,0.0263180527,Oil and gas (extraction and refining),Energy
+2000-03-20,2000-03,review,OMFG,0.0160468664,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2000-03-20,2000-03,review,OSRV,0.0021109013,Oil and mining services,Energy
+2000-03-20,2000-03,review,OSVC,0.0207148112,Other personal services,Consumer Discretionary
+2000-03-20,2000-03,review,OTRN,0.0066242474,"Aerospace, defence, rail and ships",Industrials
+2000-03-20,2000-03,review,PAPR,0.0140027018,Paper and printing,Basic Materials
+2000-03-20,2000-03,review,PHRM,0.0090074359,Pharmaceuticals and biotech,Health Care
+2000-03-20,2000-03,review,POST,0.0066107996,Postal and courier,Industrials
+2000-03-20,2000-03,review,PROF,0.0577355073,Professional and technical services,Industrials
+2000-03-20,2000-03,review,REAL,0.0463396545,Real estate (excluding imputed rent),Real Estate
+2000-03-20,2000-03,review,RECR,0.0114100498,"Arts, gambling and recreation",Consumer Discretionary
+2000-03-20,2000-03,review,RUBP,0.0104940917,"Rubber, plastics and packaging",Industrials
+2000-03-20,2000-03,review,TELE,0.0229990382,Telecommunications,Telecommunications
+2000-03-20,2000-03,review,TEXT,0.0182014105,"Textiles, apparel and leather",Consumer Discretionary
+2000-03-20,2000-03,review,TRAD,0.1562214884,Wholesale and retail trade,Consumer Discretionary
+2000-03-20,2000-03,review,TSRV,0.0117495794,Warehousing and transport infrastructure,Industrials
+2000-03-20,2000-03,review,UTIL,0.0271801016,Electricity and gas utilities,Utilities
+2000-03-20,2000-03,review,WATR,0.0078041506,Water and waste,Utilities
+2000-03-20,2000-03,review,WTRN,0.0034196804,Water transport,Industrials
+2000-09-18,2000-09,review,ADMN,0.0358449925,Administrative and support services,Industrials
+2000-09-18,2000-09,review,AGRI,0.0624872992,"Agriculture, farming and fishing",Consumer Staples
+2000-09-18,2000-09,review,ATRN,0.0052327256,Air transport,Consumer Discretionary
+2000-09-18,2000-09,review,AUTO,0.0185218841,Motor vehicles and parts,Consumer Discretionary
+2000-09-18,2000-09,review,CHEM,0.0184619196,Chemicals and personal/household products,Basic Materials
+2000-09-18,2000-09,review,COAL,0.0041808978,Coal mining,Energy
+2000-09-18,2000-09,review,CONS,0.0732884584,Construction,Industrials
+2000-09-18,2000-09,review,EEQP,0.0105215737,Electrical equipment,Industrials
+2000-09-18,2000-09,review,ELEC,0.0213168768,"Computers, electronics and semiconductors",Technology
+2000-09-18,2000-09,review,FINS,0.0710981958,Financials (banks and insurance),Financials
+2000-09-18,2000-09,review,FMET,0.0168731952,Fabricated metal products,Basic Materials
+2000-09-18,2000-09,review,FOOD,0.031845197,"Food, beverages and tobacco",Consumer Staples
+2000-09-18,2000-09,review,FORE,0.0100383792,Forestry and wood,Basic Materials
+2000-09-18,2000-09,review,HOTL,0.0304086281,"Hotels, restaurants and catering",Consumer Discretionary
+2000-09-18,2000-09,review,ITSV,0.014133479,"Software, IT and digital services",Technology
+2000-09-18,2000-09,review,LTRN,0.0333992416,Land transport and pipelines,Industrials
+2000-09-18,2000-09,review,MACH,0.0198514575,Machinery,Industrials
+2000-09-18,2000-09,review,MDIA,0.0148158246,"Publishing, media and video games",Consumer Discretionary
+2000-09-18,2000-09,review,METL,0.0214809833,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2000-09-18,2000-09,review,NMMN,0.0118492902,"Building materials, glass and cement",Industrials
+2000-09-18,2000-09,review,OILG,0.0263960151,Oil and gas (extraction and refining),Energy
+2000-09-18,2000-09,review,OMFG,0.0159466255,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2000-09-18,2000-09,review,OSRV,0.0021275532,Oil and mining services,Energy
+2000-09-18,2000-09,review,OSVC,0.0206577537,Other personal services,Consumer Discretionary
+2000-09-18,2000-09,review,OTRN,0.0066652656,"Aerospace, defence, rail and ships",Industrials
+2000-09-18,2000-09,review,PAPR,0.0139856325,Paper and printing,Basic Materials
+2000-09-18,2000-09,review,PHRM,0.0090194876,Pharmaceuticals and biotech,Health Care
+2000-09-18,2000-09,review,POST,0.0066263323,Postal and courier,Industrials
+2000-09-18,2000-09,review,PROF,0.0576344485,Professional and technical services,Industrials
+2000-09-18,2000-09,review,REAL,0.0462259929,Real estate (excluding imputed rent),Real Estate
+2000-09-18,2000-09,review,RECR,0.0113756975,"Arts, gambling and recreation",Consumer Discretionary
+2000-09-18,2000-09,review,RUBP,0.0104945654,"Rubber, plastics and packaging",Industrials
+2000-09-18,2000-09,review,TELE,0.0229862586,Telecommunications,Telecommunications
+2000-09-18,2000-09,review,TEXT,0.0182227259,"Textiles, apparel and leather",Consumer Discretionary
+2000-09-18,2000-09,review,TRAD,0.1558307382,Wholesale and retail trade,Consumer Discretionary
+2000-09-18,2000-09,review,TSRV,0.0117116581,Warehousing and transport infrastructure,Industrials
+2000-09-18,2000-09,review,UTIL,0.0272567036,Electricity and gas utilities,Utilities
+2000-09-18,2000-09,review,WATR,0.0077454083,Water and waste,Utilities
+2000-09-18,2000-09,review,WTRN,0.0034406384,Water transport,Industrials
+2001-03-19,2001-03,review,ADMN,0.0361491163,Administrative and support services,Industrials
+2001-03-19,2001-03,review,AGRI,0.0601187005,"Agriculture, farming and fishing",Consumer Staples
+2001-03-19,2001-03,review,ATRN,0.0054796405,Air transport,Consumer Discretionary
+2001-03-19,2001-03,review,AUTO,0.0186076142,Motor vehicles and parts,Consumer Discretionary
+2001-03-19,2001-03,review,CHEM,0.0184580538,Chemicals and personal/household products,Basic Materials
+2001-03-19,2001-03,review,COAL,0.0041734037,Coal mining,Energy
+2001-03-19,2001-03,review,CONS,0.0722460565,Construction,Industrials
+2001-03-19,2001-03,review,EEQP,0.0104870249,Electrical equipment,Industrials
+2001-03-19,2001-03,review,ELEC,0.0225847914,"Computers, electronics and semiconductors",Technology
+2001-03-19,2001-03,review,FINS,0.0719976262,Financials (banks and insurance),Financials
+2001-03-19,2001-03,review,FMET,0.0165904007,Fabricated metal products,Basic Materials
+2001-03-19,2001-03,review,FOOD,0.0319317247,"Food, beverages and tobacco",Consumer Staples
+2001-03-19,2001-03,review,FORE,0.0100128572,Forestry and wood,Basic Materials
+2001-03-19,2001-03,review,HOTL,0.030685052,"Hotels, restaurants and catering",Consumer Discretionary
+2001-03-19,2001-03,review,ITSV,0.0150100472,"Software, IT and digital services",Technology
+2001-03-19,2001-03,review,LTRN,0.0330690128,Land transport and pipelines,Industrials
+2001-03-19,2001-03,review,MACH,0.0198872591,Machinery,Industrials
+2001-03-19,2001-03,review,MDIA,0.0149159023,"Publishing, media and video games",Consumer Discretionary
+2001-03-19,2001-03,review,METL,0.0213806283,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2001-03-19,2001-03,review,NMMN,0.0117982779,"Building materials, glass and cement",Industrials
+2001-03-19,2001-03,review,OILG,0.0271006555,Oil and gas (extraction and refining),Energy
+2001-03-19,2001-03,review,OMFG,0.016002163,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2001-03-19,2001-03,review,OSRV,0.0022234624,Oil and mining services,Energy
+2001-03-19,2001-03,review,OSVC,0.0203930728,Other personal services,Consumer Discretionary
+2001-03-19,2001-03,review,OTRN,0.0067790012,"Aerospace, defence, rail and ships",Industrials
+2001-03-19,2001-03,review,PAPR,0.0134028131,Paper and printing,Basic Materials
+2001-03-19,2001-03,review,PHRM,0.0089085296,Pharmaceuticals and biotech,Health Care
+2001-03-19,2001-03,review,POST,0.0066648686,Postal and courier,Industrials
+2001-03-19,2001-03,review,PROF,0.0582195355,Professional and technical services,Industrials
+2001-03-19,2001-03,review,REAL,0.0467872376,Real estate (excluding imputed rent),Real Estate
+2001-03-19,2001-03,review,RECR,0.0113669421,"Arts, gambling and recreation",Consumer Discretionary
+2001-03-19,2001-03,review,RUBP,0.0104625547,"Rubber, plastics and packaging",Industrials
+2001-03-19,2001-03,review,TELE,0.0227331657,Telecommunications,Telecommunications
+2001-03-19,2001-03,review,TEXT,0.0178080149,"Textiles, apparel and leather",Consumer Discretionary
+2001-03-19,2001-03,review,TRAD,0.1557119395,Wholesale and retail trade,Consumer Discretionary
+2001-03-19,2001-03,review,TSRV,0.0118159138,Warehousing and transport infrastructure,Industrials
+2001-03-19,2001-03,review,UTIL,0.0266481639,Electricity and gas utilities,Utilities
+2001-03-19,2001-03,review,WATR,0.007843506,Water and waste,Utilities
+2001-03-19,2001-03,review,WTRN,0.00354527,Water transport,Industrials
+2001-09-24,2001-09,review,ADMN,0.0360610689,Administrative and support services,Industrials
+2001-09-24,2001-09,review,AGRI,0.0604546227,"Agriculture, farming and fishing",Consumer Staples
+2001-09-24,2001-09,review,ATRN,0.0054857915,Air transport,Consumer Discretionary
+2001-09-24,2001-09,review,AUTO,0.0185774691,Motor vehicles and parts,Consumer Discretionary
+2001-09-24,2001-09,review,CHEM,0.018474189,Chemicals and personal/household products,Basic Materials
+2001-09-24,2001-09,review,COAL,0.0042242017,Coal mining,Energy
+2001-09-24,2001-09,review,CONS,0.0722946527,Construction,Industrials
+2001-09-24,2001-09,review,EEQP,0.0104775553,Electrical equipment,Industrials
+2001-09-24,2001-09,review,ELEC,0.0226338822,"Computers, electronics and semiconductors",Technology
+2001-09-24,2001-09,review,FINS,0.0719325325,Financials (banks and insurance),Financials
+2001-09-24,2001-09,review,FMET,0.016555173,Fabricated metal products,Basic Materials
+2001-09-24,2001-09,review,FOOD,0.0319300312,"Food, beverages and tobacco",Consumer Staples
+2001-09-24,2001-09,review,FORE,0.0100228831,Forestry and wood,Basic Materials
+2001-09-24,2001-09,review,HOTL,0.0306382887,"Hotels, restaurants and catering",Consumer Discretionary
+2001-09-24,2001-09,review,ITSV,0.0149651856,"Software, IT and digital services",Technology
+2001-09-24,2001-09,review,LTRN,0.0331198645,Land transport and pipelines,Industrials
+2001-09-24,2001-09,review,MACH,0.0198737037,Machinery,Industrials
+2001-09-24,2001-09,review,MDIA,0.0148582349,"Publishing, media and video games",Consumer Discretionary
+2001-09-24,2001-09,review,METL,0.0214787276,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2001-09-24,2001-09,review,NMMN,0.0118519361,"Building materials, glass and cement",Industrials
+2001-09-24,2001-09,review,OILG,0.027321278,Oil and gas (extraction and refining),Energy
+2001-09-24,2001-09,review,OMFG,0.0159317591,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2001-09-24,2001-09,review,OSRV,0.0022374174,Oil and mining services,Energy
+2001-09-24,2001-09,review,OSVC,0.0203274074,Other personal services,Consumer Discretionary
+2001-09-24,2001-09,review,OTRN,0.0067902481,"Aerospace, defence, rail and ships",Industrials
+2001-09-24,2001-09,review,PAPR,0.0133721465,Paper and printing,Basic Materials
+2001-09-24,2001-09,review,PHRM,0.0089045217,Pharmaceuticals and biotech,Health Care
+2001-09-24,2001-09,review,POST,0.0066376926,Postal and courier,Industrials
+2001-09-24,2001-09,review,PROF,0.058018781,Professional and technical services,Industrials
+2001-09-24,2001-09,review,REAL,0.0466215671,Real estate (excluding imputed rent),Real Estate
+2001-09-24,2001-09,review,RECR,0.0113409313,"Arts, gambling and recreation",Consumer Discretionary
+2001-09-24,2001-09,review,RUBP,0.010456734,"Rubber, plastics and packaging",Industrials
+2001-09-24,2001-09,review,TELE,0.0227090262,Telecommunications,Telecommunications
+2001-09-24,2001-09,review,TEXT,0.0178727935,"Textiles, apparel and leather",Consumer Discretionary
+2001-09-24,2001-09,review,TRAD,0.1556627902,Wholesale and retail trade,Consumer Discretionary
+2001-09-24,2001-09,review,TSRV,0.0117953959,Warehousing and transport infrastructure,Industrials
+2001-09-24,2001-09,review,UTIL,0.0266947526,Electricity and gas utilities,Utilities
+2001-09-24,2001-09,review,WATR,0.0078209332,Water and waste,Utilities
+2001-09-24,2001-09,review,WTRN,0.0035738304,Water transport,Industrials
+2002-03-18,2002-03,review,ADMN,0.0366171859,Administrative and support services,Industrials
+2002-03-18,2002-03,review,AGRI,0.0594600697,"Agriculture, farming and fishing",Consumer Staples
+2002-03-18,2002-03,review,ATRN,0.005441885,Air transport,Consumer Discretionary
+2002-03-18,2002-03,review,AUTO,0.0193249941,Motor vehicles and parts,Consumer Discretionary
+2002-03-18,2002-03,review,CHEM,0.0180973296,Chemicals and personal/household products,Basic Materials
+2002-03-18,2002-03,review,COAL,0.0040399173,Coal mining,Energy
+2002-03-18,2002-03,review,CONS,0.0726223418,Construction,Industrials
+2002-03-18,2002-03,review,EEQP,0.0103700514,Electrical equipment,Industrials
+2002-03-18,2002-03,review,ELEC,0.0226544786,"Computers, electronics and semiconductors",Technology
+2002-03-18,2002-03,review,FINS,0.0723579895,Financials (banks and insurance),Financials
+2002-03-18,2002-03,review,FMET,0.0161468463,Fabricated metal products,Basic Materials
+2002-03-18,2002-03,review,FOOD,0.0319233679,"Food, beverages and tobacco",Consumer Staples
+2002-03-18,2002-03,review,FORE,0.0097548137,Forestry and wood,Basic Materials
+2002-03-18,2002-03,review,HOTL,0.0312183815,"Hotels, restaurants and catering",Consumer Discretionary
+2002-03-18,2002-03,review,ITSV,0.0162908425,"Software, IT and digital services",Technology
+2002-03-18,2002-03,review,LTRN,0.0336164737,Land transport and pipelines,Industrials
+2002-03-18,2002-03,review,MACH,0.0193283112,Machinery,Industrials
+2002-03-18,2002-03,review,MDIA,0.0154394433,"Publishing, media and video games",Consumer Discretionary
+2002-03-18,2002-03,review,METL,0.0209599788,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2002-03-18,2002-03,review,NMMN,0.010989265,"Building materials, glass and cement",Industrials
+2002-03-18,2002-03,review,OILG,0.0260567076,Oil and gas (extraction and refining),Energy
+2002-03-18,2002-03,review,OMFG,0.0158302247,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2002-03-18,2002-03,review,OSRV,0.0020140274,Oil and mining services,Energy
+2002-03-18,2002-03,review,OSVC,0.0205169523,Other personal services,Consumer Discretionary
+2002-03-18,2002-03,review,OTRN,0.0069034079,"Aerospace, defence, rail and ships",Industrials
+2002-03-18,2002-03,review,PAPR,0.0132347621,Paper and printing,Basic Materials
+2002-03-18,2002-03,review,PHRM,0.0091267724,Pharmaceuticals and biotech,Health Care
+2002-03-18,2002-03,review,POST,0.006623846,Postal and courier,Industrials
+2002-03-18,2002-03,review,PROF,0.0587756432,Professional and technical services,Industrials
+2002-03-18,2002-03,review,REAL,0.0454095349,Real estate (excluding imputed rent),Real Estate
+2002-03-18,2002-03,review,RECR,0.0112316054,"Arts, gambling and recreation",Consumer Discretionary
+2002-03-18,2002-03,review,RUBP,0.0105008534,"Rubber, plastics and packaging",Industrials
+2002-03-18,2002-03,review,TELE,0.0233912453,Telecommunications,Telecommunications
+2002-03-18,2002-03,review,TEXT,0.0172768248,"Textiles, apparel and leather",Consumer Discretionary
+2002-03-18,2002-03,review,TRAD,0.1565904227,Wholesale and retail trade,Consumer Discretionary
+2002-03-18,2002-03,review,TSRV,0.0120562247,Warehousing and transport infrastructure,Industrials
+2002-03-18,2002-03,review,UTIL,0.0261401905,Electricity and gas utilities,Utilities
+2002-03-18,2002-03,review,WATR,0.0079394828,Water and waste,Utilities
+2002-03-18,2002-03,review,WTRN,0.0037273049,Water transport,Industrials
+2002-09-23,2002-09,review,ADMN,0.0364719799,Administrative and support services,Industrials
+2002-09-23,2002-09,review,AGRI,0.0603422591,"Agriculture, farming and fishing",Consumer Staples
+2002-09-23,2002-09,review,ATRN,0.0054328387,Air transport,Consumer Discretionary
+2002-09-23,2002-09,review,AUTO,0.0193198551,Motor vehicles and parts,Consumer Discretionary
+2002-09-23,2002-09,review,CHEM,0.0181376521,Chemicals and personal/household products,Basic Materials
+2002-09-23,2002-09,review,COAL,0.0041090084,Coal mining,Energy
+2002-09-23,2002-09,review,CONS,0.0727006821,Construction,Industrials
+2002-09-23,2002-09,review,EEQP,0.0104116162,Electrical equipment,Industrials
+2002-09-23,2002-09,review,ELEC,0.0226171796,"Computers, electronics and semiconductors",Technology
+2002-09-23,2002-09,review,FINS,0.0721878769,Financials (banks and insurance),Financials
+2002-09-23,2002-09,review,FMET,0.0161141746,Fabricated metal products,Basic Materials
+2002-09-23,2002-09,review,FOOD,0.0319866429,"Food, beverages and tobacco",Consumer Staples
+2002-09-23,2002-09,review,FORE,0.0098450389,Forestry and wood,Basic Materials
+2002-09-23,2002-09,review,HOTL,0.0311591546,"Hotels, restaurants and catering",Consumer Discretionary
+2002-09-23,2002-09,review,ITSV,0.0162437444,"Software, IT and digital services",Technology
+2002-09-23,2002-09,review,LTRN,0.0335910533,Land transport and pipelines,Industrials
+2002-09-23,2002-09,review,MACH,0.0193286823,Machinery,Industrials
+2002-09-23,2002-09,review,MDIA,0.0153558799,"Publishing, media and video games",Consumer Discretionary
+2002-09-23,2002-09,review,METL,0.021125402,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2002-09-23,2002-09,review,NMMN,0.0110553966,"Building materials, glass and cement",Industrials
+2002-09-23,2002-09,review,OILG,0.0262593401,Oil and gas (extraction and refining),Energy
+2002-09-23,2002-09,review,OMFG,0.0157547243,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2002-09-23,2002-09,review,OSRV,0.0020217286,Oil and mining services,Energy
+2002-09-23,2002-09,review,OSVC,0.0204656177,Other personal services,Consumer Discretionary
+2002-09-23,2002-09,review,OTRN,0.0068917149,"Aerospace, defence, rail and ships",Industrials
+2002-09-23,2002-09,review,PAPR,0.0132134758,Paper and printing,Basic Materials
+2002-09-23,2002-09,review,PHRM,0.0091200354,Pharmaceuticals and biotech,Health Care
+2002-09-23,2002-09,review,POST,0.0065948143,Postal and courier,Industrials
+2002-09-23,2002-09,review,PROF,0.0584580736,Professional and technical services,Industrials
+2002-09-23,2002-09,review,REAL,0.045154737,Real estate (excluding imputed rent),Real Estate
+2002-09-23,2002-09,review,RECR,0.0112042437,"Arts, gambling and recreation",Consumer Discretionary
+2002-09-23,2002-09,review,RUBP,0.0105062026,"Rubber, plastics and packaging",Industrials
+2002-09-23,2002-09,review,TELE,0.0233635592,Telecommunications,Telecommunications
+2002-09-23,2002-09,review,TEXT,0.0173714179,"Textiles, apparel and leather",Consumer Discretionary
+2002-09-23,2002-09,review,TRAD,0.1561143786,Wholesale and retail trade,Consumer Discretionary
+2002-09-23,2002-09,review,TSRV,0.0120341179,Warehousing and transport infrastructure,Industrials
+2002-09-23,2002-09,review,UTIL,0.0262439596,Electricity and gas utilities,Utilities
+2002-09-23,2002-09,review,WATR,0.0079263997,Water and waste,Utilities
+2002-09-23,2002-09,review,WTRN,0.0037653415,Water transport,Industrials
+2003-03-24,2003-03,review,ADMN,0.0374378615,Administrative and support services,Industrials
+2003-03-24,2003-03,review,AGRI,0.0578355797,"Agriculture, farming and fishing",Consumer Staples
+2003-03-24,2003-03,review,ATRN,0.005367597,Air transport,Consumer Discretionary
+2003-03-24,2003-03,review,AUTO,0.019663236,Motor vehicles and parts,Consumer Discretionary
+2003-03-24,2003-03,review,CHEM,0.0175487033,Chemicals and personal/household products,Basic Materials
+2003-03-24,2003-03,review,COAL,0.0039323633,Coal mining,Energy
+2003-03-24,2003-03,review,CONS,0.0726814652,Construction,Industrials
+2003-03-24,2003-03,review,EEQP,0.0104011747,Electrical equipment,Industrials
+2003-03-24,2003-03,review,ELEC,0.0222722097,"Computers, electronics and semiconductors",Technology
+2003-03-24,2003-03,review,FINS,0.0729798775,Financials (banks and insurance),Financials
+2003-03-24,2003-03,review,FMET,0.0159794717,Fabricated metal products,Basic Materials
+2003-03-24,2003-03,review,FOOD,0.0324544077,"Food, beverages and tobacco",Consumer Staples
+2003-03-24,2003-03,review,FORE,0.0097254794,Forestry and wood,Basic Materials
+2003-03-24,2003-03,review,HOTL,0.0317597051,"Hotels, restaurants and catering",Consumer Discretionary
+2003-03-24,2003-03,review,ITSV,0.0170099444,"Software, IT and digital services",Technology
+2003-03-24,2003-03,review,LTRN,0.0337888417,Land transport and pipelines,Industrials
+2003-03-24,2003-03,review,MACH,0.0186138233,Machinery,Industrials
+2003-03-24,2003-03,review,MDIA,0.016537,"Publishing, media and video games",Consumer Discretionary
+2003-03-24,2003-03,review,METL,0.0204878037,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2003-03-24,2003-03,review,NMMN,0.0111037492,"Building materials, glass and cement",Industrials
+2003-03-24,2003-03,review,OILG,0.0265434545,Oil and gas (extraction and refining),Energy
+2003-03-24,2003-03,review,OMFG,0.0156636732,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2003-03-24,2003-03,review,OSRV,0.0018279099,Oil and mining services,Energy
+2003-03-24,2003-03,review,OSVC,0.0204657124,Other personal services,Consumer Discretionary
+2003-03-24,2003-03,review,OTRN,0.0069662876,"Aerospace, defence, rail and ships",Industrials
+2003-03-24,2003-03,review,PAPR,0.0131079924,Paper and printing,Basic Materials
+2003-03-24,2003-03,review,PHRM,0.009463127,Pharmaceuticals and biotech,Health Care
+2003-03-24,2003-03,review,POST,0.0063839248,Postal and courier,Industrials
+2003-03-24,2003-03,review,PROF,0.0595702436,Professional and technical services,Industrials
+2003-03-24,2003-03,review,REAL,0.0453384453,Real estate (excluding imputed rent),Real Estate
+2003-03-24,2003-03,review,RECR,0.0113450276,"Arts, gambling and recreation",Consumer Discretionary
+2003-03-24,2003-03,review,RUBP,0.0105503947,"Rubber, plastics and packaging",Industrials
+2003-03-24,2003-03,review,TELE,0.0235146586,Telecommunications,Telecommunications
+2003-03-24,2003-03,review,TEXT,0.0168582176,"Textiles, apparel and leather",Consumer Discretionary
+2003-03-24,2003-03,review,TRAD,0.1548794176,Wholesale and retail trade,Consumer Discretionary
+2003-03-24,2003-03,review,TSRV,0.0122283791,Warehousing and transport infrastructure,Industrials
+2003-03-24,2003-03,review,UTIL,0.0259035518,Electricity and gas utilities,Utilities
+2003-03-24,2003-03,review,WATR,0.0080219398,Water and waste,Utilities
+2003-03-24,2003-03,review,WTRN,0.0037873485,Water transport,Industrials
+2003-09-22,2003-09,review,ADMN,0.0372358995,Administrative and support services,Industrials
+2003-09-22,2003-09,review,AGRI,0.0587839921,"Agriculture, farming and fishing",Consumer Staples
+2003-09-22,2003-09,review,ATRN,0.005378214,Air transport,Consumer Discretionary
+2003-09-22,2003-09,review,AUTO,0.0196482197,Motor vehicles and parts,Consumer Discretionary
+2003-09-22,2003-09,review,CHEM,0.0175847444,Chemicals and personal/household products,Basic Materials
+2003-09-22,2003-09,review,COAL,0.0040271351,Coal mining,Energy
+2003-09-22,2003-09,review,CONS,0.0727233801,Construction,Industrials
+2003-09-22,2003-09,review,EEQP,0.0104303286,Electrical equipment,Industrials
+2003-09-22,2003-09,review,ELEC,0.022353242,"Computers, electronics and semiconductors",Technology
+2003-09-22,2003-09,review,FINS,0.0729195352,Financials (banks and insurance),Financials
+2003-09-22,2003-09,review,FMET,0.0159247473,Fabricated metal products,Basic Materials
+2003-09-22,2003-09,review,FOOD,0.0325104237,"Food, beverages and tobacco",Consumer Staples
+2003-09-22,2003-09,review,FORE,0.0097923529,Forestry and wood,Basic Materials
+2003-09-22,2003-09,review,HOTL,0.0316937406,"Hotels, restaurants and catering",Consumer Discretionary
+2003-09-22,2003-09,review,ITSV,0.016911914,"Software, IT and digital services",Technology
+2003-09-22,2003-09,review,LTRN,0.0338362547,Land transport and pipelines,Industrials
+2003-09-22,2003-09,review,MACH,0.018579885,Machinery,Industrials
+2003-09-22,2003-09,review,MDIA,0.0164360323,"Publishing, media and video games",Consumer Discretionary
+2003-09-22,2003-09,review,METL,0.0207056034,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2003-09-22,2003-09,review,NMMN,0.0111817156,"Building materials, glass and cement",Industrials
+2003-09-22,2003-09,review,OILG,0.0267235825,Oil and gas (extraction and refining),Energy
+2003-09-22,2003-09,review,OMFG,0.0155500126,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2003-09-22,2003-09,review,OSRV,0.0018367647,Oil and mining services,Energy
+2003-09-22,2003-09,review,OSVC,0.0203825268,Other personal services,Consumer Discretionary
+2003-09-22,2003-09,review,OTRN,0.0069665307,"Aerospace, defence, rail and ships",Industrials
+2003-09-22,2003-09,review,PAPR,0.013073937,Paper and printing,Basic Materials
+2003-09-22,2003-09,review,PHRM,0.0094420314,Pharmaceuticals and biotech,Health Care
+2003-09-22,2003-09,review,POST,0.0063466358,Postal and courier,Industrials
+2003-09-22,2003-09,review,PROF,0.059104376,Professional and technical services,Industrials
+2003-09-22,2003-09,review,REAL,0.0450031125,Real estate (excluding imputed rent),Real Estate
+2003-09-22,2003-09,review,RECR,0.0112933071,"Arts, gambling and recreation",Consumer Discretionary
+2003-09-22,2003-09,review,RUBP,0.0105629998,"Rubber, plastics and packaging",Industrials
+2003-09-22,2003-09,review,TELE,0.0234888568,Telecommunications,Telecommunications
+2003-09-22,2003-09,review,TEXT,0.0170580817,"Textiles, apparel and leather",Consumer Discretionary
+2003-09-22,2003-09,review,TRAD,0.1544890752,Wholesale and retail trade,Consumer Discretionary
+2003-09-22,2003-09,review,TSRV,0.0121790599,Warehousing and transport infrastructure,Industrials
+2003-09-22,2003-09,review,UTIL,0.026005235,Electricity and gas utilities,Utilities
+2003-09-22,2003-09,review,WATR,0.0079859766,Water and waste,Utilities
+2003-09-22,2003-09,review,WTRN,0.0038505378,Water transport,Industrials
+2004-03-22,2004-03,review,ADMN,0.0380836995,Administrative and support services,Industrials
+2004-03-22,2004-03,review,AGRI,0.0563827149,"Agriculture, farming and fishing",Consumer Staples
+2004-03-22,2004-03,review,ATRN,0.0051934845,Air transport,Consumer Discretionary
+2004-03-22,2004-03,review,AUTO,0.0195227627,Motor vehicles and parts,Consumer Discretionary
+2004-03-22,2004-03,review,CHEM,0.0173574261,Chemicals and personal/household products,Basic Materials
+2004-03-22,2004-03,review,COAL,0.0040427499,Coal mining,Energy
+2004-03-22,2004-03,review,CONS,0.0724430973,Construction,Industrials
+2004-03-22,2004-03,review,EEQP,0.0106127686,Electrical equipment,Industrials
+2004-03-22,2004-03,review,ELEC,0.0241018484,"Computers, electronics and semiconductors",Technology
+2004-03-22,2004-03,review,FINS,0.071862906,Financials (banks and insurance),Financials
+2004-03-22,2004-03,review,FMET,0.015870937,Fabricated metal products,Basic Materials
+2004-03-22,2004-03,review,FOOD,0.0315151283,"Food, beverages and tobacco",Consumer Staples
+2004-03-22,2004-03,review,FORE,0.0094078563,Forestry and wood,Basic Materials
+2004-03-22,2004-03,review,HOTL,0.0320935591,"Hotels, restaurants and catering",Consumer Discretionary
+2004-03-22,2004-03,review,ITSV,0.017462556,"Software, IT and digital services",Technology
+2004-03-22,2004-03,review,LTRN,0.0338581388,Land transport and pipelines,Industrials
+2004-03-22,2004-03,review,MACH,0.0187961413,Machinery,Industrials
+2004-03-22,2004-03,review,MDIA,0.0151368172,"Publishing, media and video games",Consumer Discretionary
+2004-03-22,2004-03,review,METL,0.0209640113,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2004-03-22,2004-03,review,NMMN,0.0110013141,"Building materials, glass and cement",Industrials
+2004-03-22,2004-03,review,OILG,0.0296589041,Oil and gas (extraction and refining),Energy
+2004-03-22,2004-03,review,OMFG,0.015485014,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2004-03-22,2004-03,review,OSRV,0.0019728848,Oil and mining services,Energy
+2004-03-22,2004-03,review,OSVC,0.0203764016,Other personal services,Consumer Discretionary
+2004-03-22,2004-03,review,OTRN,0.0066249198,"Aerospace, defence, rail and ships",Industrials
+2004-03-22,2004-03,review,PAPR,0.0130975386,Paper and printing,Basic Materials
+2004-03-22,2004-03,review,PHRM,0.009500076,Pharmaceuticals and biotech,Health Care
+2004-03-22,2004-03,review,POST,0.006357411,Postal and courier,Industrials
+2004-03-22,2004-03,review,PROF,0.0607353257,Professional and technical services,Industrials
+2004-03-22,2004-03,review,REAL,0.0451840141,Real estate (excluding imputed rent),Real Estate
+2004-03-22,2004-03,review,RECR,0.0114837761,"Arts, gambling and recreation",Consumer Discretionary
+2004-03-22,2004-03,review,RUBP,0.0104031852,"Rubber, plastics and packaging",Industrials
+2004-03-22,2004-03,review,TELE,0.0235235649,Telecommunications,Telecommunications
+2004-03-22,2004-03,review,TEXT,0.016597831,"Textiles, apparel and leather",Consumer Discretionary
+2004-03-22,2004-03,review,TRAD,0.1538376974,Wholesale and retail trade,Consumer Discretionary
+2004-03-22,2004-03,review,TSRV,0.0124640835,Warehousing and transport infrastructure,Industrials
+2004-03-22,2004-03,review,UTIL,0.0248621086,Electricity and gas utilities,Utilities
+2004-03-22,2004-03,review,WATR,0.0079460115,Water and waste,Utilities
+2004-03-22,2004-03,review,WTRN,0.0041793348,Water transport,Industrials
+2004-09-20,2004-09,review,ADMN,0.0377985832,Administrative and support services,Industrials
+2004-09-20,2004-09,review,AGRI,0.0577072123,"Agriculture, farming and fishing",Consumer Staples
+2004-09-20,2004-09,review,ATRN,0.005192073,Air transport,Consumer Discretionary
+2004-09-20,2004-09,review,AUTO,0.0194684773,Motor vehicles and parts,Consumer Discretionary
+2004-09-20,2004-09,review,CHEM,0.0174319759,Chemicals and personal/household products,Basic Materials
+2004-09-20,2004-09,review,COAL,0.0041484492,Coal mining,Energy
+2004-09-20,2004-09,review,CONS,0.0724782466,Construction,Industrials
+2004-09-20,2004-09,review,EEQP,0.0106219957,Electrical equipment,Industrials
+2004-09-20,2004-09,review,ELEC,0.0240851686,"Computers, electronics and semiconductors",Technology
+2004-09-20,2004-09,review,FINS,0.0716499672,Financials (banks and insurance),Financials
+2004-09-20,2004-09,review,FMET,0.015790146,Fabricated metal products,Basic Materials
+2004-09-20,2004-09,review,FOOD,0.0316640792,"Food, beverages and tobacco",Consumer Staples
+2004-09-20,2004-09,review,FORE,0.0095136775,Forestry and wood,Basic Materials
+2004-09-20,2004-09,review,HOTL,0.0319584582,"Hotels, restaurants and catering",Consumer Discretionary
+2004-09-20,2004-09,review,ITSV,0.0173378783,"Software, IT and digital services",Technology
+2004-09-20,2004-09,review,LTRN,0.0339967199,Land transport and pipelines,Industrials
+2004-09-20,2004-09,review,MACH,0.0187326402,Machinery,Industrials
+2004-09-20,2004-09,review,MDIA,0.0150098417,"Publishing, media and video games",Consumer Discretionary
+2004-09-20,2004-09,review,METL,0.0212407444,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2004-09-20,2004-09,review,NMMN,0.0110859225,"Building materials, glass and cement",Industrials
+2004-09-20,2004-09,review,OILG,0.0299878845,Oil and gas (extraction and refining),Energy
+2004-09-20,2004-09,review,OMFG,0.0153593871,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2004-09-20,2004-09,review,OSRV,0.0019951645,Oil and mining services,Energy
+2004-09-20,2004-09,review,OSVC,0.0202690819,Other personal services,Consumer Discretionary
+2004-09-20,2004-09,review,OTRN,0.0066171811,"Aerospace, defence, rail and ships",Industrials
+2004-09-20,2004-09,review,PAPR,0.0130549709,Paper and printing,Basic Materials
+2004-09-20,2004-09,review,PHRM,0.0094940457,Pharmaceuticals and biotech,Health Care
+2004-09-20,2004-09,review,POST,0.0063139098,Postal and courier,Industrials
+2004-09-20,2004-09,review,PROF,0.060119922,Professional and technical services,Industrials
+2004-09-20,2004-09,review,REAL,0.0448011428,Real estate (excluding imputed rent),Real Estate
+2004-09-20,2004-09,review,RECR,0.0113958694,"Arts, gambling and recreation",Consumer Discretionary
+2004-09-20,2004-09,review,RUBP,0.0104145808,"Rubber, plastics and packaging",Industrials
+2004-09-20,2004-09,review,TELE,0.0234715779,Telecommunications,Telecommunications
+2004-09-20,2004-09,review,TEXT,0.0168176364,"Textiles, apparel and leather",Consumer Discretionary
+2004-09-20,2004-09,review,TRAD,0.1534590266,Wholesale and retail trade,Consumer Discretionary
+2004-09-20,2004-09,review,TSRV,0.0123938708,Warehousing and transport infrastructure,Industrials
+2004-09-20,2004-09,review,UTIL,0.0249949673,Electricity and gas utilities,Utilities
+2004-09-20,2004-09,review,WATR,0.0078970005,Water and waste,Utilities
+2004-09-20,2004-09,review,WTRN,0.004230523,Water transport,Industrials
+2005-03-21,2005-03,review,ADMN,0.0387312717,Administrative and support services,Industrials
+2005-03-21,2005-03,review,AGRI,0.0568102459,"Agriculture, farming and fishing",Consumer Staples
+2005-03-21,2005-03,review,ATRN,0.0048745491,Air transport,Consumer Discretionary
+2005-03-21,2005-03,review,AUTO,0.0186282567,Motor vehicles and parts,Consumer Discretionary
+2005-03-21,2005-03,review,CHEM,0.0166691021,Chemicals and personal/household products,Basic Materials
+2005-03-21,2005-03,review,COAL,0.0044171888,Coal mining,Energy
+2005-03-21,2005-03,review,CONS,0.072205224,Construction,Industrials
+2005-03-21,2005-03,review,EEQP,0.0097317267,Electrical equipment,Industrials
+2005-03-21,2005-03,review,ELEC,0.0209881522,"Computers, electronics and semiconductors",Technology
+2005-03-21,2005-03,review,FINS,0.0737311851,Financials (banks and insurance),Financials
+2005-03-21,2005-03,review,FMET,0.015455089,Fabricated metal products,Basic Materials
+2005-03-21,2005-03,review,FOOD,0.0311768665,"Food, beverages and tobacco",Consumer Staples
+2005-03-21,2005-03,review,FORE,0.0094193611,Forestry and wood,Basic Materials
+2005-03-21,2005-03,review,HOTL,0.0320650659,"Hotels, restaurants and catering",Consumer Discretionary
+2005-03-21,2005-03,review,ITSV,0.0185987416,"Software, IT and digital services",Technology
+2005-03-21,2005-03,review,LTRN,0.0350092666,Land transport and pipelines,Industrials
+2005-03-21,2005-03,review,MACH,0.018909079,Machinery,Industrials
+2005-03-21,2005-03,review,MDIA,0.0152627458,"Publishing, media and video games",Consumer Discretionary
+2005-03-21,2005-03,review,METL,0.0208833168,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2005-03-21,2005-03,review,NMMN,0.0109609271,"Building materials, glass and cement",Industrials
+2005-03-21,2005-03,review,OILG,0.0301020059,Oil and gas (extraction and refining),Energy
+2005-03-21,2005-03,review,OMFG,0.0150348066,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2005-03-21,2005-03,review,OSRV,0.0022153767,Oil and mining services,Energy
+2005-03-21,2005-03,review,OSVC,0.0199380236,Other personal services,Consumer Discretionary
+2005-03-21,2005-03,review,OTRN,0.006895347,"Aerospace, defence, rail and ships",Industrials
+2005-03-21,2005-03,review,PAPR,0.0125112517,Paper and printing,Basic Materials
+2005-03-21,2005-03,review,PHRM,0.009954977,Pharmaceuticals and biotech,Health Care
+2005-03-21,2005-03,review,POST,0.0062059896,Postal and courier,Industrials
+2005-03-21,2005-03,review,PROF,0.0612170476,Professional and technical services,Industrials
+2005-03-21,2005-03,review,REAL,0.0461206461,Real estate (excluding imputed rent),Real Estate
+2005-03-21,2005-03,review,RECR,0.0112572868,"Arts, gambling and recreation",Consumer Discretionary
+2005-03-21,2005-03,review,RUBP,0.0102580584,"Rubber, plastics and packaging",Industrials
+2005-03-21,2005-03,review,TELE,0.0240733534,Telecommunications,Telecommunications
+2005-03-21,2005-03,review,TEXT,0.0158154627,"Textiles, apparel and leather",Consumer Discretionary
+2005-03-21,2005-03,review,TRAD,0.1540001017,Wholesale and retail trade,Consumer Discretionary
+2005-03-21,2005-03,review,TSRV,0.0125415245,Warehousing and transport infrastructure,Industrials
+2005-03-21,2005-03,review,UTIL,0.0252558506,Electricity and gas utilities,Utilities
+2005-03-21,2005-03,review,WATR,0.0080456451,Water and waste,Utilities
+2005-03-21,2005-03,review,WTRN,0.004029883,Water transport,Industrials
+2005-09-19,2005-09,review,ADMN,0.0384827871,Administrative and support services,Industrials
+2005-09-19,2005-09,review,AGRI,0.0579513053,"Agriculture, farming and fishing",Consumer Staples
+2005-09-19,2005-09,review,ATRN,0.0048805343,Air transport,Consumer Discretionary
+2005-09-19,2005-09,review,AUTO,0.0185533888,Motor vehicles and parts,Consumer Discretionary
+2005-09-19,2005-09,review,CHEM,0.0167290407,Chemicals and personal/household products,Basic Materials
+2005-09-19,2005-09,review,COAL,0.0045178016,Coal mining,Energy
+2005-09-19,2005-09,review,CONS,0.0721736463,Construction,Industrials
+2005-09-19,2005-09,review,EEQP,0.0097222978,Electrical equipment,Industrials
+2005-09-19,2005-09,review,ELEC,0.021042023,"Computers, electronics and semiconductors",Technology
+2005-09-19,2005-09,review,FINS,0.0735714025,Financials (banks and insurance),Financials
+2005-09-19,2005-09,review,FMET,0.0153896631,Fabricated metal products,Basic Materials
+2005-09-19,2005-09,review,FOOD,0.0312719081,"Food, beverages and tobacco",Consumer Staples
+2005-09-19,2005-09,review,FORE,0.0095175944,Forestry and wood,Basic Materials
+2005-09-19,2005-09,review,HOTL,0.0319313362,"Hotels, restaurants and catering",Consumer Discretionary
+2005-09-19,2005-09,review,ITSV,0.0184595399,"Software, IT and digital services",Technology
+2005-09-19,2005-09,review,LTRN,0.0351915296,Land transport and pipelines,Industrials
+2005-09-19,2005-09,review,MACH,0.0188875068,Machinery,Industrials
+2005-09-19,2005-09,review,MDIA,0.0151344856,"Publishing, media and video games",Consumer Discretionary
+2005-09-19,2005-09,review,METL,0.0211441888,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2005-09-19,2005-09,review,NMMN,0.0110385788,"Building materials, glass and cement",Industrials
+2005-09-19,2005-09,review,OILG,0.0303298761,Oil and gas (extraction and refining),Energy
+2005-09-19,2005-09,review,OMFG,0.0149206837,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2005-09-19,2005-09,review,OSRV,0.0022285628,Oil and mining services,Energy
+2005-09-19,2005-09,review,OSVC,0.0198588246,Other personal services,Consumer Discretionary
+2005-09-19,2005-09,review,OTRN,0.0068826321,"Aerospace, defence, rail and ships",Industrials
+2005-09-19,2005-09,review,PAPR,0.0124814886,Paper and printing,Basic Materials
+2005-09-19,2005-09,review,PHRM,0.00995804,Pharmaceuticals and biotech,Health Care
+2005-09-19,2005-09,review,POST,0.0061621733,Postal and courier,Industrials
+2005-09-19,2005-09,review,PROF,0.0606436678,Professional and technical services,Industrials
+2005-09-19,2005-09,review,REAL,0.0458065471,Real estate (excluding imputed rent),Real Estate
+2005-09-19,2005-09,review,RECR,0.0111801381,"Arts, gambling and recreation",Consumer Discretionary
+2005-09-19,2005-09,review,RUBP,0.0102732059,"Rubber, plastics and packaging",Industrials
+2005-09-19,2005-09,review,TELE,0.0240222863,Telecommunications,Telecommunications
+2005-09-19,2005-09,review,TEXT,0.0160267385,"Textiles, apparel and leather",Consumer Discretionary
+2005-09-19,2005-09,review,TRAD,0.153704029,Wholesale and retail trade,Consumer Discretionary
+2005-09-19,2005-09,review,TSRV,0.012473114,Warehousing and transport infrastructure,Industrials
+2005-09-19,2005-09,review,UTIL,0.0253856274,Electricity and gas utilities,Utilities
+2005-09-19,2005-09,review,WATR,0.0079986153,Water and waste,Utilities
+2005-09-19,2005-09,review,WTRN,0.0040731908,Water transport,Industrials
+2006-03-20,2006-03,review,ADMN,0.03842724,Administrative and support services,Industrials
+2006-03-20,2006-03,review,AGRI,0.0554061465,"Agriculture, farming and fishing",Consumer Staples
+2006-03-20,2006-03,review,ATRN,0.0047422567,Air transport,Consumer Discretionary
+2006-03-20,2006-03,review,AUTO,0.0187648334,Motor vehicles and parts,Consumer Discretionary
+2006-03-20,2006-03,review,CHEM,0.0167809373,Chemicals and personal/household products,Basic Materials
+2006-03-20,2006-03,review,COAL,0.0044939004,Coal mining,Energy
+2006-03-20,2006-03,review,CONS,0.0724144122,Construction,Industrials
+2006-03-20,2006-03,review,EEQP,0.0093635901,Electrical equipment,Industrials
+2006-03-20,2006-03,review,ELEC,0.0207691218,"Computers, electronics and semiconductors",Technology
+2006-03-20,2006-03,review,FINS,0.0735111759,Financials (banks and insurance),Financials
+2006-03-20,2006-03,review,FMET,0.0150621788,Fabricated metal products,Basic Materials
+2006-03-20,2006-03,review,FOOD,0.0316402341,"Food, beverages and tobacco",Consumer Staples
+2006-03-20,2006-03,review,FORE,0.0092690549,Forestry and wood,Basic Materials
+2006-03-20,2006-03,review,HOTL,0.0323027152,"Hotels, restaurants and catering",Consumer Discretionary
+2006-03-20,2006-03,review,ITSV,0.0191854129,"Software, IT and digital services",Technology
+2006-03-20,2006-03,review,LTRN,0.0350261391,Land transport and pipelines,Industrials
+2006-03-20,2006-03,review,MACH,0.018255534,Machinery,Industrials
+2006-03-20,2006-03,review,MDIA,0.0158048927,"Publishing, media and video games",Consumer Discretionary
+2006-03-20,2006-03,review,METL,0.0213456269,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2006-03-20,2006-03,review,NMMN,0.0109151698,"Building materials, glass and cement",Industrials
+2006-03-20,2006-03,review,OILG,0.0290761613,Oil and gas (extraction and refining),Energy
+2006-03-20,2006-03,review,OMFG,0.0148125558,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2006-03-20,2006-03,review,OSRV,0.0021376954,Oil and mining services,Energy
+2006-03-20,2006-03,review,OSVC,0.0203045969,Other personal services,Consumer Discretionary
+2006-03-20,2006-03,review,OTRN,0.0067266496,"Aerospace, defence, rail and ships",Industrials
+2006-03-20,2006-03,review,PAPR,0.0121766944,Paper and printing,Basic Materials
+2006-03-20,2006-03,review,PHRM,0.0104126788,Pharmaceuticals and biotech,Health Care
+2006-03-20,2006-03,review,POST,0.0060504949,Postal and courier,Industrials
+2006-03-20,2006-03,review,PROF,0.0615727924,Professional and technical services,Industrials
+2006-03-20,2006-03,review,REAL,0.0471549034,Real estate (excluding imputed rent),Real Estate
+2006-03-20,2006-03,review,RECR,0.0116276735,"Arts, gambling and recreation",Consumer Discretionary
+2006-03-20,2006-03,review,RUBP,0.0102486769,"Rubber, plastics and packaging",Industrials
+2006-03-20,2006-03,review,TELE,0.0244073164,Telecommunications,Telecommunications
+2006-03-20,2006-03,review,TEXT,0.0154420633,"Textiles, apparel and leather",Consumer Discretionary
+2006-03-20,2006-03,review,TRAD,0.1541360762,Wholesale and retail trade,Consumer Discretionary
+2006-03-20,2006-03,review,TSRV,0.0129389591,Warehousing and transport infrastructure,Industrials
+2006-03-20,2006-03,review,UTIL,0.0251665653,Electricity and gas utilities,Utilities
+2006-03-20,2006-03,review,WATR,0.0081739174,Water and waste,Utilities
+2006-03-20,2006-03,review,WTRN,0.0039529561,Water transport,Industrials
+2006-09-18,2006-09,review,ADMN,0.0381380859,Administrative and support services,Industrials
+2006-09-18,2006-09,review,AGRI,0.0567127763,"Agriculture, farming and fishing",Consumer Staples
+2006-09-18,2006-09,review,ATRN,0.0047446736,Air transport,Consumer Discretionary
+2006-09-18,2006-09,review,AUTO,0.0186861751,Motor vehicles and parts,Consumer Discretionary
+2006-09-18,2006-09,review,CHEM,0.0168624476,Chemicals and personal/household products,Basic Materials
+2006-09-18,2006-09,review,COAL,0.004621887,Coal mining,Energy
+2006-09-18,2006-09,review,CONS,0.0723941296,Construction,Industrials
+2006-09-18,2006-09,review,EEQP,0.0093767126,Electrical equipment,Industrials
+2006-09-18,2006-09,review,ELEC,0.0208321295,"Computers, electronics and semiconductors",Technology
+2006-09-18,2006-09,review,FINS,0.0732909506,Financials (banks and insurance),Financials
+2006-09-18,2006-09,review,FMET,0.015011485,Fabricated metal products,Basic Materials
+2006-09-18,2006-09,review,FOOD,0.0317469013,"Food, beverages and tobacco",Consumer Staples
+2006-09-18,2006-09,review,FORE,0.0093827565,Forestry and wood,Basic Materials
+2006-09-18,2006-09,review,HOTL,0.0321622712,"Hotels, restaurants and catering",Consumer Discretionary
+2006-09-18,2006-09,review,ITSV,0.0190404501,"Software, IT and digital services",Technology
+2006-09-18,2006-09,review,LTRN,0.0352257705,Land transport and pipelines,Industrials
+2006-09-18,2006-09,review,MACH,0.0182871033,Machinery,Industrials
+2006-09-18,2006-09,review,MDIA,0.0156614728,"Publishing, media and video games",Consumer Discretionary
+2006-09-18,2006-09,review,METL,0.0216998831,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2006-09-18,2006-09,review,NMMN,0.0110248278,"Building materials, glass and cement",Industrials
+2006-09-18,2006-09,review,OILG,0.0293119458,Oil and gas (extraction and refining),Energy
+2006-09-18,2006-09,review,OMFG,0.0146990343,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2006-09-18,2006-09,review,OSRV,0.0021528729,Oil and mining services,Energy
+2006-09-18,2006-09,review,OSVC,0.0202163101,Other personal services,Consumer Discretionary
+2006-09-18,2006-09,review,OTRN,0.0067142899,"Aerospace, defence, rail and ships",Industrials
+2006-09-18,2006-09,review,PAPR,0.0121591233,Paper and printing,Basic Materials
+2006-09-18,2006-09,review,PHRM,0.0104138708,Pharmaceuticals and biotech,Health Care
+2006-09-18,2006-09,review,POST,0.0060038723,Postal and courier,Industrials
+2006-09-18,2006-09,review,PROF,0.0609151342,Professional and technical services,Industrials
+2006-09-18,2006-09,review,REAL,0.0467546223,Real estate (excluding imputed rent),Real Estate
+2006-09-18,2006-09,review,RECR,0.011534045,"Arts, gambling and recreation",Consumer Discretionary
+2006-09-18,2006-09,review,RUBP,0.0102801013,"Rubber, plastics and packaging",Industrials
+2006-09-18,2006-09,review,TELE,0.0243381407,Telecommunications,Telecommunications
+2006-09-18,2006-09,review,TEXT,0.015686336,"Textiles, apparel and leather",Consumer Discretionary
+2006-09-18,2006-09,review,TRAD,0.1536200725,Wholesale and retail trade,Consumer Discretionary
+2006-09-18,2006-09,review,TSRV,0.012857529,Warehousing and transport infrastructure,Industrials
+2006-09-18,2006-09,review,UTIL,0.025313566,Electricity and gas utilities,Utilities
+2006-09-18,2006-09,review,WATR,0.0081226662,Water and waste,Utilities
+2006-09-18,2006-09,review,WTRN,0.0040035781,Water transport,Industrials
+2007-03-19,2007-03,review,ADMN,0.0382217245,Administrative and support services,Industrials
+2007-03-19,2007-03,review,AGRI,0.0560196603,"Agriculture, farming and fishing",Consumer Staples
+2007-03-19,2007-03,review,ATRN,0.0047666531,Air transport,Consumer Discretionary
+2007-03-19,2007-03,review,AUTO,0.0190367233,Motor vehicles and parts,Consumer Discretionary
+2007-03-19,2007-03,review,CHEM,0.0163187424,Chemicals and personal/household products,Basic Materials
+2007-03-19,2007-03,review,COAL,0.0045749697,Coal mining,Energy
+2007-03-19,2007-03,review,CONS,0.0726992666,Construction,Industrials
+2007-03-19,2007-03,review,EEQP,0.0098237937,Electrical equipment,Industrials
+2007-03-19,2007-03,review,ELEC,0.0213573947,"Computers, electronics and semiconductors",Technology
+2007-03-19,2007-03,review,FINS,0.0736426768,Financials (banks and insurance),Financials
+2007-03-19,2007-03,review,FMET,0.0149118573,Fabricated metal products,Basic Materials
+2007-03-19,2007-03,review,FOOD,0.0317228618,"Food, beverages and tobacco",Consumer Staples
+2007-03-19,2007-03,review,FORE,0.0089248228,Forestry and wood,Basic Materials
+2007-03-19,2007-03,review,HOTL,0.0317855122,"Hotels, restaurants and catering",Consumer Discretionary
+2007-03-19,2007-03,review,ITSV,0.0191758963,"Software, IT and digital services",Technology
+2007-03-19,2007-03,review,LTRN,0.0353028726,Land transport and pipelines,Industrials
+2007-03-19,2007-03,review,MACH,0.0184230943,Machinery,Industrials
+2007-03-19,2007-03,review,MDIA,0.0154482432,"Publishing, media and video games",Consumer Discretionary
+2007-03-19,2007-03,review,METL,0.0217771235,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2007-03-19,2007-03,review,NMMN,0.0119307444,"Building materials, glass and cement",Industrials
+2007-03-19,2007-03,review,OILG,0.031033809,Oil and gas (extraction and refining),Energy
+2007-03-19,2007-03,review,OMFG,0.0141082362,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2007-03-19,2007-03,review,OSRV,0.0021979241,Oil and mining services,Energy
+2007-03-19,2007-03,review,OSVC,0.0199242753,Other personal services,Consumer Discretionary
+2007-03-19,2007-03,review,OTRN,0.0064144158,"Aerospace, defence, rail and ships",Industrials
+2007-03-19,2007-03,review,PAPR,0.0113091123,Paper and printing,Basic Materials
+2007-03-19,2007-03,review,PHRM,0.0101065221,Pharmaceuticals and biotech,Health Care
+2007-03-19,2007-03,review,POST,0.0059800815,Postal and courier,Industrials
+2007-03-19,2007-03,review,PROF,0.0610738429,Professional and technical services,Industrials
+2007-03-19,2007-03,review,REAL,0.0471460409,Real estate (excluding imputed rent),Real Estate
+2007-03-19,2007-03,review,RECR,0.0116965272,"Arts, gambling and recreation",Consumer Discretionary
+2007-03-19,2007-03,review,RUBP,0.0098343749,"Rubber, plastics and packaging",Industrials
+2007-03-19,2007-03,review,TELE,0.0241029466,Telecommunications,Telecommunications
+2007-03-19,2007-03,review,TEXT,0.015471035,"Textiles, apparel and leather",Consumer Discretionary
+2007-03-19,2007-03,review,TRAD,0.1534814493,Wholesale and retail trade,Consumer Discretionary
+2007-03-19,2007-03,review,TSRV,0.012954152,Warehousing and transport infrastructure,Industrials
+2007-03-19,2007-03,review,UTIL,0.0250157997,Electricity and gas utilities,Utilities
+2007-03-19,2007-03,review,WATR,0.0082228803,Water and waste,Utilities
+2007-03-19,2007-03,review,WTRN,0.0040619413,Water transport,Industrials
+2007-09-24,2007-09,review,ADMN,0.0378972123,Administrative and support services,Industrials
+2007-09-24,2007-09,review,AGRI,0.057307949,"Agriculture, farming and fishing",Consumer Staples
+2007-09-24,2007-09,review,ATRN,0.0047601346,Air transport,Consumer Discretionary
+2007-09-24,2007-09,review,AUTO,0.0190037958,Motor vehicles and parts,Consumer Discretionary
+2007-09-24,2007-09,review,CHEM,0.0164049807,Chemicals and personal/household products,Basic Materials
+2007-09-24,2007-09,review,COAL,0.0047241068,Coal mining,Energy
+2007-09-24,2007-09,review,CONS,0.072698079,Construction,Industrials
+2007-09-24,2007-09,review,EEQP,0.0099062799,Electrical equipment,Industrials
+2007-09-24,2007-09,review,ELEC,0.0214186128,"Computers, electronics and semiconductors",Technology
+2007-09-24,2007-09,review,FINS,0.0732267431,Financials (banks and insurance),Financials
+2007-09-24,2007-09,review,FMET,0.0148752168,Fabricated metal products,Basic Materials
+2007-09-24,2007-09,review,FOOD,0.0318784865,"Food, beverages and tobacco",Consumer Staples
+2007-09-24,2007-09,review,FORE,0.0090259419,Forestry and wood,Basic Materials
+2007-09-24,2007-09,review,HOTL,0.0316207106,"Hotels, restaurants and catering",Consumer Discretionary
+2007-09-24,2007-09,review,ITSV,0.0189964291,"Software, IT and digital services",Technology
+2007-09-24,2007-09,review,LTRN,0.0355340245,Land transport and pipelines,Industrials
+2007-09-24,2007-09,review,MACH,0.0185231058,Machinery,Industrials
+2007-09-24,2007-09,review,MDIA,0.0152332474,"Publishing, media and video games",Consumer Discretionary
+2007-09-24,2007-09,review,METL,0.0221846162,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2007-09-24,2007-09,review,NMMN,0.0121271287,"Building materials, glass and cement",Industrials
+2007-09-24,2007-09,review,OILG,0.0313384548,Oil and gas (extraction and refining),Energy
+2007-09-24,2007-09,review,OMFG,0.0139777597,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2007-09-24,2007-09,review,OSRV,0.0022110952,Oil and mining services,Energy
+2007-09-24,2007-09,review,OSVC,0.019833135,Other personal services,Consumer Discretionary
+2007-09-24,2007-09,review,OTRN,0.0063866249,"Aerospace, defence, rail and ships",Industrials
+2007-09-24,2007-09,review,PAPR,0.0112675016,Paper and printing,Basic Materials
+2007-09-24,2007-09,review,PHRM,0.0100758555,Pharmaceuticals and biotech,Health Care
+2007-09-24,2007-09,review,POST,0.0059185283,Postal and courier,Industrials
+2007-09-24,2007-09,review,PROF,0.0603091704,Professional and technical services,Industrials
+2007-09-24,2007-09,review,REAL,0.0467501572,Real estate (excluding imputed rent),Real Estate
+2007-09-24,2007-09,review,RECR,0.0116010761,"Arts, gambling and recreation",Consumer Discretionary
+2007-09-24,2007-09,review,RUBP,0.0098443962,"Rubber, plastics and packaging",Industrials
+2007-09-24,2007-09,review,TELE,0.0240248069,Telecommunications,Telecommunications
+2007-09-24,2007-09,review,TEXT,0.0157735793,"Textiles, apparel and leather",Consumer Discretionary
+2007-09-24,2007-09,review,TRAD,0.1529640989,Wholesale and retail trade,Consumer Discretionary
+2007-09-24,2007-09,review,TSRV,0.0128850967,Warehousing and transport infrastructure,Industrials
+2007-09-24,2007-09,review,UTIL,0.0251874891,Electricity and gas utilities,Utilities
+2007-09-24,2007-09,review,WATR,0.0081756697,Water and waste,Utilities
+2007-09-24,2007-09,review,WTRN,0.0041287028,Water transport,Industrials
+2008-03-24,2008-03,review,ADMN,0.0377818843,Administrative and support services,Industrials
+2008-03-24,2008-03,review,AGRI,0.0569020394,"Agriculture, farming and fishing",Consumer Staples
+2008-03-24,2008-03,review,ATRN,0.0048047173,Air transport,Consumer Discretionary
+2008-03-24,2008-03,review,AUTO,0.0186641827,Motor vehicles and parts,Consumer Discretionary
+2008-03-24,2008-03,review,CHEM,0.0167227322,Chemicals and personal/household products,Basic Materials
+2008-03-24,2008-03,review,COAL,0.0051725222,Coal mining,Energy
+2008-03-24,2008-03,review,CONS,0.0742417218,Construction,Industrials
+2008-03-24,2008-03,review,EEQP,0.009857487,Electrical equipment,Industrials
+2008-03-24,2008-03,review,ELEC,0.0214520225,"Computers, electronics and semiconductors",Technology
+2008-03-24,2008-03,review,FINS,0.0722310352,Financials (banks and insurance),Financials
+2008-03-24,2008-03,review,FMET,0.014516828,Fabricated metal products,Basic Materials
+2008-03-24,2008-03,review,FOOD,0.0312914882,"Food, beverages and tobacco",Consumer Staples
+2008-03-24,2008-03,review,FORE,0.0089590031,Forestry and wood,Basic Materials
+2008-03-24,2008-03,review,HOTL,0.0314291077,"Hotels, restaurants and catering",Consumer Discretionary
+2008-03-24,2008-03,review,ITSV,0.0191598705,"Software, IT and digital services",Technology
+2008-03-24,2008-03,review,LTRN,0.035374561,Land transport and pipelines,Industrials
+2008-03-24,2008-03,review,MACH,0.0189328783,Machinery,Industrials
+2008-03-24,2008-03,review,MDIA,0.0154232249,"Publishing, media and video games",Consumer Discretionary
+2008-03-24,2008-03,review,METL,0.0234945426,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2008-03-24,2008-03,review,NMMN,0.0119098337,"Building materials, glass and cement",Industrials
+2008-03-24,2008-03,review,OILG,0.0331785644,Oil and gas (extraction and refining),Energy
+2008-03-24,2008-03,review,OMFG,0.0136154821,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2008-03-24,2008-03,review,OSRV,0.0023561418,Oil and mining services,Energy
+2008-03-24,2008-03,review,OSVC,0.0196521204,Other personal services,Consumer Discretionary
+2008-03-24,2008-03,review,OTRN,0.0063493903,"Aerospace, defence, rail and ships",Industrials
+2008-03-24,2008-03,review,PAPR,0.0109062569,Paper and printing,Basic Materials
+2008-03-24,2008-03,review,PHRM,0.0098558392,Pharmaceuticals and biotech,Health Care
+2008-03-24,2008-03,review,POST,0.0058995795,Postal and courier,Industrials
+2008-03-24,2008-03,review,PROF,0.060292255,Professional and technical services,Industrials
+2008-03-24,2008-03,review,REAL,0.0456871097,Real estate (excluding imputed rent),Real Estate
+2008-03-24,2008-03,review,RECR,0.0115483145,"Arts, gambling and recreation",Consumer Discretionary
+2008-03-24,2008-03,review,RUBP,0.0097476705,"Rubber, plastics and packaging",Industrials
+2008-03-24,2008-03,review,TELE,0.0242020006,Telecommunications,Telecommunications
+2008-03-24,2008-03,review,TEXT,0.0152379752,"Textiles, apparel and leather",Consumer Discretionary
+2008-03-24,2008-03,review,TRAD,0.1524354719,Wholesale and retail trade,Consumer Discretionary
+2008-03-24,2008-03,review,TSRV,0.0132534891,Warehousing and transport infrastructure,Industrials
+2008-03-24,2008-03,review,UTIL,0.0249146788,Electricity and gas utilities,Utilities
+2008-03-24,2008-03,review,WATR,0.0081018174,Water and waste,Utilities
+2008-03-24,2008-03,review,WTRN,0.00444416,Water transport,Industrials
+2008-09-22,2008-09,review,ADMN,0.0373879991,Administrative and support services,Industrials
+2008-09-22,2008-09,review,AGRI,0.0583897811,"Agriculture, farming and fishing",Consumer Staples
+2008-09-22,2008-09,review,ATRN,0.0047996022,Air transport,Consumer Discretionary
+2008-09-22,2008-09,review,AUTO,0.0186320412,Motor vehicles and parts,Consumer Discretionary
+2008-09-22,2008-09,review,CHEM,0.0168335719,Chemicals and personal/household products,Basic Materials
+2008-09-22,2008-09,review,COAL,0.0053880244,Coal mining,Energy
+2008-09-22,2008-09,review,CONS,0.0742127219,Construction,Industrials
+2008-09-22,2008-09,review,EEQP,0.0099667011,Electrical equipment,Industrials
+2008-09-22,2008-09,review,ELEC,0.0215597542,"Computers, electronics and semiconductors",Technology
+2008-09-22,2008-09,review,FINS,0.071743807,Financials (banks and insurance),Financials
+2008-09-22,2008-09,review,FMET,0.0144786923,Fabricated metal products,Basic Materials
+2008-09-22,2008-09,review,FOOD,0.0314922839,"Food, beverages and tobacco",Consumer Staples
+2008-09-22,2008-09,review,FORE,0.0090671909,Forestry and wood,Basic Materials
+2008-09-22,2008-09,review,HOTL,0.0312453493,"Hotels, restaurants and catering",Consumer Discretionary
+2008-09-22,2008-09,review,ITSV,0.0189661662,"Software, IT and digital services",Technology
+2008-09-22,2008-09,review,LTRN,0.0356134176,Land transport and pipelines,Industrials
+2008-09-22,2008-09,review,MACH,0.019071901,Machinery,Industrials
+2008-09-22,2008-09,review,MDIA,0.0151563334,"Publishing, media and video games",Consumer Discretionary
+2008-09-22,2008-09,review,METL,0.0239812757,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2008-09-22,2008-09,review,NMMN,0.0121474808,"Building materials, glass and cement",Industrials
+2008-09-22,2008-09,review,OILG,0.0335360043,Oil and gas (extraction and refining),Energy
+2008-09-22,2008-09,review,OMFG,0.013472366,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2008-09-22,2008-09,review,OSRV,0.0023709644,Oil and mining services,Energy
+2008-09-22,2008-09,review,OSVC,0.0195493756,Other personal services,Consumer Discretionary
+2008-09-22,2008-09,review,OTRN,0.0063238428,"Aerospace, defence, rail and ships",Industrials
+2008-09-22,2008-09,review,PAPR,0.0108730137,Paper and printing,Basic Materials
+2008-09-22,2008-09,review,PHRM,0.0098160021,Pharmaceuticals and biotech,Health Care
+2008-09-22,2008-09,review,POST,0.0058236113,Postal and courier,Industrials
+2008-09-22,2008-09,review,PROF,0.0593714593,Professional and technical services,Industrials
+2008-09-22,2008-09,review,REAL,0.0451500085,Real estate (excluding imputed rent),Real Estate
+2008-09-22,2008-09,review,RECR,0.0114420698,"Arts, gambling and recreation",Consumer Discretionary
+2008-09-22,2008-09,review,RUBP,0.0097645793,"Rubber, plastics and packaging",Industrials
+2008-09-22,2008-09,review,TELE,0.024113909,Telecommunications,Telecommunications
+2008-09-22,2008-09,review,TEXT,0.0155993796,"Textiles, apparel and leather",Consumer Discretionary
+2008-09-22,2008-09,review,TRAD,0.1517948675,Wholesale and retail trade,Consumer Discretionary
+2008-09-22,2008-09,review,TSRV,0.0131706722,Warehousing and transport infrastructure,Industrials
+2008-09-22,2008-09,review,UTIL,0.025115784,Electricity and gas utilities,Utilities
+2008-09-22,2008-09,review,WATR,0.0080597082,Water and waste,Utilities
+2008-09-22,2008-09,review,WTRN,0.0045182871,Water transport,Industrials
+2009-03-23,2009-03,review,ADMN,0.0380567224,Administrative and support services,Industrials
+2009-03-23,2009-03,review,AGRI,0.0550503495,"Agriculture, farming and fishing",Consumer Staples
+2009-03-23,2009-03,review,ATRN,0.0046258288,Air transport,Consumer Discretionary
+2009-03-23,2009-03,review,AUTO,0.0182498157,Motor vehicles and parts,Consumer Discretionary
+2009-03-23,2009-03,review,CHEM,0.0162809591,Chemicals and personal/household products,Basic Materials
+2009-03-23,2009-03,review,COAL,0.0058631442,Coal mining,Energy
+2009-03-23,2009-03,review,CONS,0.0748387573,Construction,Industrials
+2009-03-23,2009-03,review,EEQP,0.0098965128,Electrical equipment,Industrials
+2009-03-23,2009-03,review,ELEC,0.0212553053,"Computers, electronics and semiconductors",Technology
+2009-03-23,2009-03,review,FINS,0.0738020458,Financials (banks and insurance),Financials
+2009-03-23,2009-03,review,FMET,0.0146896211,Fabricated metal products,Basic Materials
+2009-03-23,2009-03,review,FOOD,0.0310474477,"Food, beverages and tobacco",Consumer Staples
+2009-03-23,2009-03,review,FORE,0.0086115129,Forestry and wood,Basic Materials
+2009-03-23,2009-03,review,HOTL,0.0307494883,"Hotels, restaurants and catering",Consumer Discretionary
+2009-03-23,2009-03,review,ITSV,0.019112604,"Software, IT and digital services",Technology
+2009-03-23,2009-03,review,LTRN,0.0352454976,Land transport and pipelines,Industrials
+2009-03-23,2009-03,review,MACH,0.0192213385,Machinery,Industrials
+2009-03-23,2009-03,review,MDIA,0.0147153723,"Publishing, media and video games",Consumer Discretionary
+2009-03-23,2009-03,review,METL,0.0245620942,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2009-03-23,2009-03,review,NMMN,0.012081282,"Building materials, glass and cement",Industrials
+2009-03-23,2009-03,review,OILG,0.0366666595,Oil and gas (extraction and refining),Energy
+2009-03-23,2009-03,review,OMFG,0.0133176915,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2009-03-23,2009-03,review,OSRV,0.0025896699,Oil and mining services,Energy
+2009-03-23,2009-03,review,OSVC,0.0197251706,Other personal services,Consumer Discretionary
+2009-03-23,2009-03,review,OTRN,0.0065356548,"Aerospace, defence, rail and ships",Industrials
+2009-03-23,2009-03,review,PAPR,0.0105607502,Paper and printing,Basic Materials
+2009-03-23,2009-03,review,PHRM,0.0095688004,Pharmaceuticals and biotech,Health Care
+2009-03-23,2009-03,review,POST,0.0056614798,Postal and courier,Industrials
+2009-03-23,2009-03,review,PROF,0.0597397738,Professional and technical services,Industrials
+2009-03-23,2009-03,review,REAL,0.0459779005,Real estate (excluding imputed rent),Real Estate
+2009-03-23,2009-03,review,RECR,0.0113260545,"Arts, gambling and recreation",Consumer Discretionary
+2009-03-23,2009-03,review,RUBP,0.0095590998,"Rubber, plastics and packaging",Industrials
+2009-03-23,2009-03,review,TELE,0.0240032695,Telecommunications,Telecommunications
+2009-03-23,2009-03,review,TEXT,0.0149037997,"Textiles, apparel and leather",Consumer Discretionary
+2009-03-23,2009-03,review,TRAD,0.1510606052,Wholesale and retail trade,Consumer Discretionary
+2009-03-23,2009-03,review,TSRV,0.0135893924,Warehousing and transport infrastructure,Industrials
+2009-03-23,2009-03,review,UTIL,0.0246240444,Electricity and gas utilities,Utilities
+2009-03-23,2009-03,review,WATR,0.0080404576,Water and waste,Utilities
+2009-03-23,2009-03,review,WTRN,0.0045940265,Water transport,Industrials
+2009-09-21,2009-09,review,ADMN,0.0377160397,Administrative and support services,Industrials
+2009-09-21,2009-09,review,AGRI,0.056292659,"Agriculture, farming and fishing",Consumer Staples
+2009-09-21,2009-09,review,ATRN,0.0046226493,Air transport,Consumer Discretionary
+2009-09-21,2009-09,review,AUTO,0.0182359687,Motor vehicles and parts,Consumer Discretionary
+2009-09-21,2009-09,review,CHEM,0.0163837382,Chemicals and personal/household products,Basic Materials
+2009-09-21,2009-09,review,COAL,0.0060905906,Coal mining,Energy
+2009-09-21,2009-09,review,CONS,0.0747673386,Construction,Industrials
+2009-09-21,2009-09,review,EEQP,0.0099870005,Electrical equipment,Industrials
+2009-09-21,2009-09,review,ELEC,0.0212946255,"Computers, electronics and semiconductors",Technology
+2009-09-21,2009-09,review,FINS,0.0733204598,Financials (banks and insurance),Financials
+2009-09-21,2009-09,review,FMET,0.0146588397,Fabricated metal products,Basic Materials
+2009-09-21,2009-09,review,FOOD,0.0312721112,"Food, beverages and tobacco",Consumer Staples
+2009-09-21,2009-09,review,FORE,0.0087028536,Forestry and wood,Basic Materials
+2009-09-21,2009-09,review,HOTL,0.0306067234,"Hotels, restaurants and catering",Consumer Discretionary
+2009-09-21,2009-09,review,ITSV,0.0189064838,"Software, IT and digital services",Technology
+2009-09-21,2009-09,review,LTRN,0.0354143928,Land transport and pipelines,Industrials
+2009-09-21,2009-09,review,MACH,0.0193139192,Machinery,Industrials
+2009-09-21,2009-09,review,MDIA,0.0145004366,"Publishing, media and video games",Consumer Discretionary
+2009-09-21,2009-09,review,METL,0.0250436197,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2009-09-21,2009-09,review,NMMN,0.0122870804,"Building materials, glass and cement",Industrials
+2009-09-21,2009-09,review,OILG,0.0370906559,Oil and gas (extraction and refining),Energy
+2009-09-21,2009-09,review,OMFG,0.0131798376,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2009-09-21,2009-09,review,OSRV,0.0026061352,Oil and mining services,Energy
+2009-09-21,2009-09,review,OSVC,0.0196601823,Other personal services,Consumer Discretionary
+2009-09-21,2009-09,review,OTRN,0.0064972968,"Aerospace, defence, rail and ships",Industrials
+2009-09-21,2009-09,review,PAPR,0.010537306,Paper and printing,Basic Materials
+2009-09-21,2009-09,review,PHRM,0.0094989063,Pharmaceuticals and biotech,Health Care
+2009-09-21,2009-09,review,POST,0.0055950268,Postal and courier,Industrials
+2009-09-21,2009-09,review,PROF,0.0589624153,Professional and technical services,Industrials
+2009-09-21,2009-09,review,REAL,0.0454934297,Real estate (excluding imputed rent),Real Estate
+2009-09-21,2009-09,review,RECR,0.0112406972,"Arts, gambling and recreation",Consumer Discretionary
+2009-09-21,2009-09,review,RUBP,0.0095695943,"Rubber, plastics and packaging",Industrials
+2009-09-21,2009-09,review,TELE,0.0239525465,Telecommunications,Telecommunications
+2009-09-21,2009-09,review,TEXT,0.0152175525,"Textiles, apparel and leather",Consumer Discretionary
+2009-09-21,2009-09,review,TRAD,0.1505144858,Wholesale and retail trade,Consumer Discretionary
+2009-09-21,2009-09,review,TSRV,0.013503496,Warehousing and transport infrastructure,Industrials
+2009-09-21,2009-09,review,UTIL,0.0248194057,Electricity and gas utilities,Utilities
+2009-09-21,2009-09,review,WATR,0.0079937539,Water and waste,Utilities
+2009-09-21,2009-09,review,WTRN,0.0046497457,Water transport,Industrials
+2010-03-22,2010-03,review,ADMN,0.0386594375,Administrative and support services,Industrials
+2010-03-22,2010-03,review,AGRI,0.0528330958,"Agriculture, farming and fishing",Consumer Staples
+2010-03-22,2010-03,review,ATRN,0.0045582636,Air transport,Consumer Discretionary
+2010-03-22,2010-03,review,AUTO,0.0180358512,Motor vehicles and parts,Consumer Discretionary
+2010-03-22,2010-03,review,CHEM,0.0166490174,Chemicals and personal/household products,Basic Materials
+2010-03-22,2010-03,review,COAL,0.0058143806,Coal mining,Energy
+2010-03-22,2010-03,review,CONS,0.0762311624,Construction,Industrials
+2010-03-22,2010-03,review,EEQP,0.0101328137,Electrical equipment,Industrials
+2010-03-22,2010-03,review,ELEC,0.0213320772,"Computers, electronics and semiconductors",Technology
+2010-03-22,2010-03,review,FINS,0.0748624056,Financials (banks and insurance),Financials
+2010-03-22,2010-03,review,FMET,0.0147685344,Fabricated metal products,Basic Materials
+2010-03-22,2010-03,review,FOOD,0.0308841191,"Food, beverages and tobacco",Consumer Staples
+2010-03-22,2010-03,review,FORE,0.0084801844,Forestry and wood,Basic Materials
+2010-03-22,2010-03,review,HOTL,0.0303632872,"Hotels, restaurants and catering",Consumer Discretionary
+2010-03-22,2010-03,review,ITSV,0.0192592669,"Software, IT and digital services",Technology
+2010-03-22,2010-03,review,LTRN,0.0351572386,Land transport and pipelines,Industrials
+2010-03-22,2010-03,review,MACH,0.0196690744,Machinery,Industrials
+2010-03-22,2010-03,review,MDIA,0.013720374,"Publishing, media and video games",Consumer Discretionary
+2010-03-22,2010-03,review,METL,0.0262358704,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2010-03-22,2010-03,review,NMMN,0.0121648312,"Building materials, glass and cement",Industrials
+2010-03-22,2010-03,review,OILG,0.0372654451,Oil and gas (extraction and refining),Energy
+2010-03-22,2010-03,review,OMFG,0.0133901981,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2010-03-22,2010-03,review,OSRV,0.0030867599,Oil and mining services,Energy
+2010-03-22,2010-03,review,OSVC,0.0195590748,Other personal services,Consumer Discretionary
+2010-03-22,2010-03,review,OTRN,0.0067094293,"Aerospace, defence, rail and ships",Industrials
+2010-03-22,2010-03,review,PAPR,0.0105696495,Paper and printing,Basic Materials
+2010-03-22,2010-03,review,PHRM,0.009786834,Pharmaceuticals and biotech,Health Care
+2010-03-22,2010-03,review,POST,0.0054921104,Postal and courier,Industrials
+2010-03-22,2010-03,review,PROF,0.0600279644,Professional and technical services,Industrials
+2010-03-22,2010-03,review,REAL,0.0453256652,Real estate (excluding imputed rent),Real Estate
+2010-03-22,2010-03,review,RECR,0.0114565553,"Arts, gambling and recreation",Consumer Discretionary
+2010-03-22,2010-03,review,RUBP,0.0096317755,"Rubber, plastics and packaging",Industrials
+2010-03-22,2010-03,review,TELE,0.0235961353,Telecommunications,Telecommunications
+2010-03-22,2010-03,review,TEXT,0.0144940434,"Textiles, apparel and leather",Consumer Discretionary
+2010-03-22,2010-03,review,TRAD,0.1493810501,Wholesale and retail trade,Consumer Discretionary
+2010-03-22,2010-03,review,TSRV,0.0135253159,Warehousing and transport infrastructure,Industrials
+2010-03-22,2010-03,review,UTIL,0.0246836448,Electricity and gas utilities,Utilities
+2010-03-22,2010-03,review,WATR,0.0078574098,Water and waste,Utilities
+2010-03-22,2010-03,review,WTRN,0.0043496539,Water transport,Industrials
+2010-09-20,2010-09,review,ADMN,0.0383399022,Administrative and support services,Industrials
+2010-09-20,2010-09,review,AGRI,0.0543009303,"Agriculture, farming and fishing",Consumer Staples
+2010-09-20,2010-09,review,ATRN,0.0045801124,Air transport,Consumer Discretionary
+2010-09-20,2010-09,review,AUTO,0.0179587723,Motor vehicles and parts,Consumer Discretionary
+2010-09-20,2010-09,review,CHEM,0.0166417584,Chemicals and personal/household products,Basic Materials
+2010-09-20,2010-09,review,COAL,0.0061748453,Coal mining,Energy
+2010-09-20,2010-09,review,CONS,0.0767762065,Construction,Industrials
+2010-09-20,2010-09,review,EEQP,0.0102749453,Electrical equipment,Industrials
+2010-09-20,2010-09,review,ELEC,0.0215982882,"Computers, electronics and semiconductors",Technology
+2010-09-20,2010-09,review,FINS,0.0746055763,Financials (banks and insurance),Financials
+2010-09-20,2010-09,review,FMET,0.0146995671,Fabricated metal products,Basic Materials
+2010-09-20,2010-09,review,FOOD,0.0307022834,"Food, beverages and tobacco",Consumer Staples
+2010-09-20,2010-09,review,FORE,0.0086698811,Forestry and wood,Basic Materials
+2010-09-20,2010-09,review,HOTL,0.030178057,"Hotels, restaurants and catering",Consumer Discretionary
+2010-09-20,2010-09,review,ITSV,0.0192169854,"Software, IT and digital services",Technology
+2010-09-20,2010-09,review,LTRN,0.0350538369,Land transport and pipelines,Industrials
+2010-09-20,2010-09,review,MACH,0.0197920223,Machinery,Industrials
+2010-09-20,2010-09,review,MDIA,0.0136170033,"Publishing, media and video games",Consumer Discretionary
+2010-09-20,2010-09,review,METL,0.0269642985,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2010-09-20,2010-09,review,NMMN,0.0124484859,"Building materials, glass and cement",Industrials
+2010-09-20,2010-09,review,OILG,0.0386124929,Oil and gas (extraction and refining),Energy
+2010-09-20,2010-09,review,OMFG,0.0132305176,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2010-09-20,2010-09,review,OSRV,0.0032139293,Oil and mining services,Energy
+2010-09-20,2010-09,review,OSVC,0.0194776468,Other personal services,Consumer Discretionary
+2010-09-20,2010-09,review,OTRN,0.0067159637,"Aerospace, defence, rail and ships",Industrials
+2010-09-20,2010-09,review,PAPR,0.0104438416,Paper and printing,Basic Materials
+2010-09-20,2010-09,review,PHRM,0.0096418441,Pharmaceuticals and biotech,Health Care
+2010-09-20,2010-09,review,POST,0.0054555876,Postal and courier,Industrials
+2010-09-20,2010-09,review,PROF,0.0587616178,Professional and technical services,Industrials
+2010-09-20,2010-09,review,REAL,0.0446067974,Real estate (excluding imputed rent),Real Estate
+2010-09-20,2010-09,review,RECR,0.0113474359,"Arts, gambling and recreation",Consumer Discretionary
+2010-09-20,2010-09,review,RUBP,0.0096449189,"Rubber, plastics and packaging",Industrials
+2010-09-20,2010-09,review,TELE,0.023469093,Telecommunications,Telecommunications
+2010-09-20,2010-09,review,TEXT,0.0148667744,"Textiles, apparel and leather",Consumer Discretionary
+2010-09-20,2010-09,review,TRAD,0.1473524672,Wholesale and retail trade,Consumer Discretionary
+2010-09-20,2010-09,review,TSRV,0.013328096,Warehousing and transport infrastructure,Industrials
+2010-09-20,2010-09,review,UTIL,0.0249486362,Electricity and gas utilities,Utilities
+2010-09-20,2010-09,review,WATR,0.0078086163,Water and waste,Utilities
+2010-09-20,2010-09,review,WTRN,0.0044799649,Water transport,Industrials
+2011-03-21,2011-03,review,ADMN,0.0390631527,Administrative and support services,Industrials
+2011-03-21,2011-03,review,AGRI,0.0540210372,"Agriculture, farming and fishing",Consumer Staples
+2011-03-21,2011-03,review,ATRN,0.0046063443,Air transport,Consumer Discretionary
+2011-03-21,2011-03,review,AUTO,0.0177258902,Motor vehicles and parts,Consumer Discretionary
+2011-03-21,2011-03,review,CHEM,0.0172546836,Chemicals and personal/household products,Basic Materials
+2011-03-21,2011-03,review,COAL,0.0058649219,Coal mining,Energy
+2011-03-21,2011-03,review,CONS,0.076991907,Construction,Industrials
+2011-03-21,2011-03,review,EEQP,0.0101730607,Electrical equipment,Industrials
+2011-03-21,2011-03,review,ELEC,0.0214691937,"Computers, electronics and semiconductors",Technology
+2011-03-21,2011-03,review,FINS,0.0759429493,Financials (banks and insurance),Financials
+2011-03-21,2011-03,review,FMET,0.0148983857,Fabricated metal products,Basic Materials
+2011-03-21,2011-03,review,FOOD,0.0298180748,"Food, beverages and tobacco",Consumer Staples
+2011-03-21,2011-03,review,FORE,0.0081945149,Forestry and wood,Basic Materials
+2011-03-21,2011-03,review,HOTL,0.0297811072,"Hotels, restaurants and catering",Consumer Discretionary
+2011-03-21,2011-03,review,ITSV,0.0192877259,"Software, IT and digital services",Technology
+2011-03-21,2011-03,review,LTRN,0.0347986539,Land transport and pipelines,Industrials
+2011-03-21,2011-03,review,MACH,0.0202556542,Machinery,Industrials
+2011-03-21,2011-03,review,MDIA,0.0141235935,"Publishing, media and video games",Consumer Discretionary
+2011-03-21,2011-03,review,METL,0.0277846858,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2011-03-21,2011-03,review,NMMN,0.0119867452,"Building materials, glass and cement",Industrials
+2011-03-21,2011-03,review,OILG,0.0386605767,Oil and gas (extraction and refining),Energy
+2011-03-21,2011-03,review,OMFG,0.0131363331,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2011-03-21,2011-03,review,OSRV,0.003389731,Oil and mining services,Energy
+2011-03-21,2011-03,review,OSVC,0.0189021415,Other personal services,Consumer Discretionary
+2011-03-21,2011-03,review,OTRN,0.0070098407,"Aerospace, defence, rail and ships",Industrials
+2011-03-21,2011-03,review,PAPR,0.0101237945,Paper and printing,Basic Materials
+2011-03-21,2011-03,review,PHRM,0.0094529963,Pharmaceuticals and biotech,Health Care
+2011-03-21,2011-03,review,POST,0.0052819671,Postal and courier,Industrials
+2011-03-21,2011-03,review,PROF,0.0593957348,Professional and technical services,Industrials
+2011-03-21,2011-03,review,REAL,0.0457670986,Real estate (excluding imputed rent),Real Estate
+2011-03-21,2011-03,review,RECR,0.0111764354,"Arts, gambling and recreation",Consumer Discretionary
+2011-03-21,2011-03,review,RUBP,0.0096792801,"Rubber, plastics and packaging",Industrials
+2011-03-21,2011-03,review,TELE,0.0233513357,Telecommunications,Telecommunications
+2011-03-21,2011-03,review,TEXT,0.01419384,"Textiles, apparel and leather",Consumer Discretionary
+2011-03-21,2011-03,review,TRAD,0.146604458,Wholesale and retail trade,Consumer Discretionary
+2011-03-21,2011-03,review,TSRV,0.0132991318,Warehousing and transport infrastructure,Industrials
+2011-03-21,2011-03,review,UTIL,0.0241937762,Electricity and gas utilities,Utilities
+2011-03-21,2011-03,review,WATR,0.0077330846,Water and waste,Utilities
+2011-03-21,2011-03,review,WTRN,0.0046061622,Water transport,Industrials
+2011-09-19,2011-09,review,ADMN,0.0387319631,Administrative and support services,Industrials
+2011-09-19,2011-09,review,AGRI,0.0550572119,"Agriculture, farming and fishing",Consumer Staples
+2011-09-19,2011-09,review,ATRN,0.0045980176,Air transport,Consumer Discretionary
+2011-09-19,2011-09,review,AUTO,0.0177811237,Motor vehicles and parts,Consumer Discretionary
+2011-09-19,2011-09,review,CHEM,0.0174061273,Chemicals and personal/household products,Basic Materials
+2011-09-19,2011-09,review,COAL,0.0060092948,Coal mining,Energy
+2011-09-19,2011-09,review,CONS,0.0768573042,Construction,Industrials
+2011-09-19,2011-09,review,EEQP,0.0102787445,Electrical equipment,Industrials
+2011-09-19,2011-09,review,ELEC,0.0217006434,"Computers, electronics and semiconductors",Technology
+2011-09-19,2011-09,review,FINS,0.0756744808,Financials (banks and insurance),Financials
+2011-09-19,2011-09,review,FMET,0.0148777831,Fabricated metal products,Basic Materials
+2011-09-19,2011-09,review,FOOD,0.0299644389,"Food, beverages and tobacco",Consumer Staples
+2011-09-19,2011-09,review,FORE,0.0082781488,Forestry and wood,Basic Materials
+2011-09-19,2011-09,review,HOTL,0.029582209,"Hotels, restaurants and catering",Consumer Discretionary
+2011-09-19,2011-09,review,ITSV,0.0191593099,"Software, IT and digital services",Technology
+2011-09-19,2011-09,review,LTRN,0.0349653785,Land transport and pipelines,Industrials
+2011-09-19,2011-09,review,MACH,0.0204103851,Machinery,Industrials
+2011-09-19,2011-09,review,MDIA,0.0139100662,"Publishing, media and video games",Consumer Discretionary
+2011-09-19,2011-09,review,METL,0.028205671,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2011-09-19,2011-09,review,NMMN,0.0121436701,"Building materials, glass and cement",Industrials
+2011-09-19,2011-09,review,OILG,0.0388025355,Oil and gas (extraction and refining),Energy
+2011-09-19,2011-09,review,OMFG,0.0130573009,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2011-09-19,2011-09,review,OSRV,0.0033880073,Oil and mining services,Energy
+2011-09-19,2011-09,review,OSVC,0.0188550622,Other personal services,Consumer Discretionary
+2011-09-19,2011-09,review,OTRN,0.0069900286,"Aerospace, defence, rail and ships",Industrials
+2011-09-19,2011-09,review,PAPR,0.010121473,Paper and printing,Basic Materials
+2011-09-19,2011-09,review,PHRM,0.0094407285,Pharmaceuticals and biotech,Health Care
+2011-09-19,2011-09,review,POST,0.0052222552,Postal and courier,Industrials
+2011-09-19,2011-09,review,PROF,0.0585714306,Professional and technical services,Industrials
+2011-09-19,2011-09,review,REAL,0.0453532662,Real estate (excluding imputed rent),Real Estate
+2011-09-19,2011-09,review,RECR,0.0110732591,"Arts, gambling and recreation",Consumer Discretionary
+2011-09-19,2011-09,review,RUBP,0.0097432699,"Rubber, plastics and packaging",Industrials
+2011-09-19,2011-09,review,TELE,0.02326213,Telecommunications,Telecommunications
+2011-09-19,2011-09,review,TEXT,0.014478704,"Textiles, apparel and leather",Consumer Discretionary
+2011-09-19,2011-09,review,TRAD,0.1461597474,Wholesale and retail trade,Consumer Discretionary
+2011-09-19,2011-09,review,TSRV,0.0132376334,Warehousing and transport infrastructure,Industrials
+2011-09-19,2011-09,review,UTIL,0.0243188943,Electricity and gas utilities,Utilities
+2011-09-19,2011-09,review,WATR,0.0076865967,Water and waste,Utilities
+2011-09-19,2011-09,review,WTRN,0.0046457051,Water transport,Industrials
+2012-03-19,2012-03,review,ADMN,0.0394949012,Administrative and support services,Industrials
+2012-03-19,2012-03,review,AGRI,0.0550782382,"Agriculture, farming and fishing",Consumer Staples
+2012-03-19,2012-03,review,ATRN,0.0042059379,Air transport,Consumer Discretionary
+2012-03-19,2012-03,review,AUTO,0.017038162,Motor vehicles and parts,Consumer Discretionary
+2012-03-19,2012-03,review,CHEM,0.0171107321,Chemicals and personal/household products,Basic Materials
+2012-03-19,2012-03,review,COAL,0.0075220476,Coal mining,Energy
+2012-03-19,2012-03,review,CONS,0.0763241265,Construction,Industrials
+2012-03-19,2012-03,review,EEQP,0.0105392496,Electrical equipment,Industrials
+2012-03-19,2012-03,review,ELEC,0.0214785921,"Computers, electronics and semiconductors",Technology
+2012-03-19,2012-03,review,FINS,0.0715564257,Financials (banks and insurance),Financials
+2012-03-19,2012-03,review,FMET,0.0143916477,Fabricated metal products,Basic Materials
+2012-03-19,2012-03,review,FOOD,0.0301448094,"Food, beverages and tobacco",Consumer Staples
+2012-03-19,2012-03,review,FORE,0.0078808769,Forestry and wood,Basic Materials
+2012-03-19,2012-03,review,HOTL,0.0296837891,"Hotels, restaurants and catering",Consumer Discretionary
+2012-03-19,2012-03,review,ITSV,0.0200391147,"Software, IT and digital services",Technology
+2012-03-19,2012-03,review,LTRN,0.0347325889,Land transport and pipelines,Industrials
+2012-03-19,2012-03,review,MACH,0.0206718975,Machinery,Industrials
+2012-03-19,2012-03,review,MDIA,0.0140188394,"Publishing, media and video games",Consumer Discretionary
+2012-03-19,2012-03,review,METL,0.0275605161,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2012-03-19,2012-03,review,NMMN,0.011702111,"Building materials, glass and cement",Industrials
+2012-03-19,2012-03,review,OILG,0.0414016299,Oil and gas (extraction and refining),Energy
+2012-03-19,2012-03,review,OMFG,0.0130723724,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2012-03-19,2012-03,review,OSRV,0.0036244989,Oil and mining services,Energy
+2012-03-19,2012-03,review,OSVC,0.0186797674,Other personal services,Consumer Discretionary
+2012-03-19,2012-03,review,OTRN,0.0071561238,"Aerospace, defence, rail and ships",Industrials
+2012-03-19,2012-03,review,PAPR,0.0094423226,Paper and printing,Basic Materials
+2012-03-19,2012-03,review,PHRM,0.0094302933,Pharmaceuticals and biotech,Health Care
+2012-03-19,2012-03,review,POST,0.005082745,Postal and courier,Industrials
+2012-03-19,2012-03,review,PROF,0.0609733897,Professional and technical services,Industrials
+2012-03-19,2012-03,review,REAL,0.0457852007,Real estate (excluding imputed rent),Real Estate
+2012-03-19,2012-03,review,RECR,0.0112541519,"Arts, gambling and recreation",Consumer Discretionary
+2012-03-19,2012-03,review,RUBP,0.0093122856,"Rubber, plastics and packaging",Industrials
+2012-03-19,2012-03,review,TELE,0.0233236896,Telecommunications,Telecommunications
+2012-03-19,2012-03,review,TEXT,0.0138942984,"Textiles, apparel and leather",Consumer Discretionary
+2012-03-19,2012-03,review,TRAD,0.1479430498,Wholesale and retail trade,Consumer Discretionary
+2012-03-19,2012-03,review,TSRV,0.0134435194,Warehousing and transport infrastructure,Industrials
+2012-03-19,2012-03,review,UTIL,0.0226111229,Electricity and gas utilities,Utilities
+2012-03-19,2012-03,review,WATR,0.0077376216,Water and waste,Utilities
+2012-03-19,2012-03,review,WTRN,0.0046573136,Water transport,Industrials
+2012-09-24,2012-09,review,ADMN,0.03919361,Administrative and support services,Industrials
+2012-09-24,2012-09,review,AGRI,0.0560863804,"Agriculture, farming and fishing",Consumer Staples
+2012-09-24,2012-09,review,ATRN,0.0041932263,Air transport,Consumer Discretionary
+2012-09-24,2012-09,review,AUTO,0.0171223219,Motor vehicles and parts,Consumer Discretionary
+2012-09-24,2012-09,review,CHEM,0.0172468154,Chemicals and personal/household products,Basic Materials
+2012-09-24,2012-09,review,COAL,0.0077488829,Coal mining,Energy
+2012-09-24,2012-09,review,CONS,0.0763575589,Construction,Industrials
+2012-09-24,2012-09,review,EEQP,0.0106418694,Electrical equipment,Industrials
+2012-09-24,2012-09,review,ELEC,0.0215594113,"Computers, electronics and semiconductors",Technology
+2012-09-24,2012-09,review,FINS,0.0713320808,Financials (banks and insurance),Financials
+2012-09-24,2012-09,review,FMET,0.0143735041,Fabricated metal products,Basic Materials
+2012-09-24,2012-09,review,FOOD,0.0302891036,"Food, beverages and tobacco",Consumer Staples
+2012-09-24,2012-09,review,FORE,0.0079714695,Forestry and wood,Basic Materials
+2012-09-24,2012-09,review,HOTL,0.029490305,"Hotels, restaurants and catering",Consumer Discretionary
+2012-09-24,2012-09,review,ITSV,0.0198617705,"Software, IT and digital services",Technology
+2012-09-24,2012-09,review,LTRN,0.0349366746,Land transport and pipelines,Industrials
+2012-09-24,2012-09,review,MACH,0.0207991423,Machinery,Industrials
+2012-09-24,2012-09,review,MDIA,0.0138318205,"Publishing, media and video games",Consumer Discretionary
+2012-09-24,2012-09,review,METL,0.0279944673,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2012-09-24,2012-09,review,NMMN,0.0118738667,"Building materials, glass and cement",Industrials
+2012-09-24,2012-09,review,OILG,0.0415732853,Oil and gas (extraction and refining),Energy
+2012-09-24,2012-09,review,OMFG,0.0129943153,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2012-09-24,2012-09,review,OSRV,0.0036213781,Oil and mining services,Energy
+2012-09-24,2012-09,review,OSVC,0.01860727,Other personal services,Consumer Discretionary
+2012-09-24,2012-09,review,OTRN,0.0071256607,"Aerospace, defence, rail and ships",Industrials
+2012-09-24,2012-09,review,PAPR,0.0094368982,Paper and printing,Basic Materials
+2012-09-24,2012-09,review,PHRM,0.009401697,Pharmaceuticals and biotech,Health Care
+2012-09-24,2012-09,review,POST,0.005034768,Postal and courier,Industrials
+2012-09-24,2012-09,review,PROF,0.060189456,Professional and technical services,Industrials
+2012-09-24,2012-09,review,REAL,0.0453783391,Real estate (excluding imputed rent),Real Estate
+2012-09-24,2012-09,review,RECR,0.0111639062,"Arts, gambling and recreation",Consumer Discretionary
+2012-09-24,2012-09,review,RUBP,0.0093635921,"Rubber, plastics and packaging",Industrials
+2012-09-24,2012-09,review,TELE,0.0232326597,Telecommunications,Telecommunications
+2012-09-24,2012-09,review,TEXT,0.0141941735,"Textiles, apparel and leather",Consumer Discretionary
+2012-09-24,2012-09,review,TRAD,0.1473768045,Wholesale and retail trade,Consumer Discretionary
+2012-09-24,2012-09,review,TSRV,0.0133893112,Warehousing and transport infrastructure,Industrials
+2012-09-24,2012-09,review,UTIL,0.022665013,Electricity and gas utilities,Utilities
+2012-09-24,2012-09,review,WATR,0.0076784144,Water and waste,Utilities
+2012-09-24,2012-09,review,WTRN,0.0046687764,Water transport,Industrials
+2013-03-18,2013-03,review,ADMN,0.0389842385,Administrative and support services,Industrials
+2013-03-18,2013-03,review,AGRI,0.0558931759,"Agriculture, farming and fishing",Consumer Staples
+2013-03-18,2013-03,review,ATRN,0.0043649195,Air transport,Consumer Discretionary
+2013-03-18,2013-03,review,AUTO,0.0150657503,Motor vehicles and parts,Consumer Discretionary
+2013-03-18,2013-03,review,CHEM,0.0172490736,Chemicals and personal/household products,Basic Materials
+2013-03-18,2013-03,review,COAL,0.0067290759,Coal mining,Energy
+2013-03-18,2013-03,review,CONS,0.0763374998,Construction,Industrials
+2013-03-18,2013-03,review,EEQP,0.0103985845,Electrical equipment,Industrials
+2013-03-18,2013-03,review,ELEC,0.0204737113,"Computers, electronics and semiconductors",Technology
+2013-03-18,2013-03,review,FINS,0.0773901592,Financials (banks and insurance),Financials
+2013-03-18,2013-03,review,FMET,0.0134907801,Fabricated metal products,Basic Materials
+2013-03-18,2013-03,review,FOOD,0.0320169319,"Food, beverages and tobacco",Consumer Staples
+2013-03-18,2013-03,review,FORE,0.0076748381,Forestry and wood,Basic Materials
+2013-03-18,2013-03,review,HOTL,0.0298939093,"Hotels, restaurants and catering",Consumer Discretionary
+2013-03-18,2013-03,review,ITSV,0.0206572703,"Software, IT and digital services",Technology
+2013-03-18,2013-03,review,LTRN,0.0345490251,Land transport and pipelines,Industrials
+2013-03-18,2013-03,review,MACH,0.0191837523,Machinery,Industrials
+2013-03-18,2013-03,review,MDIA,0.0141219253,"Publishing, media and video games",Consumer Discretionary
+2013-03-18,2013-03,review,METL,0.0247877865,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2013-03-18,2013-03,review,NMMN,0.0114866529,"Building materials, glass and cement",Industrials
+2013-03-18,2013-03,review,OILG,0.0359265687,Oil and gas (extraction and refining),Energy
+2013-03-18,2013-03,review,OMFG,0.01311174,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2013-03-18,2013-03,review,OSRV,0.0032238912,Oil and mining services,Energy
+2013-03-18,2013-03,review,OSVC,0.0194906439,Other personal services,Consumer Discretionary
+2013-03-18,2013-03,review,OTRN,0.0073010926,"Aerospace, defence, rail and ships",Industrials
+2013-03-18,2013-03,review,PAPR,0.0094414161,Paper and printing,Basic Materials
+2013-03-18,2013-03,review,PHRM,0.0102810465,Pharmaceuticals and biotech,Health Care
+2013-03-18,2013-03,review,POST,0.0050740434,Postal and courier,Industrials
+2013-03-18,2013-03,review,PROF,0.0607434413,Professional and technical services,Industrials
+2013-03-18,2013-03,review,REAL,0.0480500041,Real estate (excluding imputed rent),Real Estate
+2013-03-18,2013-03,review,RECR,0.0117471425,"Arts, gambling and recreation",Consumer Discretionary
+2013-03-18,2013-03,review,RUBP,0.0093219609,"Rubber, plastics and packaging",Industrials
+2013-03-18,2013-03,review,TELE,0.0235142377,Telecommunications,Telecommunications
+2013-03-18,2013-03,review,TEXT,0.0140246304,"Textiles, apparel and leather",Consumer Discretionary
+2013-03-18,2013-03,review,TRAD,0.1482501981,Wholesale and retail trade,Consumer Discretionary
+2013-03-18,2013-03,review,TSRV,0.0132661434,Warehousing and transport infrastructure,Industrials
+2013-03-18,2013-03,review,UTIL,0.0244702114,Electricity and gas utilities,Utilities
+2013-03-18,2013-03,review,WATR,0.0081443587,Water and waste,Utilities
+2013-03-18,2013-03,review,WTRN,0.0038681688,Water transport,Industrials
+2013-09-23,2013-09,review,ADMN,0.038685246,Administrative and support services,Industrials
+2013-09-23,2013-09,review,AGRI,0.0569139892,"Agriculture, farming and fishing",Consumer Staples
+2013-09-23,2013-09,review,ATRN,0.0043588921,Air transport,Consumer Discretionary
+2013-09-23,2013-09,review,AUTO,0.0151455948,Motor vehicles and parts,Consumer Discretionary
+2013-09-23,2013-09,review,CHEM,0.0173867447,Chemicals and personal/household products,Basic Materials
+2013-09-23,2013-09,review,COAL,0.0069064788,Coal mining,Energy
+2013-09-23,2013-09,review,CONS,0.0763571577,Construction,Industrials
+2013-09-23,2013-09,review,EEQP,0.0104837119,Electrical equipment,Industrials
+2013-09-23,2013-09,review,ELEC,0.0205860656,"Computers, electronics and semiconductors",Technology
+2013-09-23,2013-09,review,FINS,0.0772249593,Financials (banks and insurance),Financials
+2013-09-23,2013-09,review,FMET,0.0134413918,Fabricated metal products,Basic Materials
+2013-09-23,2013-09,review,FOOD,0.0321874361,"Food, beverages and tobacco",Consumer Staples
+2013-09-23,2013-09,review,FORE,0.0077551474,Forestry and wood,Basic Materials
+2013-09-23,2013-09,review,HOTL,0.0296988033,"Hotels, restaurants and catering",Consumer Discretionary
+2013-09-23,2013-09,review,ITSV,0.0204940199,"Software, IT and digital services",Technology
+2013-09-23,2013-09,review,LTRN,0.0346524974,Land transport and pipelines,Industrials
+2013-09-23,2013-09,review,MACH,0.0192853436,Machinery,Industrials
+2013-09-23,2013-09,review,MDIA,0.0139828077,"Publishing, media and video games",Consumer Discretionary
+2013-09-23,2013-09,review,METL,0.025216728,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2013-09-23,2013-09,review,NMMN,0.0116310036,"Building materials, glass and cement",Industrials
+2013-09-23,2013-09,review,OILG,0.0362640042,Oil and gas (extraction and refining),Energy
+2013-09-23,2013-09,review,OMFG,0.0130317848,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2013-09-23,2013-09,review,OSRV,0.0032443882,Oil and mining services,Energy
+2013-09-23,2013-09,review,OSVC,0.0194037837,Other personal services,Consumer Discretionary
+2013-09-23,2013-09,review,OTRN,0.0072862162,"Aerospace, defence, rail and ships",Industrials
+2013-09-23,2013-09,review,PAPR,0.0094333609,Paper and printing,Basic Materials
+2013-09-23,2013-09,review,PHRM,0.010239512,Pharmaceuticals and biotech,Health Care
+2013-09-23,2013-09,review,POST,0.005027642,Postal and courier,Industrials
+2013-09-23,2013-09,review,PROF,0.0600143163,Professional and technical services,Industrials
+2013-09-23,2013-09,review,REAL,0.047618815,Real estate (excluding imputed rent),Real Estate
+2013-09-23,2013-09,review,RECR,0.0116372935,"Arts, gambling and recreation",Consumer Discretionary
+2013-09-23,2013-09,review,RUBP,0.0093612642,"Rubber, plastics and packaging",Industrials
+2013-09-23,2013-09,review,TELE,0.0234322108,Telecommunications,Telecommunications
+2013-09-23,2013-09,review,TEXT,0.0142687324,"Textiles, apparel and leather",Consumer Discretionary
+2013-09-23,2013-09,review,TRAD,0.1477795825,Wholesale and retail trade,Consumer Discretionary
+2013-09-23,2013-09,review,TSRV,0.013148138,Warehousing and transport infrastructure,Industrials
+2013-09-23,2013-09,review,UTIL,0.0244632884,Electricity and gas utilities,Utilities
+2013-09-23,2013-09,review,WATR,0.0080701566,Water and waste,Utilities
+2013-09-23,2013-09,review,WTRN,0.0038814915,Water transport,Industrials
+2014-03-24,2014-03,review,ADMN,0.038685246,Administrative and support services,Industrials
+2014-03-24,2014-03,review,AGRI,0.0569139892,"Agriculture, farming and fishing",Consumer Staples
+2014-03-24,2014-03,review,ATRN,0.0043588921,Air transport,Consumer Discretionary
+2014-03-24,2014-03,review,AUTO,0.0151455948,Motor vehicles and parts,Consumer Discretionary
+2014-03-24,2014-03,review,CHEM,0.0173867447,Chemicals and personal/household products,Basic Materials
+2014-03-24,2014-03,review,COAL,0.0069064788,Coal mining,Energy
+2014-03-24,2014-03,review,CONS,0.0763571577,Construction,Industrials
+2014-03-24,2014-03,review,EEQP,0.0104837119,Electrical equipment,Industrials
+2014-03-24,2014-03,review,ELEC,0.0205860656,"Computers, electronics and semiconductors",Technology
+2014-03-24,2014-03,review,FINS,0.0772249593,Financials (banks and insurance),Financials
+2014-03-24,2014-03,review,FMET,0.0134413918,Fabricated metal products,Basic Materials
+2014-03-24,2014-03,review,FOOD,0.0321874361,"Food, beverages and tobacco",Consumer Staples
+2014-03-24,2014-03,review,FORE,0.0077551474,Forestry and wood,Basic Materials
+2014-03-24,2014-03,review,HOTL,0.0296988033,"Hotels, restaurants and catering",Consumer Discretionary
+2014-03-24,2014-03,review,ITSV,0.0204940199,"Software, IT and digital services",Technology
+2014-03-24,2014-03,review,LTRN,0.0346524974,Land transport and pipelines,Industrials
+2014-03-24,2014-03,review,MACH,0.0192853436,Machinery,Industrials
+2014-03-24,2014-03,review,MDIA,0.0139828077,"Publishing, media and video games",Consumer Discretionary
+2014-03-24,2014-03,review,METL,0.025216728,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2014-03-24,2014-03,review,NMMN,0.0116310036,"Building materials, glass and cement",Industrials
+2014-03-24,2014-03,review,OILG,0.0362640042,Oil and gas (extraction and refining),Energy
+2014-03-24,2014-03,review,OMFG,0.0130317848,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2014-03-24,2014-03,review,OSRV,0.0032443882,Oil and mining services,Energy
+2014-03-24,2014-03,review,OSVC,0.0194037837,Other personal services,Consumer Discretionary
+2014-03-24,2014-03,review,OTRN,0.0072862162,"Aerospace, defence, rail and ships",Industrials
+2014-03-24,2014-03,review,PAPR,0.0094333609,Paper and printing,Basic Materials
+2014-03-24,2014-03,review,PHRM,0.010239512,Pharmaceuticals and biotech,Health Care
+2014-03-24,2014-03,review,POST,0.005027642,Postal and courier,Industrials
+2014-03-24,2014-03,review,PROF,0.0600143163,Professional and technical services,Industrials
+2014-03-24,2014-03,review,REAL,0.047618815,Real estate (excluding imputed rent),Real Estate
+2014-03-24,2014-03,review,RECR,0.0116372935,"Arts, gambling and recreation",Consumer Discretionary
+2014-03-24,2014-03,review,RUBP,0.0093612642,"Rubber, plastics and packaging",Industrials
+2014-03-24,2014-03,review,TELE,0.0234322108,Telecommunications,Telecommunications
+2014-03-24,2014-03,review,TEXT,0.0142687324,"Textiles, apparel and leather",Consumer Discretionary
+2014-03-24,2014-03,review,TRAD,0.1477795825,Wholesale and retail trade,Consumer Discretionary
+2014-03-24,2014-03,review,TSRV,0.013148138,Warehousing and transport infrastructure,Industrials
+2014-03-24,2014-03,review,UTIL,0.0244632884,Electricity and gas utilities,Utilities
+2014-03-24,2014-03,review,WATR,0.0080701566,Water and waste,Utilities
+2014-03-24,2014-03,review,WTRN,0.0038814915,Water transport,Industrials
+2014-09-22,2014-09,review,ADMN,0.0384054161,Administrative and support services,Industrials
+2014-09-22,2014-09,review,AGRI,0.0580146516,"Agriculture, farming and fishing",Consumer Staples
+2014-09-22,2014-09,review,ATRN,0.0043497885,Air transport,Consumer Discretionary
+2014-09-22,2014-09,review,AUTO,0.0152222919,Motor vehicles and parts,Consumer Discretionary
+2014-09-22,2014-09,review,CHEM,0.0175059247,Chemicals and personal/household products,Basic Materials
+2014-09-22,2014-09,review,COAL,0.007067831,Coal mining,Energy
+2014-09-22,2014-09,review,CONS,0.0764212113,Construction,Industrials
+2014-09-22,2014-09,review,EEQP,0.0105688489,Electrical equipment,Industrials
+2014-09-22,2014-09,review,ELEC,0.0206653479,"Computers, electronics and semiconductors",Technology
+2014-09-22,2014-09,review,FINS,0.0770965852,Financials (banks and insurance),Financials
+2014-09-22,2014-09,review,FMET,0.0134118157,Fabricated metal products,Basic Materials
+2014-09-22,2014-09,review,FOOD,0.0323255296,"Food, beverages and tobacco",Consumer Staples
+2014-09-22,2014-09,review,FORE,0.0078464206,Forestry and wood,Basic Materials
+2014-09-22,2014-09,review,HOTL,0.0295483914,"Hotels, restaurants and catering",Consumer Discretionary
+2014-09-22,2014-09,review,ITSV,0.0203660086,"Software, IT and digital services",Technology
+2014-09-22,2014-09,review,LTRN,0.0347757916,Land transport and pipelines,Industrials
+2014-09-22,2014-09,review,MACH,0.01940251,Machinery,Industrials
+2014-09-22,2014-09,review,MDIA,0.0138397587,"Publishing, media and video games",Consumer Discretionary
+2014-09-22,2014-09,review,METL,0.0255936959,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2014-09-22,2014-09,review,NMMN,0.0117863041,"Building materials, glass and cement",Industrials
+2014-09-22,2014-09,review,OILG,0.0364167478,Oil and gas (extraction and refining),Energy
+2014-09-22,2014-09,review,OMFG,0.0129646624,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2014-09-22,2014-09,review,OSRV,0.0032480179,Oil and mining services,Energy
+2014-09-22,2014-09,review,OSVC,0.0193318895,Other personal services,Consumer Discretionary
+2014-09-22,2014-09,review,OTRN,0.0072621044,"Aerospace, defence, rail and ships",Industrials
+2014-09-22,2014-09,review,PAPR,0.0094296855,Paper and printing,Basic Materials
+2014-09-22,2014-09,review,PHRM,0.0102176137,Pharmaceuticals and biotech,Health Care
+2014-09-22,2014-09,review,POST,0.0049842971,Postal and courier,Industrials
+2014-09-22,2014-09,review,PROF,0.0592910601,Professional and technical services,Industrials
+2014-09-22,2014-09,review,REAL,0.0472000395,Real estate (excluding imputed rent),Real Estate
+2014-09-22,2014-09,review,RECR,0.0115467268,"Arts, gambling and recreation",Consumer Discretionary
+2014-09-22,2014-09,review,RUBP,0.0094045811,"Rubber, plastics and packaging",Industrials
+2014-09-22,2014-09,review,TELE,0.0233572862,Telecommunications,Telecommunications
+2014-09-22,2014-09,review,TEXT,0.0145521408,"Textiles, apparel and leather",Consumer Discretionary
+2014-09-22,2014-09,review,TRAD,0.1471586657,Wholesale and retail trade,Consumer Discretionary
+2014-09-22,2014-09,review,TSRV,0.013057348,Warehousing and transport infrastructure,Industrials
+2014-09-22,2014-09,review,UTIL,0.024446348,Electricity and gas utilities,Utilities
+2014-09-22,2014-09,review,WATR,0.0080115271,Water and waste,Utilities
+2014-09-22,2014-09,review,WTRN,0.0039051353,Water transport,Industrials
+2015-03-23,2015-03,review,ADMN,0.0384054161,Administrative and support services,Industrials
+2015-03-23,2015-03,review,AGRI,0.0580146516,"Agriculture, farming and fishing",Consumer Staples
+2015-03-23,2015-03,review,ATRN,0.0043497885,Air transport,Consumer Discretionary
+2015-03-23,2015-03,review,AUTO,0.0152222919,Motor vehicles and parts,Consumer Discretionary
+2015-03-23,2015-03,review,CHEM,0.0175059247,Chemicals and personal/household products,Basic Materials
+2015-03-23,2015-03,review,COAL,0.007067831,Coal mining,Energy
+2015-03-23,2015-03,review,CONS,0.0764212113,Construction,Industrials
+2015-03-23,2015-03,review,EEQP,0.0105688489,Electrical equipment,Industrials
+2015-03-23,2015-03,review,ELEC,0.0206653479,"Computers, electronics and semiconductors",Technology
+2015-03-23,2015-03,review,FINS,0.0770965852,Financials (banks and insurance),Financials
+2015-03-23,2015-03,review,FMET,0.0134118157,Fabricated metal products,Basic Materials
+2015-03-23,2015-03,review,FOOD,0.0323255296,"Food, beverages and tobacco",Consumer Staples
+2015-03-23,2015-03,review,FORE,0.0078464206,Forestry and wood,Basic Materials
+2015-03-23,2015-03,review,HOTL,0.0295483914,"Hotels, restaurants and catering",Consumer Discretionary
+2015-03-23,2015-03,review,ITSV,0.0203660086,"Software, IT and digital services",Technology
+2015-03-23,2015-03,review,LTRN,0.0347757916,Land transport and pipelines,Industrials
+2015-03-23,2015-03,review,MACH,0.01940251,Machinery,Industrials
+2015-03-23,2015-03,review,MDIA,0.0138397587,"Publishing, media and video games",Consumer Discretionary
+2015-03-23,2015-03,review,METL,0.0255936959,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2015-03-23,2015-03,review,NMMN,0.0117863041,"Building materials, glass and cement",Industrials
+2015-03-23,2015-03,review,OILG,0.0364167478,Oil and gas (extraction and refining),Energy
+2015-03-23,2015-03,review,OMFG,0.0129646624,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2015-03-23,2015-03,review,OSRV,0.0032480179,Oil and mining services,Energy
+2015-03-23,2015-03,review,OSVC,0.0193318895,Other personal services,Consumer Discretionary
+2015-03-23,2015-03,review,OTRN,0.0072621044,"Aerospace, defence, rail and ships",Industrials
+2015-03-23,2015-03,review,PAPR,0.0094296855,Paper and printing,Basic Materials
+2015-03-23,2015-03,review,PHRM,0.0102176137,Pharmaceuticals and biotech,Health Care
+2015-03-23,2015-03,review,POST,0.0049842971,Postal and courier,Industrials
+2015-03-23,2015-03,review,PROF,0.0592910601,Professional and technical services,Industrials
+2015-03-23,2015-03,review,REAL,0.0472000395,Real estate (excluding imputed rent),Real Estate
+2015-03-23,2015-03,review,RECR,0.0115467268,"Arts, gambling and recreation",Consumer Discretionary
+2015-03-23,2015-03,review,RUBP,0.0094045811,"Rubber, plastics and packaging",Industrials
+2015-03-23,2015-03,review,TELE,0.0233572862,Telecommunications,Telecommunications
+2015-03-23,2015-03,review,TEXT,0.0145521408,"Textiles, apparel and leather",Consumer Discretionary
+2015-03-23,2015-03,review,TRAD,0.1471586657,Wholesale and retail trade,Consumer Discretionary
+2015-03-23,2015-03,review,TSRV,0.013057348,Warehousing and transport infrastructure,Industrials
+2015-03-23,2015-03,review,UTIL,0.024446348,Electricity and gas utilities,Utilities
+2015-03-23,2015-03,review,WATR,0.0080115271,Water and waste,Utilities
+2015-03-23,2015-03,review,WTRN,0.0039051353,Water transport,Industrials
+2015-06-22,2015-03,intra_review_deletion:Morocco,ADMN,0.0383823397,Administrative and support services,Industrials
+2015-06-22,2015-03,intra_review_deletion:Morocco,AGRI,0.0577240677,"Agriculture, farming and fishing",Consumer Staples
+2015-06-22,2015-03,intra_review_deletion:Morocco,ATRN,0.0043494197,Air transport,Consumer Discretionary
+2015-06-22,2015-03,intra_review_deletion:Morocco,AUTO,0.0152263511,Motor vehicles and parts,Consumer Discretionary
+2015-06-22,2015-03,intra_review_deletion:Morocco,CHEM,0.0174899051,Chemicals and personal/household products,Basic Materials
+2015-06-22,2015-03,intra_review_deletion:Morocco,COAL,0.0070872966,Coal mining,Energy
+2015-06-22,2015-03,intra_review_deletion:Morocco,CONS,0.0763788919,Construction,Industrials
+2015-06-22,2015-03,intra_review_deletion:Morocco,EEQP,0.0105822354,Electrical equipment,Industrials
+2015-06-22,2015-03,intra_review_deletion:Morocco,ELEC,0.0207187395,"Computers, electronics and semiconductors",Technology
+2015-06-22,2015-03,intra_review_deletion:Morocco,FINS,0.0771335133,Financials (banks and insurance),Financials
+2015-06-22,2015-03,intra_review_deletion:Morocco,FMET,0.0134169916,Fabricated metal products,Basic Materials
+2015-06-22,2015-03,intra_review_deletion:Morocco,FOOD,0.0322550951,"Food, beverages and tobacco",Consumer Staples
+2015-06-22,2015-03,intra_review_deletion:Morocco,FORE,0.0078081148,Forestry and wood,Basic Materials
+2015-06-22,2015-03,intra_review_deletion:Morocco,HOTL,0.0295525146,"Hotels, restaurants and catering",Consumer Discretionary
+2015-06-22,2015-03,intra_review_deletion:Morocco,ITSV,0.0204049002,"Software, IT and digital services",Technology
+2015-06-22,2015-03,intra_review_deletion:Morocco,LTRN,0.0347902146,Land transport and pipelines,Industrials
+2015-06-22,2015-03,intra_review_deletion:Morocco,MACH,0.0194454572,Machinery,Industrials
+2015-06-22,2015-03,intra_review_deletion:Morocco,MDIA,0.0138661575,"Publishing, media and video games",Consumer Discretionary
+2015-06-22,2015-03,intra_review_deletion:Morocco,METL,0.0255526528,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2015-06-22,2015-03,intra_review_deletion:Morocco,NMMN,0.0117607404,"Building materials, glass and cement",Industrials
+2015-06-22,2015-03,intra_review_deletion:Morocco,OILG,0.0365114238,Oil and gas (extraction and refining),Energy
+2015-06-22,2015-03,intra_review_deletion:Morocco,OMFG,0.0129594213,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2015-06-22,2015-03,intra_review_deletion:Morocco,OSRV,0.0032550642,Oil and mining services,Energy
+2015-06-22,2015-03,intra_review_deletion:Morocco,OSVC,0.0193504459,Other personal services,Consumer Discretionary
+2015-06-22,2015-03,intra_review_deletion:Morocco,OTRN,0.0072737461,"Aerospace, defence, rail and ships",Industrials
+2015-06-22,2015-03,intra_review_deletion:Morocco,PAPR,0.0094385558,Paper and printing,Basic Materials
+2015-06-22,2015-03,intra_review_deletion:Morocco,PHRM,0.0102228326,Pharmaceuticals and biotech,Health Care
+2015-06-22,2015-03,intra_review_deletion:Morocco,POST,0.0049940424,Postal and courier,Industrials
+2015-06-22,2015-03,intra_review_deletion:Morocco,PROF,0.059341661,Professional and technical services,Industrials
+2015-06-22,2015-03,intra_review_deletion:Morocco,REAL,0.0472830168,Real estate (excluding imputed rent),Real Estate
+2015-06-22,2015-03,intra_review_deletion:Morocco,RECR,0.0115666607,"Arts, gambling and recreation",Consumer Discretionary
+2015-06-22,2015-03,intra_review_deletion:Morocco,RUBP,0.0094124631,"Rubber, plastics and packaging",Industrials
+2015-06-22,2015-03,intra_review_deletion:Morocco,TELE,0.0233278442,Telecommunications,Telecommunications
+2015-06-22,2015-03,intra_review_deletion:Morocco,TEXT,0.0144986355,"Textiles, apparel and leather",Consumer Discretionary
+2015-06-22,2015-03,intra_review_deletion:Morocco,TRAD,0.1472280515,Wholesale and retail trade,Consumer Discretionary
+2015-06-22,2015-03,intra_review_deletion:Morocco,TSRV,0.0130533642,Warehousing and transport infrastructure,Industrials
+2015-06-22,2015-03,intra_review_deletion:Morocco,UTIL,0.0244232989,Electricity and gas utilities,Utilities
+2015-06-22,2015-03,intra_review_deletion:Morocco,WATR,0.0080209961,Water and waste,Utilities
+2015-06-22,2015-03,intra_review_deletion:Morocco,WTRN,0.0039128774,Water transport,Industrials
+2015-09-21,2015-09,review,ADMN,0.0381553266,Administrative and support services,Industrials
+2015-09-21,2015-09,review,AGRI,0.0586913303,"Agriculture, farming and fishing",Consumer Staples
+2015-09-21,2015-09,review,ATRN,0.0043365622,Air transport,Consumer Discretionary
+2015-09-21,2015-09,review,AUTO,0.0152963933,Motor vehicles and parts,Consumer Discretionary
+2015-09-21,2015-09,review,CHEM,0.0176019882,Chemicals and personal/household products,Basic Materials
+2015-09-21,2015-09,review,COAL,0.0072344067,Coal mining,Energy
+2015-09-21,2015-09,review,CONS,0.0764880333,Construction,Industrials
+2015-09-21,2015-09,review,EEQP,0.0106664502,Electrical equipment,Industrials
+2015-09-21,2015-09,review,ELEC,0.0208121803,"Computers, electronics and semiconductors",Technology
+2015-09-21,2015-09,review,FINS,0.0770491313,Financials (banks and insurance),Financials
+2015-09-21,2015-09,review,FMET,0.0134050227,Fabricated metal products,Basic Materials
+2015-09-21,2015-09,review,FOOD,0.0323629704,"Food, beverages and tobacco",Consumer Staples
+2015-09-21,2015-09,review,FORE,0.0079020735,Forestry and wood,Basic Materials
+2015-09-21,2015-09,review,HOTL,0.0294315244,"Hotels, restaurants and catering",Consumer Discretionary
+2015-09-21,2015-09,review,ITSV,0.0203185291,"Software, IT and digital services",Technology
+2015-09-21,2015-09,review,LTRN,0.0348464759,Land transport and pipelines,Industrials
+2015-09-21,2015-09,review,MACH,0.0195640872,Machinery,Industrials
+2015-09-21,2015-09,review,MDIA,0.0137588409,"Publishing, media and video games",Consumer Discretionary
+2015-09-21,2015-09,review,METL,0.0258409021,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2015-09-21,2015-09,review,NMMN,0.0119018191,"Building materials, glass and cement",Industrials
+2015-09-21,2015-09,review,OILG,0.0365609235,Oil and gas (extraction and refining),Energy
+2015-09-21,2015-09,review,OMFG,0.0128952428,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2015-09-21,2015-09,review,OSRV,0.0032579991,Oil and mining services,Energy
+2015-09-21,2015-09,review,OSVC,0.0192962979,Other personal services,Consumer Discretionary
+2015-09-21,2015-09,review,OTRN,0.007250013,"Aerospace, defence, rail and ships",Industrials
+2015-09-21,2015-09,review,PAPR,0.009433987,Paper and printing,Basic Materials
+2015-09-21,2015-09,review,PHRM,0.0102349746,Pharmaceuticals and biotech,Health Care
+2015-09-21,2015-09,review,POST,0.0049645053,Postal and courier,Industrials
+2015-09-21,2015-09,review,PROF,0.0587194885,Professional and technical services,Industrials
+2015-09-21,2015-09,review,REAL,0.0469395509,Real estate (excluding imputed rent),Real Estate
+2015-09-21,2015-09,review,RECR,0.0114916332,"Arts, gambling and recreation",Consumer Discretionary
+2015-09-21,2015-09,review,RUBP,0.0094534113,"Rubber, plastics and packaging",Industrials
+2015-09-21,2015-09,review,TELE,0.0232502495,Telecommunications,Telecommunications
+2015-09-21,2015-09,review,TEXT,0.0147339082,"Textiles, apparel and leather",Consumer Discretionary
+2015-09-21,2015-09,review,TRAD,0.1465764863,Wholesale and retail trade,Consumer Discretionary
+2015-09-21,2015-09,review,TSRV,0.0129642835,Warehousing and transport infrastructure,Industrials
+2015-09-21,2015-09,review,UTIL,0.0244131668,Electricity and gas utilities,Utilities
+2015-09-21,2015-09,review,WATR,0.0079676157,Water and waste,Utilities
+2015-09-21,2015-09,review,WTRN,0.0039322154,Water transport,Industrials
+2016-03-21,2016-03,review,ADMN,0.0385177425,Administrative and support services,Industrials
+2016-03-21,2016-03,review,AGRI,0.0596152271,"Agriculture, farming and fishing",Consumer Staples
+2016-03-21,2016-03,review,ATRN,0.0044666145,Air transport,Consumer Discretionary
+2016-03-21,2016-03,review,AUTO,0.0176715337,Motor vehicles and parts,Consumer Discretionary
+2016-03-21,2016-03,review,CHEM,0.0184015076,Chemicals and personal/household products,Basic Materials
+2016-03-21,2016-03,review,COAL,0.0081228923,Coal mining,Energy
+2016-03-21,2016-03,review,CONS,0.0742429156,Construction,Industrials
+2016-03-21,2016-03,review,EEQP,0.0100794858,Electrical equipment,Industrials
+2016-03-21,2016-03,review,ELEC,0.0212241137,"Computers, electronics and semiconductors",Technology
+2016-03-21,2016-03,review,FINS,0.0748659311,Financials (banks and insurance),Financials
+2016-03-21,2016-03,review,FMET,0.013731598,Fabricated metal products,Basic Materials
+2016-03-21,2016-03,review,FOOD,0.0309115682,"Food, beverages and tobacco",Consumer Staples
+2016-03-21,2016-03,review,FORE,0.0077206464,Forestry and wood,Basic Materials
+2016-03-21,2016-03,review,HOTL,0.0289026175,"Hotels, restaurants and catering",Consumer Discretionary
+2016-03-21,2016-03,review,ITSV,0.0209678637,"Software, IT and digital services",Technology
+2016-03-21,2016-03,review,LTRN,0.0341406061,Land transport and pipelines,Industrials
+2016-03-21,2016-03,review,MACH,0.0200550762,Machinery,Industrials
+2016-03-21,2016-03,review,MDIA,0.0134757775,"Publishing, media and video games",Consumer Discretionary
+2016-03-21,2016-03,review,METL,0.0286226146,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2016-03-21,2016-03,review,NMMN,0.0115649825,"Building materials, glass and cement",Industrials
+2016-03-21,2016-03,review,OILG,0.0388772339,Oil and gas (extraction and refining),Energy
+2016-03-21,2016-03,review,OMFG,0.0128907783,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2016-03-21,2016-03,review,OSRV,0.0036746341,Oil and mining services,Energy
+2016-03-21,2016-03,review,OSVC,0.0187069487,Other personal services,Consumer Discretionary
+2016-03-21,2016-03,review,OTRN,0.0071770786,"Aerospace, defence, rail and ships",Industrials
+2016-03-21,2016-03,review,PAPR,0.0089880252,Paper and printing,Basic Materials
+2016-03-21,2016-03,review,PHRM,0.0094106599,Pharmaceuticals and biotech,Health Care
+2016-03-21,2016-03,review,POST,0.0044318603,Postal and courier,Industrials
+2016-03-21,2016-03,review,PROF,0.0583364978,Professional and technical services,Industrials
+2016-03-21,2016-03,review,REAL,0.0478976045,Real estate (excluding imputed rent),Real Estate
+2016-03-21,2016-03,review,RECR,0.0114446881,"Arts, gambling and recreation",Consumer Discretionary
+2016-03-21,2016-03,review,RUBP,0.0091129437,"Rubber, plastics and packaging",Industrials
+2016-03-21,2016-03,review,TELE,0.0208096547,Telecommunications,Telecommunications
+2016-03-21,2016-03,review,TEXT,0.0140481769,"Textiles, apparel and leather",Consumer Discretionary
+2016-03-21,2016-03,review,TRAD,0.1488247537,Wholesale and retail trade,Consumer Discretionary
+2016-03-21,2016-03,review,TSRV,0.0130995977,Warehousing and transport infrastructure,Industrials
+2016-03-21,2016-03,review,UTIL,0.0230290401,Electricity and gas utilities,Utilities
+2016-03-21,2016-03,review,WATR,0.0081266417,Water and waste,Utilities
+2016-03-21,2016-03,review,WTRN,0.0038118677,Water transport,Industrials
+2016-09-19,2016-09,review,ADMN,0.0383172677,Administrative and support services,Industrials
+2016-09-19,2016-09,review,AGRI,0.0605817331,"Agriculture, farming and fishing",Consumer Staples
+2016-09-19,2016-09,review,ATRN,0.0044586046,Air transport,Consumer Discretionary
+2016-09-19,2016-09,review,AUTO,0.0177026996,Motor vehicles and parts,Consumer Discretionary
+2016-09-19,2016-09,review,CHEM,0.0185101643,Chemicals and personal/household products,Basic Materials
+2016-09-19,2016-09,review,COAL,0.0082726291,Coal mining,Energy
+2016-09-19,2016-09,review,CONS,0.0743906739,Construction,Industrials
+2016-09-19,2016-09,review,EEQP,0.0101436139,Electrical equipment,Industrials
+2016-09-19,2016-09,review,ELEC,0.0212969853,"Computers, electronics and semiconductors",Technology
+2016-09-19,2016-09,review,FINS,0.0747964762,Financials (banks and insurance),Financials
+2016-09-19,2016-09,review,FMET,0.0137308986,Fabricated metal products,Basic Materials
+2016-09-19,2016-09,review,FOOD,0.0310491495,"Food, beverages and tobacco",Consumer Staples
+2016-09-19,2016-09,review,FORE,0.0078058337,Forestry and wood,Basic Materials
+2016-09-19,2016-09,review,HOTL,0.0288154743,"Hotels, restaurants and catering",Consumer Discretionary
+2016-09-19,2016-09,review,ITSV,0.0209115572,"Software, IT and digital services",Technology
+2016-09-19,2016-09,review,LTRN,0.034175366,Land transport and pipelines,Industrials
+2016-09-19,2016-09,review,MACH,0.0201384784,Machinery,Industrials
+2016-09-19,2016-09,review,MDIA,0.0134140573,"Publishing, media and video games",Consumer Discretionary
+2016-09-19,2016-09,review,METL,0.0288293997,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2016-09-19,2016-09,review,NMMN,0.0117006959,"Building materials, glass and cement",Industrials
+2016-09-19,2016-09,review,OILG,0.0388014997,Oil and gas (extraction and refining),Energy
+2016-09-19,2016-09,review,OMFG,0.0128462443,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2016-09-19,2016-09,review,OSRV,0.0036764769,Oil and mining services,Energy
+2016-09-19,2016-09,review,OSVC,0.0186610242,Other personal services,Consumer Discretionary
+2016-09-19,2016-09,review,OTRN,0.0071488778,"Aerospace, defence, rail and ships",Industrials
+2016-09-19,2016-09,review,PAPR,0.0089909463,Paper and printing,Basic Materials
+2016-09-19,2016-09,review,PHRM,0.0094987185,Pharmaceuticals and biotech,Health Care
+2016-09-19,2016-09,review,POST,0.0044101864,Postal and courier,Industrials
+2016-09-19,2016-09,review,PROF,0.0577754101,Professional and technical services,Industrials
+2016-09-19,2016-09,review,REAL,0.0475790135,Real estate (excluding imputed rent),Real Estate
+2016-09-19,2016-09,review,RECR,0.0113796797,"Arts, gambling and recreation",Consumer Discretionary
+2016-09-19,2016-09,review,RUBP,0.009140713,"Rubber, plastics and packaging",Industrials
+2016-09-19,2016-09,review,TELE,0.02073485,Telecommunications,Telecommunications
+2016-09-19,2016-09,review,TEXT,0.0142612373,"Textiles, apparel and leather",Consumer Discretionary
+2016-09-19,2016-09,review,TRAD,0.148093507,Wholesale and retail trade,Consumer Discretionary
+2016-09-19,2016-09,review,TSRV,0.0130095911,Warehousing and transport infrastructure,Industrials
+2016-09-19,2016-09,review,UTIL,0.0230431521,Electricity and gas utilities,Utilities
+2016-09-19,2016-09,review,WATR,0.0080746708,Water and waste,Utilities
+2016-09-19,2016-09,review,WTRN,0.0038324429,Water transport,Industrials
+2017-03-20,2017-03,review,ADMN,0.0382514554,Administrative and support services,Industrials
+2017-03-20,2017-03,review,AGRI,0.0605060886,"Agriculture, farming and fishing",Consumer Staples
+2017-03-20,2017-03,review,ATRN,0.0044575332,Air transport,Consumer Discretionary
+2017-03-20,2017-03,review,AUTO,0.0176612427,Motor vehicles and parts,Consumer Discretionary
+2017-03-20,2017-03,review,CHEM,0.0185296521,Chemicals and personal/household products,Basic Materials
+2017-03-20,2017-03,review,COAL,0.0082519309,Coal mining,Energy
+2017-03-20,2017-03,review,CONS,0.0743221623,Construction,Industrials
+2017-03-20,2017-03,review,EEQP,0.0101284058,Electrical equipment,Industrials
+2017-03-20,2017-03,review,ELEC,0.0212441486,"Computers, electronics and semiconductors",Technology
+2017-03-20,2017-03,review,FINS,0.0747113419,Financials (banks and insurance),Financials
+2017-03-20,2017-03,review,FMET,0.0137129086,Fabricated metal products,Basic Materials
+2017-03-20,2017-03,review,FOOD,0.0310192897,"Food, beverages and tobacco",Consumer Staples
+2017-03-20,2017-03,review,FORE,0.0077897656,Forestry and wood,Basic Materials
+2017-03-20,2017-03,review,HOTL,0.0287938964,"Hotels, restaurants and catering",Consumer Discretionary
+2017-03-20,2017-03,review,ITSV,0.0208759361,"Software, IT and digital services",Technology
+2017-03-20,2017-03,review,LTRN,0.0341192258,Land transport and pipelines,Industrials
+2017-03-20,2017-03,review,MACH,0.0200937871,Machinery,Industrials
+2017-03-20,2017-03,review,MDIA,0.0133864496,"Publishing, media and video games",Consumer Discretionary
+2017-03-20,2017-03,review,METL,0.0287731892,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2017-03-20,2017-03,review,NMMN,0.0116892129,"Building materials, glass and cement",Industrials
+2017-03-20,2017-03,review,OILG,0.0400865495,Oil and gas (extraction and refining),Energy
+2017-03-20,2017-03,review,OMFG,0.0128274207,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2017-03-20,2017-03,review,OSRV,0.0036699599,Oil and mining services,Energy
+2017-03-20,2017-03,review,OSVC,0.01863272,Other personal services,Consumer Discretionary
+2017-03-20,2017-03,review,OTRN,0.0071313834,"Aerospace, defence, rail and ships",Industrials
+2017-03-20,2017-03,review,PAPR,0.0089825089,Paper and printing,Basic Materials
+2017-03-20,2017-03,review,PHRM,0.0094768921,Pharmaceuticals and biotech,Health Care
+2017-03-20,2017-03,review,POST,0.0044022935,Postal and courier,Industrials
+2017-03-20,2017-03,review,PROF,0.0576505775,Professional and technical services,Industrials
+2017-03-20,2017-03,review,REAL,0.0474897566,Real estate (excluding imputed rent),Real Estate
+2017-03-20,2017-03,review,RECR,0.0113604707,"Arts, gambling and recreation",Consumer Discretionary
+2017-03-20,2017-03,review,RUBP,0.0091282155,"Rubber, plastics and packaging",Industrials
+2017-03-20,2017-03,review,TELE,0.0207474424,Telecommunications,Telecommunications
+2017-03-20,2017-03,review,TEXT,0.014237539,"Textiles, apparel and leather",Consumer Discretionary
+2017-03-20,2017-03,review,TRAD,0.1479579465,Wholesale and retail trade,Consumer Discretionary
+2017-03-20,2017-03,review,TSRV,0.0130023739,Warehousing and transport infrastructure,Industrials
+2017-03-20,2017-03,review,UTIL,0.0230097633,Electricity and gas utilities,Utilities
+2017-03-20,2017-03,review,WATR,0.0080632269,Water and waste,Utilities
+2017-03-20,2017-03,review,WTRN,0.0038253372,Water transport,Industrials
+2017-09-18,2017-09,review,ADMN,0.0379959383,Administrative and support services,Industrials
+2017-09-18,2017-09,review,AGRI,0.0616172835,"Agriculture, farming and fishing",Consumer Staples
+2017-09-18,2017-09,review,ATRN,0.004441243,Air transport,Consumer Discretionary
+2017-09-18,2017-09,review,AUTO,0.0177025614,Motor vehicles and parts,Consumer Discretionary
+2017-09-18,2017-09,review,CHEM,0.0186397264,Chemicals and personal/household products,Basic Materials
+2017-09-18,2017-09,review,COAL,0.0084142796,Coal mining,Energy
+2017-09-18,2017-09,review,CONS,0.0745609042,Construction,Industrials
+2017-09-18,2017-09,review,EEQP,0.0102007032,Electrical equipment,Industrials
+2017-09-18,2017-09,review,ELEC,0.0213195795,"Computers, electronics and semiconductors",Technology
+2017-09-18,2017-09,review,FINS,0.0745811859,Financials (banks and insurance),Financials
+2017-09-18,2017-09,review,FMET,0.0137186652,Fabricated metal products,Basic Materials
+2017-09-18,2017-09,review,FOOD,0.0311531267,"Food, beverages and tobacco",Consumer Staples
+2017-09-18,2017-09,review,FORE,0.0078926097,Forestry and wood,Basic Materials
+2017-09-18,2017-09,review,HOTL,0.0286632496,"Hotels, restaurants and catering",Consumer Discretionary
+2017-09-18,2017-09,review,ITSV,0.0207845869,"Software, IT and digital services",Technology
+2017-09-18,2017-09,review,LTRN,0.0341715265,Land transport and pipelines,Industrials
+2017-09-18,2017-09,review,MACH,0.0201880075,Machinery,Industrials
+2017-09-18,2017-09,review,MDIA,0.0132474351,"Publishing, media and video games",Consumer Discretionary
+2017-09-18,2017-09,review,METL,0.029036213,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2017-09-18,2017-09,review,NMMN,0.0118363051,"Building materials, glass and cement",Industrials
+2017-09-18,2017-09,review,OILG,0.0401001244,Oil and gas (extraction and refining),Energy
+2017-09-18,2017-09,review,OMFG,0.0127510581,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2017-09-18,2017-09,review,OSRV,0.0036757447,Oil and mining services,Energy
+2017-09-18,2017-09,review,OSVC,0.0185799847,Other personal services,Consumer Discretionary
+2017-09-18,2017-09,review,OTRN,0.0071057425,"Aerospace, defence, rail and ships",Industrials
+2017-09-18,2017-09,review,PAPR,0.0089823823,Paper and printing,Basic Materials
+2017-09-18,2017-09,review,PHRM,0.0094778172,Pharmaceuticals and biotech,Health Care
+2017-09-18,2017-09,review,POST,0.0043711048,Postal and courier,Industrials
+2017-09-18,2017-09,review,PROF,0.0569891954,Professional and technical services,Industrials
+2017-09-18,2017-09,review,REAL,0.0471438023,Real estate (excluding imputed rent),Real Estate
+2017-09-18,2017-09,review,RECR,0.0112799181,"Arts, gambling and recreation",Consumer Discretionary
+2017-09-18,2017-09,review,RUBP,0.0091569031,"Rubber, plastics and packaging",Industrials
+2017-09-18,2017-09,review,TELE,0.020659429,Telecommunications,Telecommunications
+2017-09-18,2017-09,review,TEXT,0.014465412,"Textiles, apparel and leather",Consumer Discretionary
+2017-09-18,2017-09,review,TRAD,0.1472801263,Wholesale and retail trade,Consumer Discretionary
+2017-09-18,2017-09,review,TSRV,0.0129229671,Warehousing and transport infrastructure,Industrials
+2017-09-18,2017-09,review,UTIL,0.0230339544,Electricity and gas utilities,Utilities
+2017-09-18,2017-09,review,WATR,0.0080086876,Water and waste,Utilities
+2017-09-18,2017-09,review,WTRN,0.0038505156,Water transport,Industrials
+2018-03-19,2018-03,review,ADMN,0.0379959383,Administrative and support services,Industrials
+2018-03-19,2018-03,review,AGRI,0.0616172835,"Agriculture, farming and fishing",Consumer Staples
+2018-03-19,2018-03,review,ATRN,0.004441243,Air transport,Consumer Discretionary
+2018-03-19,2018-03,review,AUTO,0.0177025614,Motor vehicles and parts,Consumer Discretionary
+2018-03-19,2018-03,review,CHEM,0.0186397264,Chemicals and personal/household products,Basic Materials
+2018-03-19,2018-03,review,COAL,0.0084142796,Coal mining,Energy
+2018-03-19,2018-03,review,CONS,0.0745609042,Construction,Industrials
+2018-03-19,2018-03,review,EEQP,0.0102007032,Electrical equipment,Industrials
+2018-03-19,2018-03,review,ELEC,0.0213195795,"Computers, electronics and semiconductors",Technology
+2018-03-19,2018-03,review,FINS,0.0745811859,Financials (banks and insurance),Financials
+2018-03-19,2018-03,review,FMET,0.0137186652,Fabricated metal products,Basic Materials
+2018-03-19,2018-03,review,FOOD,0.0311531267,"Food, beverages and tobacco",Consumer Staples
+2018-03-19,2018-03,review,FORE,0.0078926097,Forestry and wood,Basic Materials
+2018-03-19,2018-03,review,HOTL,0.0286632496,"Hotels, restaurants and catering",Consumer Discretionary
+2018-03-19,2018-03,review,ITSV,0.0207845869,"Software, IT and digital services",Technology
+2018-03-19,2018-03,review,LTRN,0.0341715265,Land transport and pipelines,Industrials
+2018-03-19,2018-03,review,MACH,0.0201880075,Machinery,Industrials
+2018-03-19,2018-03,review,MDIA,0.0132474351,"Publishing, media and video games",Consumer Discretionary
+2018-03-19,2018-03,review,METL,0.029036213,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2018-03-19,2018-03,review,NMMN,0.0118363051,"Building materials, glass and cement",Industrials
+2018-03-19,2018-03,review,OILG,0.0401001244,Oil and gas (extraction and refining),Energy
+2018-03-19,2018-03,review,OMFG,0.0127510581,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2018-03-19,2018-03,review,OSRV,0.0036757447,Oil and mining services,Energy
+2018-03-19,2018-03,review,OSVC,0.0185799847,Other personal services,Consumer Discretionary
+2018-03-19,2018-03,review,OTRN,0.0071057425,"Aerospace, defence, rail and ships",Industrials
+2018-03-19,2018-03,review,PAPR,0.0089823823,Paper and printing,Basic Materials
+2018-03-19,2018-03,review,PHRM,0.0094778172,Pharmaceuticals and biotech,Health Care
+2018-03-19,2018-03,review,POST,0.0043711048,Postal and courier,Industrials
+2018-03-19,2018-03,review,PROF,0.0569891954,Professional and technical services,Industrials
+2018-03-19,2018-03,review,REAL,0.0471438023,Real estate (excluding imputed rent),Real Estate
+2018-03-19,2018-03,review,RECR,0.0112799181,"Arts, gambling and recreation",Consumer Discretionary
+2018-03-19,2018-03,review,RUBP,0.0091569031,"Rubber, plastics and packaging",Industrials
+2018-03-19,2018-03,review,TELE,0.020659429,Telecommunications,Telecommunications
+2018-03-19,2018-03,review,TEXT,0.014465412,"Textiles, apparel and leather",Consumer Discretionary
+2018-03-19,2018-03,review,TRAD,0.1472801263,Wholesale and retail trade,Consumer Discretionary
+2018-03-19,2018-03,review,TSRV,0.0129229671,Warehousing and transport infrastructure,Industrials
+2018-03-19,2018-03,review,UTIL,0.0230339544,Electricity and gas utilities,Utilities
+2018-03-19,2018-03,review,WATR,0.0080086876,Water and waste,Utilities
+2018-03-19,2018-03,review,WTRN,0.0038505156,Water transport,Industrials
+2018-09-24,2018-09,review,ADMN,0.0378001902,Administrative and support services,Industrials
+2018-09-24,2018-09,review,AGRI,0.0625104965,"Agriculture, farming and fishing",Consumer Staples
+2018-09-24,2018-09,review,ATRN,0.0044262445,Air transport,Consumer Discretionary
+2018-09-24,2018-09,review,AUTO,0.0177441428,Motor vehicles and parts,Consumer Discretionary
+2018-09-24,2018-09,review,CHEM,0.0187219629,Chemicals and personal/household products,Basic Materials
+2018-09-24,2018-09,review,COAL,0.0085525856,Coal mining,Energy
+2018-09-24,2018-09,review,CONS,0.0747391248,Construction,Industrials
+2018-09-24,2018-09,review,EEQP,0.0102617657,Electrical equipment,Industrials
+2018-09-24,2018-09,review,ELEC,0.0213845761,"Computers, electronics and semiconductors",Technology
+2018-09-24,2018-09,review,FINS,0.0744798505,Financials (banks and insurance),Financials
+2018-09-24,2018-09,review,FMET,0.0137278188,Fabricated metal products,Basic Materials
+2018-09-24,2018-09,review,FOOD,0.031283564,"Food, beverages and tobacco",Consumer Staples
+2018-09-24,2018-09,review,FORE,0.0079748639,Forestry and wood,Basic Materials
+2018-09-24,2018-09,review,HOTL,0.0285560747,"Hotels, restaurants and catering",Consumer Discretionary
+2018-09-24,2018-09,review,ITSV,0.0206909948,"Software, IT and digital services",Technology
+2018-09-24,2018-09,review,LTRN,0.0342619865,Land transport and pipelines,Industrials
+2018-09-24,2018-09,review,MACH,0.0202616695,Machinery,Industrials
+2018-09-24,2018-09,review,MDIA,0.0131347323,"Publishing, media and video games",Consumer Discretionary
+2018-09-24,2018-09,review,METL,0.0292235935,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2018-09-24,2018-09,review,NMMN,0.0119676118,"Building materials, glass and cement",Industrials
+2018-09-24,2018-09,review,OILG,0.0398894382,Oil and gas (extraction and refining),Energy
+2018-09-24,2018-09,review,OMFG,0.0127108007,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2018-09-24,2018-09,review,OSRV,0.003662821,Oil and mining services,Energy
+2018-09-24,2018-09,review,OSVC,0.0185387427,Other personal services,Consumer Discretionary
+2018-09-24,2018-09,review,OTRN,0.0070824748,"Aerospace, defence, rail and ships",Industrials
+2018-09-24,2018-09,review,PAPR,0.008985068,Paper and printing,Basic Materials
+2018-09-24,2018-09,review,PHRM,0.009497556,Pharmaceuticals and biotech,Health Care
+2018-09-24,2018-09,review,POST,0.0043459503,Postal and courier,Industrials
+2018-09-24,2018-09,review,PROF,0.0564435812,Professional and technical services,Industrials
+2018-09-24,2018-09,review,REAL,0.0468467592,Real estate (excluding imputed rent),Real Estate
+2018-09-24,2018-09,review,RECR,0.0112193819,"Arts, gambling and recreation",Consumer Discretionary
+2018-09-24,2018-09,review,RUBP,0.009190268,"Rubber, plastics and packaging",Industrials
+2018-09-24,2018-09,review,TELE,0.0205813378,Telecommunications,Telecommunications
+2018-09-24,2018-09,review,TEXT,0.0146813271,"Textiles, apparel and leather",Consumer Discretionary
+2018-09-24,2018-09,review,TRAD,0.1468552601,Wholesale and retail trade,Consumer Discretionary
+2018-09-24,2018-09,review,TSRV,0.0128599406,Warehousing and transport infrastructure,Industrials
+2018-09-24,2018-09,review,UTIL,0.0230587285,Electricity and gas utilities,Utilities
+2018-09-24,2018-09,review,WATR,0.0079728885,Water and waste,Utilities
+2018-09-24,2018-09,review,WTRN,0.0038738262,Water transport,Industrials
+2019-03-18,2019-03,review,ADMN,0.0419566939,Administrative and support services,Industrials
+2019-03-18,2019-03,review,AGRI,0.0596569431,"Agriculture, farming and fishing",Consumer Staples
+2019-03-18,2019-03,review,ATRN,0.0053425975,Air transport,Consumer Discretionary
+2019-03-18,2019-03,review,AUTO,0.0194625877,Motor vehicles and parts,Consumer Discretionary
+2019-03-18,2019-03,review,CHEM,0.0185519467,Chemicals and personal/household products,Basic Materials
+2019-03-18,2019-03,review,COAL,0.0048911514,Coal mining,Energy
+2019-03-18,2019-03,review,CONS,0.0754852649,Construction,Industrials
+2019-03-18,2019-03,review,EEQP,0.0104948242,Electrical equipment,Industrials
+2019-03-18,2019-03,review,ELEC,0.0210747102,"Computers, electronics and semiconductors",Technology
+2019-03-18,2019-03,review,FINS,0.0812822882,Financials (banks and insurance),Financials
+2019-03-18,2019-03,review,FMET,0.0136414524,Fabricated metal products,Basic Materials
+2019-03-18,2019-03,review,FOOD,0.030900746,"Food, beverages and tobacco",Consumer Staples
+2019-03-18,2019-03,review,FORE,0.0079178658,Forestry and wood,Basic Materials
+2019-03-18,2019-03,review,HOTL,0.0299282401,"Hotels, restaurants and catering",Consumer Discretionary
+2019-03-18,2019-03,review,ITSV,0.0244791314,"Software, IT and digital services",Technology
+2019-03-18,2019-03,review,LTRN,0.0349946173,Land transport and pipelines,Industrials
+2019-03-18,2019-03,review,MACH,0.0188925296,Machinery,Industrials
+2019-03-18,2019-03,review,MDIA,0.0127419382,"Publishing, media and video games",Consumer Discretionary
+2019-03-18,2019-03,review,METL,0.0225332877,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2019-03-18,2019-03,review,NMMN,0.0111900186,"Building materials, glass and cement",Industrials
+2019-03-18,2019-03,review,OILG,0.031380138,Oil and gas (extraction and refining),Energy
+2019-03-18,2019-03,review,OMFG,0.0125064935,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2019-03-18,2019-03,review,OSRV,0.0029255245,Oil and mining services,Energy
+2019-03-18,2019-03,review,OSVC,0.0186570852,Other personal services,Consumer Discretionary
+2019-03-18,2019-03,review,OTRN,0.0069989717,"Aerospace, defence, rail and ships",Industrials
+2019-03-18,2019-03,review,PAPR,0.0084077125,Paper and printing,Basic Materials
+2019-03-18,2019-03,review,PHRM,0.0097444731,Pharmaceuticals and biotech,Health Care
+2019-03-18,2019-03,review,POST,0.0041276693,Postal and courier,Industrials
+2019-03-18,2019-03,review,PROF,0.0590430314,Professional and technical services,Industrials
+2019-03-18,2019-03,review,REAL,0.0481325642,Real estate (excluding imputed rent),Real Estate
+2019-03-18,2019-03,review,RECR,0.011528142,"Arts, gambling and recreation",Consumer Discretionary
+2019-03-18,2019-03,review,RUBP,0.0092024009,"Rubber, plastics and packaging",Industrials
+2019-03-18,2019-03,review,TELE,0.0194198475,Telecommunications,Telecommunications
+2019-03-18,2019-03,review,TEXT,0.0147241,"Textiles, apparel and leather",Consumer Discretionary
+2019-03-18,2019-03,review,TRAD,0.1487740569,Wholesale and retail trade,Consumer Discretionary
+2019-03-18,2019-03,review,TSRV,0.0137085711,Warehousing and transport infrastructure,Industrials
+2019-03-18,2019-03,review,UTIL,0.0229547638,Electricity and gas utilities,Utilities
+2019-03-18,2019-03,review,WATR,0.008360264,Water and waste,Utilities
+2019-03-18,2019-03,review,WTRN,0.0039853553,Water transport,Industrials
+2019-09-23,2019-09,review,ADMN,0.041746845,Administrative and support services,Industrials
+2019-09-23,2019-09,review,AGRI,0.0605727219,"Agriculture, farming and fishing",Consumer Staples
+2019-09-23,2019-09,review,ATRN,0.0053297619,Air transport,Consumer Discretionary
+2019-09-23,2019-09,review,AUTO,0.0194129516,Motor vehicles and parts,Consumer Discretionary
+2019-09-23,2019-09,review,CHEM,0.0186334685,Chemicals and personal/household products,Basic Materials
+2019-09-23,2019-09,review,COAL,0.0049632857,Coal mining,Energy
+2019-09-23,2019-09,review,CONS,0.0756810589,Construction,Industrials
+2019-09-23,2019-09,review,EEQP,0.0105274086,Electrical equipment,Industrials
+2019-09-23,2019-09,review,ELEC,0.0210403863,"Computers, electronics and semiconductors",Technology
+2019-09-23,2019-09,review,FINS,0.0811930026,Financials (banks and insurance),Financials
+2019-09-23,2019-09,review,FMET,0.0135990175,Fabricated metal products,Basic Materials
+2019-09-23,2019-09,review,FOOD,0.0309526679,"Food, beverages and tobacco",Consumer Staples
+2019-09-23,2019-09,review,FORE,0.0080006983,Forestry and wood,Basic Materials
+2019-09-23,2019-09,review,HOTL,0.029733668,"Hotels, restaurants and catering",Consumer Discretionary
+2019-09-23,2019-09,review,ITSV,0.0243983773,"Software, IT and digital services",Technology
+2019-09-23,2019-09,review,LTRN,0.0350149889,Land transport and pipelines,Industrials
+2019-09-23,2019-09,review,MACH,0.0188608328,Machinery,Industrials
+2019-09-23,2019-09,review,MDIA,0.0126251873,"Publishing, media and video games",Consumer Discretionary
+2019-09-23,2019-09,review,METL,0.0226901502,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2019-09-23,2019-09,review,NMMN,0.0112838374,"Building materials, glass and cement",Industrials
+2019-09-23,2019-09,review,OILG,0.0319434375,Oil and gas (extraction and refining),Energy
+2019-09-23,2019-09,review,OMFG,0.0124061978,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2019-09-23,2019-09,review,OSRV,0.0029525115,Oil and mining services,Energy
+2019-09-23,2019-09,review,OSVC,0.0185980961,Other personal services,Consumer Discretionary
+2019-09-23,2019-09,review,OTRN,0.0069845394,"Aerospace, defence, rail and ships",Industrials
+2019-09-23,2019-09,review,PAPR,0.0083941704,Paper and printing,Basic Materials
+2019-09-23,2019-09,review,PHRM,0.0097564781,Pharmaceuticals and biotech,Health Care
+2019-09-23,2019-09,review,POST,0.0041045081,Postal and courier,Industrials
+2019-09-23,2019-09,review,PROF,0.0584887271,Professional and technical services,Industrials
+2019-09-23,2019-09,review,REAL,0.0478012263,Real estate (excluding imputed rent),Real Estate
+2019-09-23,2019-09,review,RECR,0.0114422447,"Arts, gambling and recreation",Consumer Discretionary
+2019-09-23,2019-09,review,RUBP,0.0091911211,"Rubber, plastics and packaging",Industrials
+2019-09-23,2019-09,review,TELE,0.0193453934,Telecommunications,Telecommunications
+2019-09-23,2019-09,review,TEXT,0.0148839153,"Textiles, apparel and leather",Consumer Discretionary
+2019-09-23,2019-09,review,TRAD,0.1484658793,Wholesale and retail trade,Consumer Discretionary
+2019-09-23,2019-09,review,TSRV,0.0136612107,Warehousing and transport infrastructure,Industrials
+2019-09-23,2019-09,review,UTIL,0.0230207464,Electricity and gas utilities,Utilities
+2019-09-23,2019-09,review,WATR,0.0082926064,Water and waste,Utilities
+2019-09-23,2019-09,review,WTRN,0.0040066737,Water transport,Industrials
+2020-03-23,2020-03,review,ADMN,0.0413374804,Administrative and support services,Industrials
+2020-03-23,2020-03,review,AGRI,0.0602399361,"Agriculture, farming and fishing",Consumer Staples
+2020-03-23,2020-03,review,ATRN,0.0053272963,Air transport,Consumer Discretionary
+2020-03-23,2020-03,review,AUTO,0.0191346333,Motor vehicles and parts,Consumer Discretionary
+2020-03-23,2020-03,review,CHEM,0.0191473704,Chemicals and personal/household products,Basic Materials
+2020-03-23,2020-03,review,COAL,0.0048863857,Coal mining,Energy
+2020-03-23,2020-03,review,CONS,0.0759441526,Construction,Industrials
+2020-03-23,2020-03,review,EEQP,0.0104450381,Electrical equipment,Industrials
+2020-03-23,2020-03,review,ELEC,0.0207179562,"Computers, electronics and semiconductors",Technology
+2020-03-23,2020-03,review,FINS,0.0807404593,Financials (banks and insurance),Financials
+2020-03-23,2020-03,review,FMET,0.0135177199,Fabricated metal products,Basic Materials
+2020-03-23,2020-03,review,FOOD,0.0308501505,"Food, beverages and tobacco",Consumer Staples
+2020-03-23,2020-03,review,FORE,0.0079041837,Forestry and wood,Basic Materials
+2020-03-23,2020-03,review,HOTL,0.0296716449,"Hotels, restaurants and catering",Consumer Discretionary
+2020-03-23,2020-03,review,ITSV,0.0241524198,"Software, IT and digital services",Technology
+2020-03-23,2020-03,review,LTRN,0.0347050683,Land transport and pipelines,Industrials
+2020-03-23,2020-03,review,MACH,0.0186139016,Machinery,Industrials
+2020-03-23,2020-03,review,MDIA,0.0124766054,"Publishing, media and video games",Consumer Discretionary
+2020-03-23,2020-03,review,METL,0.0224640716,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2020-03-23,2020-03,review,NMMN,0.0112504696,"Building materials, glass and cement",Industrials
+2020-03-23,2020-03,review,OILG,0.0371298518,Oil and gas (extraction and refining),Energy
+2020-03-23,2020-03,review,OMFG,0.0123191937,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2020-03-23,2020-03,review,OSRV,0.0029279713,Oil and mining services,Energy
+2020-03-23,2020-03,review,OSVC,0.0184712142,Other personal services,Consumer Discretionary
+2020-03-23,2020-03,review,OTRN,0.0068794411,"Aerospace, defence, rail and ships",Industrials
+2020-03-23,2020-03,review,PAPR,0.0083752028,Paper and printing,Basic Materials
+2020-03-23,2020-03,review,PHRM,0.009620652,Pharmaceuticals and biotech,Health Care
+2020-03-23,2020-03,review,POST,0.0040657151,Postal and courier,Industrials
+2020-03-23,2020-03,review,PROF,0.0577381499,Professional and technical services,Industrials
+2020-03-23,2020-03,review,REAL,0.0473846248,Real estate (excluding imputed rent),Real Estate
+2020-03-23,2020-03,review,RECR,0.0113383463,"Arts, gambling and recreation",Consumer Discretionary
+2020-03-23,2020-03,review,RUBP,0.009130544,"Rubber, plastics and packaging",Industrials
+2020-03-23,2020-03,review,TELE,0.0195550605,Telecommunications,Telecommunications
+2020-03-23,2020-03,review,TEXT,0.0147482429,"Textiles, apparel and leather",Consumer Discretionary
+2020-03-23,2020-03,review,TRAD,0.1480239115,Wholesale and retail trade,Consumer Discretionary
+2020-03-23,2020-03,review,TSRV,0.0136495622,Warehousing and transport infrastructure,Industrials
+2020-03-23,2020-03,review,UTIL,0.0229179207,Electricity and gas utilities,Utilities
+2020-03-23,2020-03,review,WATR,0.0082330988,Water and waste,Utilities
+2020-03-23,2020-03,review,WTRN,0.0039643525,Water transport,Industrials
+2020-09-21,2020-09,review,ADMN,0.0412568542,Administrative and support services,Industrials
+2020-09-21,2020-09,review,AGRI,0.0605894618,"Agriculture, farming and fishing",Consumer Staples
+2020-09-21,2020-09,review,ATRN,0.005286716,Air transport,Consumer Discretionary
+2020-09-21,2020-09,review,AUTO,0.0192322241,Motor vehicles and parts,Consumer Discretionary
+2020-09-21,2020-09,review,CHEM,0.01913139,Chemicals and personal/household products,Basic Materials
+2020-09-21,2020-09,review,COAL,0.004933339,Coal mining,Energy
+2020-09-21,2020-09,review,CONS,0.0760570467,Construction,Industrials
+2020-09-21,2020-09,review,EEQP,0.010563926,Electrical equipment,Industrials
+2020-09-21,2020-09,review,ELEC,0.0206777847,"Computers, electronics and semiconductors",Technology
+2020-09-21,2020-09,review,FINS,0.0805283063,Financials (banks and insurance),Financials
+2020-09-21,2020-09,review,FMET,0.0135438621,Fabricated metal products,Basic Materials
+2020-09-21,2020-09,review,FOOD,0.0310403744,"Food, beverages and tobacco",Consumer Staples
+2020-09-21,2020-09,review,FORE,0.0080264113,Forestry and wood,Basic Materials
+2020-09-21,2020-09,review,HOTL,0.0294395548,"Hotels, restaurants and catering",Consumer Discretionary
+2020-09-21,2020-09,review,ITSV,0.0242684633,"Software, IT and digital services",Technology
+2020-09-21,2020-09,review,LTRN,0.034811175,Land transport and pipelines,Industrials
+2020-09-21,2020-09,review,MACH,0.0186441675,Machinery,Industrials
+2020-09-21,2020-09,review,MDIA,0.0123989664,"Publishing, media and video games",Consumer Discretionary
+2020-09-21,2020-09,review,METL,0.0222282867,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2020-09-21,2020-09,review,NMMN,0.0113220973,"Building materials, glass and cement",Industrials
+2020-09-21,2020-09,review,OILG,0.0368687761,Oil and gas (extraction and refining),Energy
+2020-09-21,2020-09,review,OMFG,0.0123083237,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2020-09-21,2020-09,review,OSRV,0.0028984519,Oil and mining services,Energy
+2020-09-21,2020-09,review,OSVC,0.0184945185,Other personal services,Consumer Discretionary
+2020-09-21,2020-09,review,OTRN,0.0068875658,"Aerospace, defence, rail and ships",Industrials
+2020-09-21,2020-09,review,PAPR,0.0083523225,Paper and printing,Basic Materials
+2020-09-21,2020-09,review,PHRM,0.0096329343,Pharmaceuticals and biotech,Health Care
+2020-09-21,2020-09,review,POST,0.0040670134,Postal and courier,Industrials
+2020-09-21,2020-09,review,PROF,0.0576671205,Professional and technical services,Industrials
+2020-09-21,2020-09,review,REAL,0.047190833,Real estate (excluding imputed rent),Real Estate
+2020-09-21,2020-09,review,RECR,0.0113989422,"Arts, gambling and recreation",Consumer Discretionary
+2020-09-21,2020-09,review,RUBP,0.0091572421,"Rubber, plastics and packaging",Industrials
+2020-09-21,2020-09,review,TELE,0.0194934544,Telecommunications,Telecommunications
+2020-09-21,2020-09,review,TEXT,0.0149247135,"Textiles, apparel and leather",Consumer Discretionary
+2020-09-21,2020-09,review,TRAD,0.1476981205,Wholesale and retail trade,Consumer Discretionary
+2020-09-21,2020-09,review,TSRV,0.0136698057,Warehousing and transport infrastructure,Industrials
+2020-09-21,2020-09,review,UTIL,0.0230686262,Electricity and gas utilities,Utilities
+2020-09-21,2020-09,review,WATR,0.0082571251,Water and waste,Utilities
+2020-09-21,2020-09,review,WTRN,0.0039837033,Water transport,Industrials
+2021-03-22,2021-03,review,ADMN,0.0412568542,Administrative and support services,Industrials
+2021-03-22,2021-03,review,AGRI,0.0605894618,"Agriculture, farming and fishing",Consumer Staples
+2021-03-22,2021-03,review,ATRN,0.005286716,Air transport,Consumer Discretionary
+2021-03-22,2021-03,review,AUTO,0.0192322241,Motor vehicles and parts,Consumer Discretionary
+2021-03-22,2021-03,review,CHEM,0.01913139,Chemicals and personal/household products,Basic Materials
+2021-03-22,2021-03,review,COAL,0.004933339,Coal mining,Energy
+2021-03-22,2021-03,review,CONS,0.0760570467,Construction,Industrials
+2021-03-22,2021-03,review,EEQP,0.010563926,Electrical equipment,Industrials
+2021-03-22,2021-03,review,ELEC,0.0206777847,"Computers, electronics and semiconductors",Technology
+2021-03-22,2021-03,review,FINS,0.0805283063,Financials (banks and insurance),Financials
+2021-03-22,2021-03,review,FMET,0.0135438621,Fabricated metal products,Basic Materials
+2021-03-22,2021-03,review,FOOD,0.0310403744,"Food, beverages and tobacco",Consumer Staples
+2021-03-22,2021-03,review,FORE,0.0080264113,Forestry and wood,Basic Materials
+2021-03-22,2021-03,review,HOTL,0.0294395548,"Hotels, restaurants and catering",Consumer Discretionary
+2021-03-22,2021-03,review,ITSV,0.0242684633,"Software, IT and digital services",Technology
+2021-03-22,2021-03,review,LTRN,0.034811175,Land transport and pipelines,Industrials
+2021-03-22,2021-03,review,MACH,0.0186441675,Machinery,Industrials
+2021-03-22,2021-03,review,MDIA,0.0123989664,"Publishing, media and video games",Consumer Discretionary
+2021-03-22,2021-03,review,METL,0.0222282867,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2021-03-22,2021-03,review,NMMN,0.0113220973,"Building materials, glass and cement",Industrials
+2021-03-22,2021-03,review,OILG,0.0368687761,Oil and gas (extraction and refining),Energy
+2021-03-22,2021-03,review,OMFG,0.0123083237,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2021-03-22,2021-03,review,OSRV,0.0028984519,Oil and mining services,Energy
+2021-03-22,2021-03,review,OSVC,0.0184945185,Other personal services,Consumer Discretionary
+2021-03-22,2021-03,review,OTRN,0.0068875658,"Aerospace, defence, rail and ships",Industrials
+2021-03-22,2021-03,review,PAPR,0.0083523225,Paper and printing,Basic Materials
+2021-03-22,2021-03,review,PHRM,0.0096329343,Pharmaceuticals and biotech,Health Care
+2021-03-22,2021-03,review,POST,0.0040670134,Postal and courier,Industrials
+2021-03-22,2021-03,review,PROF,0.0576671205,Professional and technical services,Industrials
+2021-03-22,2021-03,review,REAL,0.047190833,Real estate (excluding imputed rent),Real Estate
+2021-03-22,2021-03,review,RECR,0.0113989422,"Arts, gambling and recreation",Consumer Discretionary
+2021-03-22,2021-03,review,RUBP,0.0091572421,"Rubber, plastics and packaging",Industrials
+2021-03-22,2021-03,review,TELE,0.0194934544,Telecommunications,Telecommunications
+2021-03-22,2021-03,review,TEXT,0.0149247135,"Textiles, apparel and leather",Consumer Discretionary
+2021-03-22,2021-03,review,TRAD,0.1476981205,Wholesale and retail trade,Consumer Discretionary
+2021-03-22,2021-03,review,TSRV,0.0136698057,Warehousing and transport infrastructure,Industrials
+2021-03-22,2021-03,review,UTIL,0.0230686262,Electricity and gas utilities,Utilities
+2021-03-22,2021-03,review,WATR,0.0082571251,Water and waste,Utilities
+2021-03-22,2021-03,review,WTRN,0.0039837033,Water transport,Industrials
+2021-09-20,2021-09,review,ADMN,0.0411328931,Administrative and support services,Industrials
+2021-09-20,2021-09,review,AGRI,0.0611236281,"Agriculture, farming and fishing",Consumer Staples
+2021-09-20,2021-09,review,ATRN,0.0052784656,Air transport,Consumer Discretionary
+2021-09-20,2021-09,review,AUTO,0.0192939827,Motor vehicles and parts,Consumer Discretionary
+2021-09-20,2021-09,review,CHEM,0.0191726042,Chemicals and personal/household products,Basic Materials
+2021-09-20,2021-09,review,COAL,0.0050096119,Coal mining,Energy
+2021-09-20,2021-09,review,CONS,0.0759594732,Construction,Industrials
+2021-09-20,2021-09,review,EEQP,0.0106968043,Electrical equipment,Industrials
+2021-09-20,2021-09,review,ELEC,0.0210896017,"Computers, electronics and semiconductors",Technology
+2021-09-20,2021-09,review,FINS,0.0806804234,Financials (banks and insurance),Financials
+2021-09-20,2021-09,review,FMET,0.0135796123,Fabricated metal products,Basic Materials
+2021-09-20,2021-09,review,FOOD,0.0310834307,"Food, beverages and tobacco",Consumer Staples
+2021-09-20,2021-09,review,FORE,0.0080786055,Forestry and wood,Basic Materials
+2021-09-20,2021-09,review,HOTL,0.0292256126,"Hotels, restaurants and catering",Consumer Discretionary
+2021-09-20,2021-09,review,ITSV,0.0241726963,"Software, IT and digital services",Technology
+2021-09-20,2021-09,review,LTRN,0.0348715205,Land transport and pipelines,Industrials
+2021-09-20,2021-09,review,MACH,0.0188247397,Machinery,Industrials
+2021-09-20,2021-09,review,MDIA,0.0123484919,"Publishing, media and video games",Consumer Discretionary
+2021-09-20,2021-09,review,METL,0.0225093154,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2021-09-20,2021-09,review,NMMN,0.0114804551,"Building materials, glass and cement",Industrials
+2021-09-20,2021-09,review,OILG,0.0358015322,Oil and gas (extraction and refining),Energy
+2021-09-20,2021-09,review,OMFG,0.01228728,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2021-09-20,2021-09,review,OSRV,0.0028573296,Oil and mining services,Energy
+2021-09-20,2021-09,review,OSVC,0.0185125452,Other personal services,Consumer Discretionary
+2021-09-20,2021-09,review,OTRN,0.00689868,"Aerospace, defence, rail and ships",Industrials
+2021-09-20,2021-09,review,PAPR,0.008394043,Paper and printing,Basic Materials
+2021-09-20,2021-09,review,PHRM,0.0097104578,Pharmaceuticals and biotech,Health Care
+2021-09-20,2021-09,review,POST,0.0040609706,Postal and courier,Industrials
+2021-09-20,2021-09,review,PROF,0.0574909428,Professional and technical services,Industrials
+2021-09-20,2021-09,review,REAL,0.0469981343,Real estate (excluding imputed rent),Real Estate
+2021-09-20,2021-09,review,RECR,0.0113642074,"Arts, gambling and recreation",Consumer Discretionary
+2021-09-20,2021-09,review,RUBP,0.0092017269,"Rubber, plastics and packaging",Industrials
+2021-09-20,2021-09,review,TELE,0.0193686942,Telecommunications,Telecommunications
+2021-09-20,2021-09,review,TEXT,0.0151478263,"Textiles, apparel and leather",Consumer Discretionary
+2021-09-20,2021-09,review,TRAD,0.1472873255,Wholesale and retail trade,Consumer Discretionary
+2021-09-20,2021-09,review,TSRV,0.0136487864,Warehousing and transport infrastructure,Industrials
+2021-09-20,2021-09,review,UTIL,0.0230735842,Electricity and gas utilities,Utilities
+2021-09-20,2021-09,review,WATR,0.0082378475,Water and waste,Utilities
+2021-09-20,2021-09,review,WTRN,0.0040461181,Water transport,Industrials
+2022-03-07,2021-09,intra_review_deletion:Russia,ADMN,0.0416031307,Administrative and support services,Industrials
+2022-03-07,2021-09,intra_review_deletion:Russia,AGRI,0.0614892784,"Agriculture, farming and fishing",Consumer Staples
+2022-03-07,2021-09,intra_review_deletion:Russia,ATRN,0.0053169815,Air transport,Consumer Discretionary
+2022-03-07,2021-09,intra_review_deletion:Russia,AUTO,0.0198796045,Motor vehicles and parts,Consumer Discretionary
+2022-03-07,2021-09,intra_review_deletion:Russia,CHEM,0.0193445118,Chemicals and personal/household products,Basic Materials
+2022-03-07,2021-09,intra_review_deletion:Russia,COAL,0.0050134818,Coal mining,Energy
+2022-03-07,2021-09,intra_review_deletion:Russia,CONS,0.0757612535,Construction,Industrials
+2022-03-07,2021-09,intra_review_deletion:Russia,EEQP,0.0109522427,Electrical equipment,Industrials
+2022-03-07,2021-09,intra_review_deletion:Russia,ELEC,0.0215683972,"Computers, electronics and semiconductors",Technology
+2022-03-07,2021-09,intra_review_deletion:Russia,FINS,0.0821177965,Financials (banks and insurance),Financials
+2022-03-07,2021-09,intra_review_deletion:Russia,FMET,0.0137555359,Fabricated metal products,Basic Materials
+2022-03-07,2021-09,intra_review_deletion:Russia,FOOD,0.0313359118,"Food, beverages and tobacco",Consumer Staples
+2022-03-07,2021-09,intra_review_deletion:Russia,FORE,0.0081802413,Forestry and wood,Basic Materials
+2022-03-07,2021-09,intra_review_deletion:Russia,HOTL,0.0299257796,"Hotels, restaurants and catering",Consumer Discretionary
+2022-03-07,2021-09,intra_review_deletion:Russia,ITSV,0.0246812814,"Software, IT and digital services",Technology
+2022-03-07,2021-09,intra_review_deletion:Russia,LTRN,0.0340406186,Land transport and pipelines,Industrials
+2022-03-07,2021-09,intra_review_deletion:Russia,MACH,0.0192999298,Machinery,Industrials
+2022-03-07,2021-09,intra_review_deletion:Russia,MDIA,0.0126689107,"Publishing, media and video games",Consumer Discretionary
+2022-03-07,2021-09,intra_review_deletion:Russia,METL,0.0218674709,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2022-03-07,2021-09,intra_review_deletion:Russia,NMMN,0.0116445842,"Building materials, glass and cement",Industrials
+2022-03-07,2021-09,intra_review_deletion:Russia,OILG,0.0323007394,Oil and gas (extraction and refining),Energy
+2022-03-07,2021-09,intra_review_deletion:Russia,OMFG,0.0125058117,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2022-03-07,2021-09,intra_review_deletion:Russia,OSRV,0.0026641436,Oil and mining services,Energy
+2022-03-07,2021-09,intra_review_deletion:Russia,OSVC,0.0189751015,Other personal services,Consumer Discretionary
+2022-03-07,2021-09,intra_review_deletion:Russia,OTRN,0.0066209359,"Aerospace, defence, rail and ships",Industrials
+2022-03-07,2021-09,intra_review_deletion:Russia,PAPR,0.0085132518,Paper and printing,Basic Materials
+2022-03-07,2021-09,intra_review_deletion:Russia,PHRM,0.009986627,Pharmaceuticals and biotech,Health Care
+2022-03-07,2021-09,intra_review_deletion:Russia,POST,0.0041362437,Postal and courier,Industrials
+2022-03-07,2021-09,intra_review_deletion:Russia,PROF,0.0575628423,Professional and technical services,Industrials
+2022-03-07,2021-09,intra_review_deletion:Russia,REAL,0.0469117512,Real estate (excluding imputed rent),Real Estate
+2022-03-07,2021-09,intra_review_deletion:Russia,RECR,0.0113693873,"Arts, gambling and recreation",Consumer Discretionary
+2022-03-07,2021-09,intra_review_deletion:Russia,RUBP,0.0094208158,"Rubber, plastics and packaging",Industrials
+2022-03-07,2021-09,intra_review_deletion:Russia,TELE,0.0195079265,Telecommunications,Telecommunications
+2022-03-07,2021-09,intra_review_deletion:Russia,TEXT,0.0156203751,"Textiles, apparel and leather",Consumer Discretionary
+2022-03-07,2021-09,intra_review_deletion:Russia,TRAD,0.1450869941,Wholesale and retail trade,Consumer Discretionary
+2022-03-07,2021-09,intra_review_deletion:Russia,TSRV,0.013307148,Warehousing and transport infrastructure,Industrials
+2022-03-07,2021-09,intra_review_deletion:Russia,UTIL,0.0226248167,Electricity and gas utilities,Utilities
+2022-03-07,2021-09,intra_review_deletion:Russia,WATR,0.0082990245,Water and waste,Utilities
+2022-03-07,2021-09,intra_review_deletion:Russia,WTRN,0.0041391213,Water transport,Industrials
+2022-03-21,2022-03,review,ADMN,0.0441506012,Administrative and support services,Industrials
+2022-03-21,2022-03,review,AGRI,0.0575932747,"Agriculture, farming and fishing",Consumer Staples
+2022-03-21,2022-03,review,ATRN,0.0053718317,Air transport,Consumer Discretionary
+2022-03-21,2022-03,review,AUTO,0.0184707075,Motor vehicles and parts,Consumer Discretionary
+2022-03-21,2022-03,review,CHEM,0.0184766704,Chemicals and personal/household products,Basic Materials
+2022-03-21,2022-03,review,COAL,0.0052948075,Coal mining,Energy
+2022-03-21,2022-03,review,CONS,0.0765312535,Construction,Industrials
+2022-03-21,2022-03,review,EEQP,0.0103477684,Electrical equipment,Industrials
+2022-03-21,2022-03,review,ELEC,0.0220423186,"Computers, electronics and semiconductors",Technology
+2022-03-21,2022-03,review,FINS,0.0810868576,Financials (banks and insurance),Financials
+2022-03-21,2022-03,review,FMET,0.0143754726,Fabricated metal products,Basic Materials
+2022-03-21,2022-03,review,FOOD,0.0298119666,"Food, beverages and tobacco",Consumer Staples
+2022-03-21,2022-03,review,FORE,0.0076896866,Forestry and wood,Basic Materials
+2022-03-21,2022-03,review,HOTL,0.0311214105,"Hotels, restaurants and catering",Consumer Discretionary
+2022-03-21,2022-03,review,ITSV,0.0279965577,"Software, IT and digital services",Technology
+2022-03-21,2022-03,review,LTRN,0.0335938,Land transport and pipelines,Industrials
+2022-03-21,2022-03,review,MACH,0.018936871,Machinery,Industrials
+2022-03-21,2022-03,review,MDIA,0.0129518838,"Publishing, media and video games",Consumer Discretionary
+2022-03-21,2022-03,review,METL,0.0235550592,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2022-03-21,2022-03,review,NMMN,0.0123884941,"Building materials, glass and cement",Industrials
+2022-03-21,2022-03,review,OILG,0.0330271249,Oil and gas (extraction and refining),Energy
+2022-03-21,2022-03,review,OMFG,0.0123681344,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2022-03-21,2022-03,review,OSRV,0.0025433348,Oil and mining services,Energy
+2022-03-21,2022-03,review,OSVC,0.0191367365,Other personal services,Consumer Discretionary
+2022-03-21,2022-03,review,OTRN,0.0061144541,"Aerospace, defence, rail and ships",Industrials
+2022-03-21,2022-03,review,PAPR,0.0082592884,Paper and printing,Basic Materials
+2022-03-21,2022-03,review,PHRM,0.0099320091,Pharmaceuticals and biotech,Health Care
+2022-03-21,2022-03,review,POST,0.0040478566,Postal and courier,Industrials
+2022-03-21,2022-03,review,PROF,0.0583622636,Professional and technical services,Industrials
+2022-03-21,2022-03,review,REAL,0.0477488478,Real estate (excluding imputed rent),Real Estate
+2022-03-21,2022-03,review,RECR,0.0114753659,"Arts, gambling and recreation",Consumer Discretionary
+2022-03-21,2022-03,review,RUBP,0.0089601733,"Rubber, plastics and packaging",Industrials
+2022-03-21,2022-03,review,TELE,0.0188437449,Telecommunications,Telecommunications
+2022-03-21,2022-03,review,TEXT,0.014689998,"Textiles, apparel and leather",Consumer Discretionary
+2022-03-21,2022-03,review,TRAD,0.1444828687,Wholesale and retail trade,Consumer Discretionary
+2022-03-21,2022-03,review,TSRV,0.0135937135,Warehousing and transport infrastructure,Industrials
+2022-03-21,2022-03,review,UTIL,0.0223875838,Electricity and gas utilities,Utilities
+2022-03-21,2022-03,review,WATR,0.0083492594,Water and waste,Utilities
+2022-03-21,2022-03,review,WTRN,0.003889949,Water transport,Industrials
+2022-09-19,2022-09,review,ADMN,0.0440613162,Administrative and support services,Industrials
+2022-09-19,2022-09,review,AGRI,0.0581051801,"Agriculture, farming and fishing",Consumer Staples
+2022-09-19,2022-09,review,ATRN,0.0053462118,Air transport,Consumer Discretionary
+2022-09-19,2022-09,review,AUTO,0.0182981288,Motor vehicles and parts,Consumer Discretionary
+2022-09-19,2022-09,review,CHEM,0.0185771212,Chemicals and personal/household products,Basic Materials
+2022-09-19,2022-09,review,COAL,0.0053258681,Coal mining,Energy
+2022-09-19,2022-09,review,CONS,0.0767074723,Construction,Industrials
+2022-09-19,2022-09,review,EEQP,0.0103063979,Electrical equipment,Industrials
+2022-09-19,2022-09,review,ELEC,0.0219813576,"Computers, electronics and semiconductors",Technology
+2022-09-19,2022-09,review,FINS,0.0812129868,Financials (banks and insurance),Financials
+2022-09-19,2022-09,review,FMET,0.0143255048,Fabricated metal products,Basic Materials
+2022-09-19,2022-09,review,FOOD,0.0297533568,"Food, beverages and tobacco",Consumer Staples
+2022-09-19,2022-09,review,FORE,0.0077528247,Forestry and wood,Basic Materials
+2022-09-19,2022-09,review,HOTL,0.0309818018,"Hotels, restaurants and catering",Consumer Discretionary
+2022-09-19,2022-09,review,ITSV,0.0280092427,"Software, IT and digital services",Technology
+2022-09-19,2022-09,review,LTRN,0.0336129883,Land transport and pipelines,Industrials
+2022-09-19,2022-09,review,MACH,0.0188687149,Machinery,Industrials
+2022-09-19,2022-09,review,MDIA,0.0128644943,"Publishing, media and video games",Consumer Discretionary
+2022-09-19,2022-09,review,METL,0.0236496044,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2022-09-19,2022-09,review,NMMN,0.0124850413,"Building materials, glass and cement",Industrials
+2022-09-19,2022-09,review,OILG,0.0338837303,Oil and gas (extraction and refining),Energy
+2022-09-19,2022-09,review,OMFG,0.0122746965,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2022-09-19,2022-09,review,OSRV,0.0025530695,Oil and mining services,Energy
+2022-09-19,2022-09,review,OSVC,0.0190934196,Other personal services,Consumer Discretionary
+2022-09-19,2022-09,review,OTRN,0.0060885145,"Aerospace, defence, rail and ships",Industrials
+2022-09-19,2022-09,review,PAPR,0.0082438393,Paper and printing,Basic Materials
+2022-09-19,2022-09,review,PHRM,0.0100066776,Pharmaceuticals and biotech,Health Care
+2022-09-19,2022-09,review,POST,0.00403009,Postal and courier,Industrials
+2022-09-19,2022-09,review,PROF,0.0579113474,Professional and technical services,Industrials
+2022-09-19,2022-09,review,REAL,0.047502161,Real estate (excluding imputed rent),Real Estate
+2022-09-19,2022-09,review,RECR,0.0114027863,"Arts, gambling and recreation",Consumer Discretionary
+2022-09-19,2022-09,review,RUBP,0.0089239233,"Rubber, plastics and packaging",Industrials
+2022-09-19,2022-09,review,TELE,0.018814497,Telecommunications,Telecommunications
+2022-09-19,2022-09,review,TEXT,0.0148214959,"Textiles, apparel and leather",Consumer Discretionary
+2022-09-19,2022-09,review,TRAD,0.1440965312,Wholesale and retail trade,Consumer Discretionary
+2022-09-19,2022-09,review,TSRV,0.0134993778,Warehousing and transport infrastructure,Industrials
+2022-09-19,2022-09,review,UTIL,0.0224510264,Electricity and gas utilities,Utilities
+2022-09-19,2022-09,review,WATR,0.008299813,Water and waste,Utilities
+2022-09-19,2022-09,review,WTRN,0.0038773887,Water transport,Industrials
+2023-03-20,2023-03,review,ADMN,0.0440613162,Administrative and support services,Industrials
+2023-03-20,2023-03,review,AGRI,0.0581051801,"Agriculture, farming and fishing",Consumer Staples
+2023-03-20,2023-03,review,ATRN,0.0053462118,Air transport,Consumer Discretionary
+2023-03-20,2023-03,review,AUTO,0.0182981288,Motor vehicles and parts,Consumer Discretionary
+2023-03-20,2023-03,review,CHEM,0.0185771212,Chemicals and personal/household products,Basic Materials
+2023-03-20,2023-03,review,COAL,0.0053258681,Coal mining,Energy
+2023-03-20,2023-03,review,CONS,0.0767074723,Construction,Industrials
+2023-03-20,2023-03,review,EEQP,0.0103063979,Electrical equipment,Industrials
+2023-03-20,2023-03,review,ELEC,0.0219813576,"Computers, electronics and semiconductors",Technology
+2023-03-20,2023-03,review,FINS,0.0812129868,Financials (banks and insurance),Financials
+2023-03-20,2023-03,review,FMET,0.0143255048,Fabricated metal products,Basic Materials
+2023-03-20,2023-03,review,FOOD,0.0297533568,"Food, beverages and tobacco",Consumer Staples
+2023-03-20,2023-03,review,FORE,0.0077528247,Forestry and wood,Basic Materials
+2023-03-20,2023-03,review,HOTL,0.0309818018,"Hotels, restaurants and catering",Consumer Discretionary
+2023-03-20,2023-03,review,ITSV,0.0280092427,"Software, IT and digital services",Technology
+2023-03-20,2023-03,review,LTRN,0.0336129883,Land transport and pipelines,Industrials
+2023-03-20,2023-03,review,MACH,0.0188687149,Machinery,Industrials
+2023-03-20,2023-03,review,MDIA,0.0128644943,"Publishing, media and video games",Consumer Discretionary
+2023-03-20,2023-03,review,METL,0.0236496044,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2023-03-20,2023-03,review,NMMN,0.0124850413,"Building materials, glass and cement",Industrials
+2023-03-20,2023-03,review,OILG,0.0338837303,Oil and gas (extraction and refining),Energy
+2023-03-20,2023-03,review,OMFG,0.0122746965,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2023-03-20,2023-03,review,OSRV,0.0025530695,Oil and mining services,Energy
+2023-03-20,2023-03,review,OSVC,0.0190934196,Other personal services,Consumer Discretionary
+2023-03-20,2023-03,review,OTRN,0.0060885145,"Aerospace, defence, rail and ships",Industrials
+2023-03-20,2023-03,review,PAPR,0.0082438393,Paper and printing,Basic Materials
+2023-03-20,2023-03,review,PHRM,0.0100066776,Pharmaceuticals and biotech,Health Care
+2023-03-20,2023-03,review,POST,0.00403009,Postal and courier,Industrials
+2023-03-20,2023-03,review,PROF,0.0579113474,Professional and technical services,Industrials
+2023-03-20,2023-03,review,REAL,0.047502161,Real estate (excluding imputed rent),Real Estate
+2023-03-20,2023-03,review,RECR,0.0114027863,"Arts, gambling and recreation",Consumer Discretionary
+2023-03-20,2023-03,review,RUBP,0.0089239233,"Rubber, plastics and packaging",Industrials
+2023-03-20,2023-03,review,TELE,0.018814497,Telecommunications,Telecommunications
+2023-03-20,2023-03,review,TEXT,0.0148214959,"Textiles, apparel and leather",Consumer Discretionary
+2023-03-20,2023-03,review,TRAD,0.1440965312,Wholesale and retail trade,Consumer Discretionary
+2023-03-20,2023-03,review,TSRV,0.0134993778,Warehousing and transport infrastructure,Industrials
+2023-03-20,2023-03,review,UTIL,0.0224510264,Electricity and gas utilities,Utilities
+2023-03-20,2023-03,review,WATR,0.008299813,Water and waste,Utilities
+2023-03-20,2023-03,review,WTRN,0.0038773887,Water transport,Industrials
+2023-09-18,2023-09,review,ADMN,0.0439387035,Administrative and support services,Industrials
+2023-09-18,2023-09,review,AGRI,0.0587610187,"Agriculture, farming and fishing",Consumer Staples
+2023-09-18,2023-09,review,ATRN,0.0053324984,Air transport,Consumer Discretionary
+2023-09-18,2023-09,review,AUTO,0.018216191,Motor vehicles and parts,Consumer Discretionary
+2023-09-18,2023-09,review,CHEM,0.0185950831,Chemicals and personal/household products,Basic Materials
+2023-09-18,2023-09,review,COAL,0.0053600522,Coal mining,Energy
+2023-09-18,2023-09,review,CONS,0.07685039,Construction,Industrials
+2023-09-18,2023-09,review,EEQP,0.0102733798,Electrical equipment,Industrials
+2023-09-18,2023-09,review,ELEC,0.0218330422,"Computers, electronics and semiconductors",Technology
+2023-09-18,2023-09,review,FINS,0.0809865694,Financials (banks and insurance),Financials
+2023-09-18,2023-09,review,FMET,0.0142983987,Fabricated metal products,Basic Materials
+2023-09-18,2023-09,review,FOOD,0.029785394,"Food, beverages and tobacco",Consumer Staples
+2023-09-18,2023-09,review,FORE,0.0078041891,Forestry and wood,Basic Materials
+2023-09-18,2023-09,review,HOTL,0.0309544293,"Hotels, restaurants and catering",Consumer Discretionary
+2023-09-18,2023-09,review,ITSV,0.0280120695,"Software, IT and digital services",Technology
+2023-09-18,2023-09,review,LTRN,0.0336641521,Land transport and pipelines,Industrials
+2023-09-18,2023-09,review,MACH,0.0187666054,Machinery,Industrials
+2023-09-18,2023-09,review,MDIA,0.012792299,"Publishing, media and video games",Consumer Discretionary
+2023-09-18,2023-09,review,METL,0.0236245177,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2023-09-18,2023-09,review,NMMN,0.0124849475,"Building materials, glass and cement",Industrials
+2023-09-18,2023-09,review,OILG,0.0344961897,Oil and gas (extraction and refining),Energy
+2023-09-18,2023-09,review,OMFG,0.0122481347,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2023-09-18,2023-09,review,OSRV,0.0025769173,Oil and mining services,Energy
+2023-09-18,2023-09,review,OSVC,0.0190473405,Other personal services,Consumer Discretionary
+2023-09-18,2023-09,review,OTRN,0.0060547153,"Aerospace, defence, rail and ships",Industrials
+2023-09-18,2023-09,review,PAPR,0.0082248729,Paper and printing,Basic Materials
+2023-09-18,2023-09,review,PHRM,0.010013636,Pharmaceuticals and biotech,Health Care
+2023-09-18,2023-09,review,POST,0.0040141769,Postal and courier,Industrials
+2023-09-18,2023-09,review,PROF,0.0575214654,Professional and technical services,Industrials
+2023-09-18,2023-09,review,REAL,0.047293601,Real estate (excluding imputed rent),Real Estate
+2023-09-18,2023-09,review,RECR,0.0113703878,"Arts, gambling and recreation",Consumer Discretionary
+2023-09-18,2023-09,review,RUBP,0.0089021402,"Rubber, plastics and packaging",Industrials
+2023-09-18,2023-09,review,TELE,0.0188021117,Telecommunications,Telecommunications
+2023-09-18,2023-09,review,TEXT,0.0148841166,"Textiles, apparel and leather",Consumer Discretionary
+2023-09-18,2023-09,review,TRAD,0.1440710618,Wholesale and retail trade,Consumer Discretionary
+2023-09-18,2023-09,review,TSRV,0.0135087167,Warehousing and transport infrastructure,Industrials
+2023-09-18,2023-09,review,UTIL,0.0224695946,Electricity and gas utilities,Utilities
+2023-09-18,2023-09,review,WATR,0.0082864376,Water and waste,Utilities
+2023-09-18,2023-09,review,WTRN,0.0038804525,Water transport,Industrials
+2024-03-18,2024-03,review,ADMN,0.0415797795,Administrative and support services,Industrials
+2024-03-18,2024-03,review,AGRI,0.0660104727,"Agriculture, farming and fishing",Consumer Staples
+2024-03-18,2024-03,review,ATRN,0.0031274282,Air transport,Consumer Discretionary
+2024-03-18,2024-03,review,AUTO,0.016218705,Motor vehicles and parts,Consumer Discretionary
+2024-03-18,2024-03,review,CHEM,0.0183106336,Chemicals and personal/household products,Basic Materials
+2024-03-18,2024-03,review,COAL,0.0047974372,Coal mining,Energy
+2024-03-18,2024-03,review,CONS,0.0770093581,Construction,Industrials
+2024-03-18,2024-03,review,EEQP,0.0101341523,Electrical equipment,Industrials
+2024-03-18,2024-03,review,ELEC,0.0208590234,"Computers, electronics and semiconductors",Technology
+2024-03-18,2024-03,review,FINS,0.081718813,Financials (banks and insurance),Financials
+2024-03-18,2024-03,review,FMET,0.0145418468,Fabricated metal products,Basic Materials
+2024-03-18,2024-03,review,FOOD,0.0311609412,"Food, beverages and tobacco",Consumer Staples
+2024-03-18,2024-03,review,FORE,0.0083924258,Forestry and wood,Basic Materials
+2024-03-18,2024-03,review,HOTL,0.0237418816,"Hotels, restaurants and catering",Consumer Discretionary
+2024-03-18,2024-03,review,ITSV,0.0315986666,"Software, IT and digital services",Technology
+2024-03-18,2024-03,review,LTRN,0.0314831816,Land transport and pipelines,Industrials
+2024-03-18,2024-03,review,MACH,0.0183039731,Machinery,Industrials
+2024-03-18,2024-03,review,MDIA,0.0128036793,"Publishing, media and video games",Consumer Discretionary
+2024-03-18,2024-03,review,METL,0.0248443017,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2024-03-18,2024-03,review,NMMN,0.0122680124,"Building materials, glass and cement",Industrials
+2024-03-18,2024-03,review,OILG,0.0284162393,Oil and gas (extraction and refining),Energy
+2024-03-18,2024-03,review,OMFG,0.0127562828,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2024-03-18,2024-03,review,OSRV,0.0021952733,Oil and mining services,Energy
+2024-03-18,2024-03,review,OSVC,0.0182438856,Other personal services,Consumer Discretionary
+2024-03-18,2024-03,review,OTRN,0.0056062324,"Aerospace, defence, rail and ships",Industrials
+2024-03-18,2024-03,review,PAPR,0.0082302675,Paper and printing,Basic Materials
+2024-03-18,2024-03,review,PHRM,0.0109737059,Pharmaceuticals and biotech,Health Care
+2024-03-18,2024-03,review,POST,0.0047085437,Postal and courier,Industrials
+2024-03-18,2024-03,review,PROF,0.0612989674,Professional and technical services,Industrials
+2024-03-18,2024-03,review,REAL,0.0470570893,Real estate (excluding imputed rent),Real Estate
+2024-03-18,2024-03,review,RECR,0.0103128015,"Arts, gambling and recreation",Consumer Discretionary
+2024-03-18,2024-03,review,RUBP,0.0092563453,"Rubber, plastics and packaging",Industrials
+2024-03-18,2024-03,review,TELE,0.0190619505,Telecommunications,Telecommunications
+2024-03-18,2024-03,review,TEXT,0.0146794963,"Textiles, apparel and leather",Consumer Discretionary
+2024-03-18,2024-03,review,TRAD,0.1479224487,Wholesale and retail trade,Consumer Discretionary
+2024-03-18,2024-03,review,TSRV,0.0136152904,Warehousing and transport infrastructure,Industrials
+2024-03-18,2024-03,review,UTIL,0.023755648,Electricity and gas utilities,Utilities
+2024-03-18,2024-03,review,WATR,0.0090202911,Water and waste,Utilities
+2024-03-18,2024-03,review,WTRN,0.0039845278,Water transport,Industrials
+2024-09-23,2024-09,review,ADMN,0.0415720319,Administrative and support services,Industrials
+2024-09-23,2024-09,review,AGRI,0.0650366709,"Agriculture, farming and fishing",Consumer Staples
+2024-09-23,2024-09,review,ATRN,0.0030928338,Air transport,Consumer Discretionary
+2024-09-23,2024-09,review,AUTO,0.0162502781,Motor vehicles and parts,Consumer Discretionary
+2024-09-23,2024-09,review,CHEM,0.0183681685,Chemicals and personal/household products,Basic Materials
+2024-09-23,2024-09,review,COAL,0.0049106629,Coal mining,Energy
+2024-09-23,2024-09,review,CONS,0.0775904911,Construction,Industrials
+2024-09-23,2024-09,review,EEQP,0.0102123547,Electrical equipment,Industrials
+2024-09-23,2024-09,review,ELEC,0.0209362992,"Computers, electronics and semiconductors",Technology
+2024-09-23,2024-09,review,FINS,0.0820307883,Financials (banks and insurance),Financials
+2024-09-23,2024-09,review,FMET,0.0145859191,Fabricated metal products,Basic Materials
+2024-09-23,2024-09,review,FOOD,0.0310795569,"Food, beverages and tobacco",Consumer Staples
+2024-09-23,2024-09,review,FORE,0.0084702938,Forestry and wood,Basic Materials
+2024-09-23,2024-09,review,HOTL,0.0236126134,"Hotels, restaurants and catering",Consumer Discretionary
+2024-09-23,2024-09,review,ITSV,0.0317975454,"Software, IT and digital services",Technology
+2024-09-23,2024-09,review,LTRN,0.0315379699,Land transport and pipelines,Industrials
+2024-09-23,2024-09,review,MACH,0.0183910317,Machinery,Industrials
+2024-09-23,2024-09,review,MDIA,0.0127305903,"Publishing, media and video games",Consumer Discretionary
+2024-09-23,2024-09,review,METL,0.0251889008,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2024-09-23,2024-09,review,NMMN,0.0123838632,"Building materials, glass and cement",Industrials
+2024-09-23,2024-09,review,OILG,0.0283446169,Oil and gas (extraction and refining),Energy
+2024-09-23,2024-09,review,OMFG,0.0127535292,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2024-09-23,2024-09,review,OSRV,0.0022209669,Oil and mining services,Energy
+2024-09-23,2024-09,review,OSVC,0.0182436128,Other personal services,Consumer Discretionary
+2024-09-23,2024-09,review,OTRN,0.0056130237,"Aerospace, defence, rail and ships",Industrials
+2024-09-23,2024-09,review,PAPR,0.0082173333,Paper and printing,Basic Materials
+2024-09-23,2024-09,review,PHRM,0.0109691671,Pharmaceuticals and biotech,Health Care
+2024-09-23,2024-09,review,POST,0.0047027883,Postal and courier,Industrials
+2024-09-23,2024-09,review,PROF,0.0610128407,Professional and technical services,Industrials
+2024-09-23,2024-09,review,REAL,0.0470376909,Real estate (excluding imputed rent),Real Estate
+2024-09-23,2024-09,review,RECR,0.0102604521,"Arts, gambling and recreation",Consumer Discretionary
+2024-09-23,2024-09,review,RUBP,0.0092899479,"Rubber, plastics and packaging",Industrials
+2024-09-23,2024-09,review,TELE,0.0189485309,Telecommunications,Telecommunications
+2024-09-23,2024-09,review,TEXT,0.0144013617,"Textiles, apparel and leather",Consumer Discretionary
+2024-09-23,2024-09,review,TRAD,0.1478951395,Wholesale and retail trade,Consumer Discretionary
+2024-09-23,2024-09,review,TSRV,0.0135608963,Warehousing and transport infrastructure,Industrials
+2024-09-23,2024-09,review,UTIL,0.0238322805,Electricity and gas utilities,Utilities
+2024-09-23,2024-09,review,WATR,0.0089818429,Water and waste,Utilities
+2024-09-23,2024-09,review,WTRN,0.0039351148,Water transport,Industrials
+2025-03-24,2025-03,review,ADMN,0.0415720319,Administrative and support services,Industrials
+2025-03-24,2025-03,review,AGRI,0.0650366709,"Agriculture, farming and fishing",Consumer Staples
+2025-03-24,2025-03,review,ATRN,0.0030928338,Air transport,Consumer Discretionary
+2025-03-24,2025-03,review,AUTO,0.0162502781,Motor vehicles and parts,Consumer Discretionary
+2025-03-24,2025-03,review,CHEM,0.0183681685,Chemicals and personal/household products,Basic Materials
+2025-03-24,2025-03,review,COAL,0.0049106629,Coal mining,Energy
+2025-03-24,2025-03,review,CONS,0.0775904911,Construction,Industrials
+2025-03-24,2025-03,review,EEQP,0.0102123547,Electrical equipment,Industrials
+2025-03-24,2025-03,review,ELEC,0.0209362992,"Computers, electronics and semiconductors",Technology
+2025-03-24,2025-03,review,FINS,0.0820307883,Financials (banks and insurance),Financials
+2025-03-24,2025-03,review,FMET,0.0145859191,Fabricated metal products,Basic Materials
+2025-03-24,2025-03,review,FOOD,0.0310795569,"Food, beverages and tobacco",Consumer Staples
+2025-03-24,2025-03,review,FORE,0.0084702938,Forestry and wood,Basic Materials
+2025-03-24,2025-03,review,HOTL,0.0236126134,"Hotels, restaurants and catering",Consumer Discretionary
+2025-03-24,2025-03,review,ITSV,0.0317975454,"Software, IT and digital services",Technology
+2025-03-24,2025-03,review,LTRN,0.0315379699,Land transport and pipelines,Industrials
+2025-03-24,2025-03,review,MACH,0.0183910317,Machinery,Industrials
+2025-03-24,2025-03,review,MDIA,0.0127305903,"Publishing, media and video games",Consumer Discretionary
+2025-03-24,2025-03,review,METL,0.0251889008,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2025-03-24,2025-03,review,NMMN,0.0123838632,"Building materials, glass and cement",Industrials
+2025-03-24,2025-03,review,OILG,0.0283446169,Oil and gas (extraction and refining),Energy
+2025-03-24,2025-03,review,OMFG,0.0127535292,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2025-03-24,2025-03,review,OSRV,0.0022209669,Oil and mining services,Energy
+2025-03-24,2025-03,review,OSVC,0.0182436128,Other personal services,Consumer Discretionary
+2025-03-24,2025-03,review,OTRN,0.0056130237,"Aerospace, defence, rail and ships",Industrials
+2025-03-24,2025-03,review,PAPR,0.0082173333,Paper and printing,Basic Materials
+2025-03-24,2025-03,review,PHRM,0.0109691671,Pharmaceuticals and biotech,Health Care
+2025-03-24,2025-03,review,POST,0.0047027883,Postal and courier,Industrials
+2025-03-24,2025-03,review,PROF,0.0610128407,Professional and technical services,Industrials
+2025-03-24,2025-03,review,REAL,0.0470376909,Real estate (excluding imputed rent),Real Estate
+2025-03-24,2025-03,review,RECR,0.0102604521,"Arts, gambling and recreation",Consumer Discretionary
+2025-03-24,2025-03,review,RUBP,0.0092899479,"Rubber, plastics and packaging",Industrials
+2025-03-24,2025-03,review,TELE,0.0189485309,Telecommunications,Telecommunications
+2025-03-24,2025-03,review,TEXT,0.0144013617,"Textiles, apparel and leather",Consumer Discretionary
+2025-03-24,2025-03,review,TRAD,0.1478951395,Wholesale and retail trade,Consumer Discretionary
+2025-03-24,2025-03,review,TSRV,0.0135608963,Warehousing and transport infrastructure,Industrials
+2025-03-24,2025-03,review,UTIL,0.0238322805,Electricity and gas utilities,Utilities
+2025-03-24,2025-03,review,WATR,0.0089818429,Water and waste,Utilities
+2025-03-24,2025-03,review,WTRN,0.0039351148,Water transport,Industrials
+2025-09-22,2025-09,review,ADMN,0.04138963,Administrative and support services,Industrials
+2025-09-22,2025-09,review,AGRI,0.0659995726,"Agriculture, farming and fishing",Consumer Staples
+2025-09-22,2025-09,review,ATRN,0.0030953719,Air transport,Consumer Discretionary
+2025-09-22,2025-09,review,AUTO,0.0162026224,Motor vehicles and parts,Consumer Discretionary
+2025-09-22,2025-09,review,CHEM,0.0183946927,Chemicals and personal/household products,Basic Materials
+2025-09-22,2025-09,review,COAL,0.0049730998,Coal mining,Energy
+2025-09-22,2025-09,review,CONS,0.0777032276,Construction,Industrials
+2025-09-22,2025-09,review,EEQP,0.010223454,Electrical equipment,Industrials
+2025-09-22,2025-09,review,ELEC,0.020973752,"Computers, electronics and semiconductors",Technology
+2025-09-22,2025-09,review,FINS,0.0819791062,Financials (banks and insurance),Financials
+2025-09-22,2025-09,review,FMET,0.0145752375,Fabricated metal products,Basic Materials
+2025-09-22,2025-09,review,FOOD,0.0310958354,"Food, beverages and tobacco",Consumer Staples
+2025-09-22,2025-09,review,FORE,0.0085551696,Forestry and wood,Basic Materials
+2025-09-22,2025-09,review,HOTL,0.0235557692,"Hotels, restaurants and catering",Consumer Discretionary
+2025-09-22,2025-09,review,ITSV,0.031782355,"Software, IT and digital services",Technology
+2025-09-22,2025-09,review,LTRN,0.0315771051,Land transport and pipelines,Industrials
+2025-09-22,2025-09,review,MACH,0.0183601196,Machinery,Industrials
+2025-09-22,2025-09,review,MDIA,0.0126573954,"Publishing, media and video games",Consumer Discretionary
+2025-09-22,2025-09,review,METL,0.0253363838,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2025-09-22,2025-09,review,NMMN,0.0124702421,"Building materials, glass and cement",Industrials
+2025-09-22,2025-09,review,OILG,0.0284045476,Oil and gas (extraction and refining),Energy
+2025-09-22,2025-09,review,OMFG,0.0126841002,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2025-09-22,2025-09,review,OSRV,0.0022388404,Oil and mining services,Energy
+2025-09-22,2025-09,review,OSVC,0.0182046178,Other personal services,Consumer Discretionary
+2025-09-22,2025-09,review,OTRN,0.005595279,"Aerospace, defence, rail and ships",Industrials
+2025-09-22,2025-09,review,PAPR,0.0082160729,Paper and printing,Basic Materials
+2025-09-22,2025-09,review,PHRM,0.0109614104,Pharmaceuticals and biotech,Health Care
+2025-09-22,2025-09,review,POST,0.004679659,Postal and courier,Industrials
+2025-09-22,2025-09,review,PROF,0.0604961689,Professional and technical services,Industrials
+2025-09-22,2025-09,review,REAL,0.0467631439,Real estate (excluding imputed rent),Real Estate
+2025-09-22,2025-09,review,RECR,0.0101778987,"Arts, gambling and recreation",Consumer Discretionary
+2025-09-22,2025-09,review,RUBP,0.0092857883,"Rubber, plastics and packaging",Industrials
+2025-09-22,2025-09,review,TELE,0.0189209626,Telecommunications,Telecommunications
+2025-09-22,2025-09,review,TEXT,0.0145582865,"Textiles, apparel and leather",Consumer Discretionary
+2025-09-22,2025-09,review,TRAD,0.1476888867,Wholesale and retail trade,Consumer Discretionary
+2025-09-22,2025-09,review,TSRV,0.013477338,Warehousing and transport infrastructure,Industrials
+2025-09-22,2025-09,review,UTIL,0.0238657121,Electricity and gas utilities,Utilities
+2025-09-22,2025-09,review,WATR,0.0089322496,Water and waste,Utilities
+2025-09-22,2025-09,review,WTRN,0.0039488955,Water transport,Industrials
+2026-03-23,2026-03,review,ADMN,0.0419440046,Administrative and support services,Industrials
+2026-03-23,2026-03,review,AGRI,0.0639830884,"Agriculture, farming and fishing",Consumer Staples
+2026-03-23,2026-03,review,ATRN,0.0043134971,Air transport,Consumer Discretionary
+2026-03-23,2026-03,review,AUTO,0.0167529041,Motor vehicles and parts,Consumer Discretionary
+2026-03-23,2026-03,review,CHEM,0.0183365276,Chemicals and personal/household products,Basic Materials
+2026-03-23,2026-03,review,COAL,0.0075764666,Coal mining,Energy
+2026-03-23,2026-03,review,CONS,0.0756522486,Construction,Industrials
+2026-03-23,2026-03,review,EEQP,0.0099766115,Electrical equipment,Industrials
+2026-03-23,2026-03,review,ELEC,0.0206323603,"Computers, electronics and semiconductors",Technology
+2026-03-23,2026-03,review,FINS,0.0765954171,Financials (banks and insurance),Financials
+2026-03-23,2026-03,review,FMET,0.0143290303,Fabricated metal products,Basic Materials
+2026-03-23,2026-03,review,FOOD,0.0291853077,"Food, beverages and tobacco",Consumer Staples
+2026-03-23,2026-03,review,FORE,0.008688263,Forestry and wood,Basic Materials
+2026-03-23,2026-03,review,HOTL,0.0278428435,"Hotels, restaurants and catering",Consumer Discretionary
+2026-03-23,2026-03,review,ITSV,0.0316685772,"Software, IT and digital services",Technology
+2026-03-23,2026-03,review,LTRN,0.0342357808,Land transport and pipelines,Industrials
+2026-03-23,2026-03,review,MACH,0.0179979583,Machinery,Industrials
+2026-03-23,2026-03,review,MDIA,0.0115929545,"Publishing, media and video games",Consumer Discretionary
+2026-03-23,2026-03,review,METL,0.0267743883,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2026-03-23,2026-03,review,NMMN,0.0121036718,"Building materials, glass and cement",Industrials
+2026-03-23,2026-03,review,OILG,0.0380202425,Oil and gas (extraction and refining),Energy
+2026-03-23,2026-03,review,OMFG,0.0122124919,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2026-03-23,2026-03,review,OSRV,0.0021966254,Oil and mining services,Energy
+2026-03-23,2026-03,review,OSVC,0.0179036873,Other personal services,Consumer Discretionary
+2026-03-23,2026-03,review,OTRN,0.0051767891,"Aerospace, defence, rail and ships",Industrials
+2026-03-23,2026-03,review,PAPR,0.0078460582,Paper and printing,Basic Materials
+2026-03-23,2026-03,review,PHRM,0.0105677368,Pharmaceuticals and biotech,Health Care
+2026-03-23,2026-03,review,POST,0.0043566209,Postal and courier,Industrials
+2026-03-23,2026-03,review,PROF,0.0590144509,Professional and technical services,Industrials
+2026-03-23,2026-03,review,REAL,0.0440922948,Real estate (excluding imputed rent),Real Estate
+2026-03-23,2026-03,review,RECR,0.0109204284,"Arts, gambling and recreation",Consumer Discretionary
+2026-03-23,2026-03,review,RUBP,0.0088679167,"Rubber, plastics and packaging",Industrials
+2026-03-23,2026-03,review,TELE,0.0167465894,Telecommunications,Telecommunications
+2026-03-23,2026-03,review,TEXT,0.0145657364,"Textiles, apparel and leather",Consumer Discretionary
+2026-03-23,2026-03,review,TRAD,0.1465468015,Wholesale and retail trade,Consumer Discretionary
+2026-03-23,2026-03,review,TSRV,0.0140514921,Warehousing and transport infrastructure,Industrials
+2026-03-23,2026-03,review,UTIL,0.0225861532,Electricity and gas utilities,Utilities
+2026-03-23,2026-03,review,WATR,0.0085868709,Water and waste,Utilities
+2026-03-23,2026-03,review,WTRN,0.0055591124,Water transport,Industrials
+2026-09-21,2026-09,review,ADMN,0.0417688737,Administrative and support services,Industrials
+2026-09-21,2026-09,review,AGRI,0.064298993,"Agriculture, farming and fishing",Consumer Staples
+2026-09-21,2026-09,review,ATRN,0.0043062501,Air transport,Consumer Discretionary
+2026-09-21,2026-09,review,AUTO,0.0166982158,Motor vehicles and parts,Consumer Discretionary
+2026-09-21,2026-09,review,CHEM,0.0184102788,Chemicals and personal/household products,Basic Materials
+2026-09-21,2026-09,review,COAL,0.0076549344,Coal mining,Energy
+2026-09-21,2026-09,review,CONS,0.0756982702,Construction,Industrials
+2026-09-21,2026-09,review,EEQP,0.0100053153,Electrical equipment,Industrials
+2026-09-21,2026-09,review,ELEC,0.0208033551,"Computers, electronics and semiconductors",Technology
+2026-09-21,2026-09,review,FINS,0.0765390929,Financials (banks and insurance),Financials
+2026-09-21,2026-09,review,FMET,0.0143394222,Fabricated metal products,Basic Materials
+2026-09-21,2026-09,review,FOOD,0.029252092,"Food, beverages and tobacco",Consumer Staples
+2026-09-21,2026-09,review,FORE,0.008705417,Forestry and wood,Basic Materials
+2026-09-21,2026-09,review,HOTL,0.0277738854,"Hotels, restaurants and catering",Consumer Discretionary
+2026-09-21,2026-09,review,ITSV,0.0315588513,"Software, IT and digital services",Technology
+2026-09-21,2026-09,review,LTRN,0.0342282527,Land transport and pipelines,Industrials
+2026-09-21,2026-09,review,MACH,0.0180183774,Machinery,Industrials
+2026-09-21,2026-09,review,MDIA,0.0115541634,"Publishing, media and video games",Consumer Discretionary
+2026-09-21,2026-09,review,METL,0.0268794256,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2026-09-21,2026-09,review,NMMN,0.0121825448,"Building materials, glass and cement",Industrials
+2026-09-21,2026-09,review,OILG,0.0382343504,Oil and gas (extraction and refining),Energy
+2026-09-21,2026-09,review,OMFG,0.012203714,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2026-09-21,2026-09,review,OSRV,0.0021997224,Oil and mining services,Energy
+2026-09-21,2026-09,review,OSVC,0.0178830885,Other personal services,Consumer Discretionary
+2026-09-21,2026-09,review,OTRN,0.0051610113,"Aerospace, defence, rail and ships",Industrials
+2026-09-21,2026-09,review,PAPR,0.0078601778,Paper and printing,Basic Materials
+2026-09-21,2026-09,review,PHRM,0.0106475094,Pharmaceuticals and biotech,Health Care
+2026-09-21,2026-09,review,POST,0.0043367268,Postal and courier,Industrials
+2026-09-21,2026-09,review,PROF,0.0586247433,Professional and technical services,Industrials
+2026-09-21,2026-09,review,REAL,0.0438604585,Real estate (excluding imputed rent),Real Estate
+2026-09-21,2026-09,review,RECR,0.0108623057,"Arts, gambling and recreation",Consumer Discretionary
+2026-09-21,2026-09,review,RUBP,0.0088785963,"Rubber, plastics and packaging",Industrials
+2026-09-21,2026-09,review,TELE,0.0167707078,Telecommunications,Telecommunications
+2026-09-21,2026-09,review,TEXT,0.0146734675,"Textiles, apparel and leather",Consumer Discretionary
+2026-09-21,2026-09,review,TRAD,0.1464133712,Wholesale and retail trade,Consumer Discretionary
+2026-09-21,2026-09,review,TSRV,0.0139892413,Warehousing and transport infrastructure,Industrials
+2026-09-21,2026-09,review,UTIL,0.0225530065,Electricity and gas utilities,Utilities
+2026-09-21,2026-09,review,WATR,0.0085777698,Water and waste,Utilities
+2026-09-21,2026-09,review,WTRN,0.0055940207,Water transport,Industrials
+2027-03-22,2027-03,review,ADMN,0.0417825097,Administrative and support services,Industrials
+2027-03-22,2027-03,review,AGRI,0.064297473,"Agriculture, farming and fishing",Consumer Staples
+2027-03-22,2027-03,review,ATRN,0.0043059678,Air transport,Consumer Discretionary
+2027-03-22,2027-03,review,AUTO,0.016713609,Motor vehicles and parts,Consumer Discretionary
+2027-03-22,2027-03,review,CHEM,0.01839236,Chemicals and personal/household products,Basic Materials
+2027-03-22,2027-03,review,COAL,0.0076431377,Coal mining,Energy
+2027-03-22,2027-03,review,CONS,0.075714563,Construction,Industrials
+2027-03-22,2027-03,review,EEQP,0.0100057561,Electrical equipment,Industrials
+2027-03-22,2027-03,review,ELEC,0.0207966498,"Computers, electronics and semiconductors",Technology
+2027-03-22,2027-03,review,FINS,0.076534359,Financials (banks and insurance),Financials
+2027-03-22,2027-03,review,FMET,0.0143382405,Fabricated metal products,Basic Materials
+2027-03-22,2027-03,review,FOOD,0.0292299736,"Food, beverages and tobacco",Consumer Staples
+2027-03-22,2027-03,review,FORE,0.0087083609,Forestry and wood,Basic Materials
+2027-03-22,2027-03,review,HOTL,0.0277669466,"Hotels, restaurants and catering",Consumer Discretionary
+2027-03-22,2027-03,review,ITSV,0.0315799289,"Software, IT and digital services",Technology
+2027-03-22,2027-03,review,LTRN,0.0342286169,Land transport and pipelines,Industrials
+2027-03-22,2027-03,review,MACH,0.0180249414,Machinery,Industrials
+2027-03-22,2027-03,review,MDIA,0.0115492054,"Publishing, media and video games",Consumer Discretionary
+2027-03-22,2027-03,review,METL,0.026874478,"Metals and mining (ores, minerals, basic metals)",Basic Materials
+2027-03-22,2027-03,review,NMMN,0.0121753221,"Building materials, glass and cement",Industrials
+2027-03-22,2027-03,review,OILG,0.0382283797,Oil and gas (extraction and refining),Energy
+2027-03-22,2027-03,review,OMFG,0.0122048591,"Furniture, jewellery, toys and medical supplies",Consumer Discretionary
+2027-03-22,2027-03,review,OSRV,0.0022045703,Oil and mining services,Energy
+2027-03-22,2027-03,review,OSVC,0.0178867221,Other personal services,Consumer Discretionary
+2027-03-22,2027-03,review,OTRN,0.0051636081,"Aerospace, defence, rail and ships",Industrials
+2027-03-22,2027-03,review,PAPR,0.0078583139,Paper and printing,Basic Materials
+2027-03-22,2027-03,review,PHRM,0.0106144174,Pharmaceuticals and biotech,Health Care
+2027-03-22,2027-03,review,POST,0.0043403304,Postal and courier,Industrials
+2027-03-22,2027-03,review,PROF,0.0586462859,Professional and technical services,Industrials
+2027-03-22,2027-03,review,REAL,0.0438884358,Real estate (excluding imputed rent),Real Estate
+2027-03-22,2027-03,review,RECR,0.0108624734,"Arts, gambling and recreation",Consumer Discretionary
+2027-03-22,2027-03,review,RUBP,0.0088776958,"Rubber, plastics and packaging",Industrials
+2027-03-22,2027-03,review,TELE,0.0167671122,Telecommunications,Telecommunications
+2027-03-22,2027-03,review,TEXT,0.0146641461,"Textiles, apparel and leather",Consumer Discretionary
+2027-03-22,2027-03,review,TRAD,0.1464033305,Wholesale and retail trade,Consumer Discretionary
+2027-03-22,2027-03,review,TSRV,0.0139931077,Warehousing and transport infrastructure,Industrials
+2027-03-22,2027-03,review,UTIL,0.0225579642,Electricity and gas utilities,Utilities
+2027-03-22,2027-03,review,WATR,0.0085800814,Water and waste,Utilities
+2027-03-22,2027-03,review,WTRN,0.0055957665,Water transport,Industrials

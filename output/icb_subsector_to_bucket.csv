@@ -1,0 +1,174 @@
+sub_code,subsector,sector,supersector,industry,icio_codes,bucket_id,bucket_name,in_scope,rationale
+10101010,Computer Services,Software and Computer Services,Technology,Technology,J62_63,ITSV,"Software, IT and digital services",1,IT consulting / systems integration / cloud = ISIC 62-63
+10101015,Software,Software and Computer Services,Technology,Technology,J62_63,ITSV,"Software, IT and digital services",1,Software publishing is ISIC 5820 (J58) but modern software revenue is dominated by SaaS/cloud/programming (ISIC 62-63); primary activity assigned to J62_63 to keep J58T60 (media) separate
+10101020,Consumer Digital Services,Software and Computer Services,Technology,Technology,J62_63,ITSV,"Software, IT and digital services",1,Web portals / digital platforms = ISIC 6312 (J63)
+10102010,Semiconductors,Technology Hardware and Equipment,Technology,Technology,C26,ELEC,"Computers, electronics and semiconductors",1,Semiconductors = ISIC 2610
+10102015,Electronic Components,Technology Hardware and Equipment,Technology,Technology,C26,ELEC,"Computers, electronics and semiconductors",1,Electronic components / PCBs = ISIC 2610-2612
+10102020,Production Technology Equipment,Technology Hardware and Equipment,Technology,Technology,C28,MACH,Machinery,1,Semiconductor/production equipment = special-purpose machinery ISIC 2829
+10102030,Computer Hardware,Technology Hardware and Equipment,Technology,Technology,C26,ELEC,"Computers, electronics and semiconductors",1,Computers & peripherals = ISIC 2620
+10102035,Electronic Office Equipment,Technology Hardware and Equipment,Technology,Technology,C28,MACH,Machinery,1,Office machinery (photocopiers) = ISIC 2817
+15101010,Telecommunications Equipment,Telecommunications Equipment,Telecommunications,Telecommunications,C26,ELEC,"Computers, electronics and semiconductors",1,Communication equipment = ISIC 2630
+15102010,Cable Television Services,Telecommunications Service Providers,Telecommunications,Telecommunications,J61,TELE,Telecommunications,1,Cable distribution networks = ISIC 6110
+15102015,Telecommunications Services,Telecommunications Service Providers,Telecommunications,Telecommunications,J61,TELE,Telecommunications,1,Telecommunications = ISIC 61
+20101010,Health Care Facilities,Health Care Providers,Health Care,Health Care,Q,X_Q,Out of scope: health and social work,0,Hospitals / clinics = ISIC 86 (out of scope: zero weight)
+20101020,Health Care Management Services,Health Care Providers,Health Care,Health Care,K,FINS,Financials (banks and insurance),1,Managed care / HMOs are health insurers = ISIC 6512
+20101025,Health Care Services,Health Care Providers,Health Care,Health Care,Q,X_Q,Out of scope: health and social work,0,Disease-management / paramedical services = ISIC 86 (out of scope: zero weight)
+20101030,Health Care: Misc.,Health Care Providers,Health Care,Health Care,Q,X_Q,Out of scope: health and social work,0,Health care n.e.c. = ISIC 86-88 (out of scope: zero weight)
+20102010,Medical Equipment,Medical Equipment and Services,Health Care,Health Care,C26,ELEC,"Computers, electronics and semiconductors",1,"Non-disposable medical devices (MRI, X-ray, pacemakers) = irradiation/electromedical ISIC 2660"
+20102015,Medical Supplies,Medical Equipment and Services,Health Care,Health Care,C31T33,OMFG,"Furniture, jewellery, toys and medical supplies",1,Medical & dental instruments and supplies = ISIC 3250
+20102020,Medical Services,Medical Equipment and Services,Health Care,Health Care,Q,X_Q,Out of scope: health and social work,0,Medical laboratories = ISIC 8690 (out of scope: zero weight)
+20103010,Biotechnology,Pharmaceuticals and Biotechnology,Health Care,Health Care,C21,PHRM,Pharmaceuticals and biotech,1,Biotech drug developers = ISIC 21 (R&D-only firms are M72; primary C21)
+20103015,Pharmaceuticals,Pharmaceuticals and Biotechnology,Health Care,Health Care,C21,PHRM,Pharmaceuticals and biotech,1,Pharmaceuticals = ISIC 21
+20103020,Cannabis Producers,Pharmaceuticals and Biotechnology,Health Care,Health Care,C21,PHRM,Pharmaceuticals and biotech,1,Cannabis producers: medicinal/botanical products = ISIC 2100 (cultivation A01 secondary)
+30101010,Banks,Banks,Banks,Financials,K,FINS,Financials (banks and insurance),1,Banks = ISIC 64
+30201020,Consumer Lending,Finance and Credit Services,Financial Services,Financials,K,FINS,Financials (banks and insurance),1,Consumer lending = ISIC 649
+30201025,Mortgage Finance,Finance and Credit Services,Financial Services,Financials,K,FINS,Financials (banks and insurance),1,Mortgage finance = ISIC 649
+30201030,Financial Data Providers,Finance and Credit Services,Financial Services,Financials,K,FINS,Financials (banks and insurance),1,Financial data/index/rating providers: auxiliary to financial services ISIC 6619 (some J63)
+30202000,Diversified Financial Services,Investment Banking and Brokerage Services,Financial Services,Financials,K,FINS,Financials (banks and insurance),1,Diversified financials / holding companies = ISIC 64-66
+30202010,Asset Managers and Custodians,Investment Banking and Brokerage Services,Financial Services,Financials,K,FINS,Financials (banks and insurance),1,Asset managers & custodians = ISIC 6630/6619
+30202015,Investment Services,Investment Banking and Brokerage Services,Financial Services,Financials,K,FINS,Financials (banks and insurance),1,Investment services / brokerage / exchanges = ISIC 661
+30203000,Mortgage REITs: Diversified,Mortgage Real Estate Investment Trusts,Financial Services,Financials,K,FINS,Financials (banks and insurance),1,Mortgage REITs are lenders = ISIC 649
+30203010,Mortgage REITs: Commercial,Mortgage Real Estate Investment Trusts,Financial Services,Financials,K,FINS,Financials (banks and insurance),1,Mortgage REITs are lenders = ISIC 649
+30203020,Mortgage REITs: Residential,Mortgage Real Estate Investment Trusts,Financial Services,Financials,K,FINS,Financials (banks and insurance),1,Mortgage REITs are lenders = ISIC 649
+30204000,Closed End Investments,Closed End Investments,Financial Services,Financials,K,FINS,Financials (banks and insurance),1,Closed-end funds/trusts = ISIC 6430
+30205000,Open End and Miscellaneous Investment Vehicles,Open End and Miscellaneous Investment Vehicles,Financial Services,Financials,K,FINS,Financials (banks and insurance),1,Open-end funds = ISIC 6430
+30301010,Life Insurance,Life Insurance,Insurance,Financials,K,FINS,Financials (banks and insurance),1,Life insurance = ISIC 6511
+30302010,Full Line Insurance,Non-life Insurance,Insurance,Financials,K,FINS,Financials (banks and insurance),1,Insurance = ISIC 65
+30302015,Insurance Brokers,Non-life Insurance,Insurance,Financials,K,FINS,Financials (banks and insurance),1,Insurance brokers = ISIC 6622
+30302020,Reinsurance,Non-life Insurance,Insurance,Financials,K,FINS,Financials (banks and insurance),1,Reinsurance = ISIC 6520
+30302025,Property and Casualty Insurance,Non-life Insurance,Insurance,Financials,K,FINS,Financials (banks and insurance),1,Non-life insurance = ISIC 6512
+35101010,Real Estate Holding and Development,Real Estate Investment and Services Development,Real Estate,Real Estate,L,REAL,Real estate (excluding imputed rent),1,Real estate holding and development = ISIC 68
+35101015,Real Estate Services,Real Estate Investment and Services Development,Real Estate,Real Estate,L,REAL,Real estate (excluding imputed rent),1,Real estate agencies & management = ISIC 6820
+35102000,Diversified REITs,Real Estate Investment Trusts,Real Estate,Real Estate,L,REAL,Real estate (excluding imputed rent),1,REITs: renting own property = ISIC 6810
+35102010,Health Care REITs,Real Estate Investment Trusts,Real Estate,Real Estate,L,REAL,Real estate (excluding imputed rent),1,REITs: renting own property = ISIC 6810
+35102015,Hotel and Lodging REITs,Real Estate Investment Trusts,Real Estate,Real Estate,L,REAL,Real estate (excluding imputed rent),1,REITs: renting own property = ISIC 6810
+35102020,Industrial REITs,Real Estate Investment Trusts,Real Estate,Real Estate,L,REAL,Real estate (excluding imputed rent),1,REITs: renting own property = ISIC 6810
+35102025,Infrastructure REITs,Real Estate Investment Trusts,Real Estate,Real Estate,L,REAL,Real estate (excluding imputed rent),1,Infrastructure/tower REITs lease owned assets = ISIC 6810
+35102030,Office REITs,Real Estate Investment Trusts,Real Estate,Real Estate,L,REAL,Real estate (excluding imputed rent),1,REITs: renting own property = ISIC 6810
+35102040,Residential REITs,Real Estate Investment Trusts,Real Estate,Real Estate,L,REAL,Real estate (excluding imputed rent),1,REITs: renting own property = ISIC 6810
+35102045,Retail REITs,Real Estate Investment Trusts,Real Estate,Real Estate,L,REAL,Real estate (excluding imputed rent),1,REITs: renting own property = ISIC 6810
+35102050,Storage REITs,Real Estate Investment Trusts,Real Estate,Real Estate,L,REAL,Real estate (excluding imputed rent),1,Self-storage REITs = ISIC 6810
+35102060,Timber REITs,Real Estate Investment Trusts,Real Estate,Real Estate,A02,FORE,Forestry and wood,1,Timber REITs' economic activity is silviculture and logging = ISIC 02
+35102070,Other Specialty REITs,Real Estate Investment Trusts,Real Estate,Real Estate,L,REAL,Real estate (excluding imputed rent),1,REITs: renting own property = ISIC 6810
+40101010,Auto Services,Automobiles and Parts,Automobiles and Parts,Consumer Discretionary,G,TRAD,Wholesale and retail trade,1,Motor vehicle dealers and repair = ISIC 45
+40101015,Tires,Automobiles and Parts,Automobiles and Parts,Consumer Discretionary,C22,RUBP,"Rubber, plastics and packaging",1,Tyres = ISIC 2211
+40101020,Automobiles,Automobiles and Parts,Automobiles and Parts,Consumer Discretionary,C29,AUTO,Motor vehicles and parts,1,Motor vehicles = ISIC 2910
+40101025,Auto Parts,Automobiles and Parts,Automobiles and Parts,Consumer Discretionary,C29,AUTO,Motor vehicles and parts,1,Motor vehicle parts = ISIC 2930
+40201010,Education Services,Consumer Services,Consumer Products and Services,Consumer Discretionary,P,X_P,Out of scope: education,0,Education = ISIC 85 (out of scope: zero weight)
+40201020,Funeral Parlors and Cemetery,Consumer Services,Consumer Products and Services,Consumer Discretionary,S,OSVC,Other personal services,1,Funeral services = ISIC 9603
+40201030,Printing and Copying Services,Consumer Services,Consumer Products and Services,Consumer Discretionary,C17_18,PAPR,Paper and printing,1,Printing = ISIC 1811-1812
+40201040,Rental and Leasing Services: Consumer,Consumer Services,Consumer Products and Services,Consumer Discretionary,N,ADMN,Administrative and support services,1,Renting of personal goods / vehicles = ISIC 77
+40201050,Storage Facilities,Consumer Services,Consumer Products and Services,Consumer Discretionary,L,REAL,Real estate (excluding imputed rent),1,Self-storage operators lease space on owned property = ISIC 6810
+40201060,Vending and Catering Service,Consumer Services,Consumer Products and Services,Consumer Discretionary,I,HOTL,"Hotels, restaurants and catering",1,Catering = ISIC 5621-5629
+40201070,Consumer Services: Misc.,Consumer Services,Consumer Products and Services,Consumer Discretionary,S,OSVC,Other personal services,1,Other personal services = ISIC 96
+40202010,Home Construction,Household Goods and Home Construction,Consumer Products and Services,Consumer Discretionary,F,CONS,Construction,1,Housebuilders = ISIC 4100
+40202015,Household Furnishings,Household Goods and Home Construction,Consumer Products and Services,Consumer Discretionary,C31T33,OMFG,"Furniture, jewellery, toys and medical supplies",1,Furniture = ISIC 3100
+40202020,Household Appliance,Household Goods and Home Construction,Consumer Products and Services,Consumer Discretionary,C27,EEQP,Electrical equipment,1,Domestic appliances = ISIC 2750
+40202025,Household Equipment and Products,Household Goods and Home Construction,Consumer Products and Services,Consumer Discretionary,C25,FMET,Fabricated metal products,1,"Kitchen utensils, cutlery, hand tools = ISIC 2593"
+40203010,Consumer Electronics,Leisure Goods,Consumer Products and Services,Consumer Discretionary,C26,ELEC,"Computers, electronics and semiconductors",1,Consumer electronics = ISIC 2640
+40203040,Electronic Entertainment,Leisure Goods,Consumer Products and Services,Consumer Discretionary,J58T60,MDIA,"Publishing, media and video games",1,Video game publishing = ISIC 5820
+40203045,Toys,Leisure Goods,Consumer Products and Services,Consumer Discretionary,C31T33,OMFG,"Furniture, jewellery, toys and medical supplies",1,Games and toys = ISIC 3240
+40203050,Recreational Products,Leisure Goods,Consumer Products and Services,Consumer Discretionary,C31T33,OMFG,"Furniture, jewellery, toys and medical supplies",1,Sports goods / recreational products = ISIC 3230
+40203055,Recreational Vehicles and Boats,Leisure Goods,Consumer Products and Services,Consumer Discretionary,C302T309;C301,OTRN,"Aerospace, defence, rail and ships",1,"Motorcycles (ISIC 3091) and pleasure boats (ISIC 3012): spans C301 and C302T309, so the two are merged into one bucket"
+40203060,Photography,Leisure Goods,Consumer Products and Services,Consumer Discretionary,C26,ELEC,"Computers, electronics and semiconductors",1,Photographic and optical equipment = ISIC 2670
+40204020,Clothing and Accessories,Personal Goods,Consumer Products and Services,Consumer Discretionary,C13T15,TEXT,"Textiles, apparel and leather",1,Wearing apparel = ISIC 14
+40204025,Footwear,Personal Goods,Consumer Products and Services,Consumer Discretionary,C13T15,TEXT,"Textiles, apparel and leather",1,Footwear = ISIC 1520
+40204030,Luxury Items,Personal Goods,Consumer Products and Services,Consumer Discretionary,C31T33,OMFG,"Furniture, jewellery, toys and medical supplies",1,Jewellery = ISIC 3211 (watches 2652 secondary)
+40204035,Cosmetics,Personal Goods,Consumer Products and Services,Consumer Discretionary,C20,CHEM,Chemicals and personal/household products,1,"Perfumes, cosmetics = ISIC 2023"
+40301010,Entertainment,Media,Media,Consumer Discretionary,J58T60,MDIA,"Publishing, media and video games",1,"Film, TV and music production/broadcasting = ISIC 59-60"
+40301020,Media Agencies,Media,Media,Consumer Discretionary,M,PROF,Professional and technical services,1,Advertising and media agencies = ISIC 7310
+40301030,Publishing,Media,Media,Consumer Discretionary,J58T60,MDIA,"Publishing, media and video games",1,Publishing = ISIC 581
+40301035,Radio and TV Broadcasters,Media,Media,Consumer Discretionary,J58T60,MDIA,"Publishing, media and video games",1,Radio & TV broadcasting = ISIC 60
+40401010,Diversified Retailers,Retailers,Retail,Consumer Discretionary,G,TRAD,Wholesale and retail trade,1,Retail = ISIC 47
+40401020,Apparel Retailers,Retailers,Retail,Consumer Discretionary,G,TRAD,Wholesale and retail trade,1,Retail = ISIC 47
+40401025,Home Improvement Retailers,Retailers,Retail,Consumer Discretionary,G,TRAD,Wholesale and retail trade,1,Retail = ISIC 47
+40401030,Specialty Retailers,Retailers,Retail,Consumer Discretionary,G,TRAD,Wholesale and retail trade,1,Retail = ISIC 47
+40501010,Airlines,Travel and Leisure,Travel and Leisure,Consumer Discretionary,H51,ATRN,Air transport,1,Air transport = ISIC 51
+40501015,Travel and Tourism,Travel and Leisure,Travel and Leisure,Consumer Discretionary,N,ADMN,Administrative and support services,1,"Travel agencies, tour operators, online travel = ISIC 79 (cruise lines H50 secondary)"
+40501020,Casinos and Gambling,Travel and Leisure,Travel and Leisure,Consumer Discretionary,R,RECR,"Arts, gambling and recreation",1,Gambling = ISIC 9200
+40501025,Hotels and Motels,Travel and Leisure,Travel and Leisure,Consumer Discretionary,I,HOTL,"Hotels, restaurants and catering",1,Accommodation = ISIC 55
+40501030,Recreational Services,Travel and Leisure,Travel and Leisure,Consumer Discretionary,R,RECR,"Arts, gambling and recreation",1,Recreation & amusement = ISIC 93
+40501040,Restaurants and Bars,Travel and Leisure,Travel and Leisure,Consumer Discretionary,I,HOTL,"Hotels, restaurants and catering",1,Restaurants and bars = ISIC 56
+45101010,Brewers,Beverages,"Food, Beverage and Tobacco",Consumer Staples,C10T12,FOOD,"Food, beverages and tobacco",1,Beer = ISIC 1103
+45101015,Distillers and Vintners,Beverages,"Food, Beverage and Tobacco",Consumer Staples,C10T12,FOOD,"Food, beverages and tobacco",1,Spirits and wine = ISIC 1101-1102
+45101020,Soft Drinks,Beverages,"Food, Beverage and Tobacco",Consumer Staples,C10T12,FOOD,"Food, beverages and tobacco",1,Soft drinks = ISIC 1104
+45102010,"Farming, Fishing, Ranching and Plantations",Food Producers,"Food, Beverage and Tobacco",Consumer Staples,A01;A03,AGRI,"Agriculture, farming and fishing",1,"Farming, ranching, plantations (ISIC 01) and fisheries (ISIC 03): spans A01 and A03, so they are merged"
+45102020,Food Products,Food Producers,"Food, Beverage and Tobacco",Consumer Staples,C10T12,FOOD,"Food, beverages and tobacco",1,Food products = ISIC 10
+45102030,Fruit and Grain Processing,Food Producers,"Food, Beverage and Tobacco",Consumer Staples,C10T12,FOOD,"Food, beverages and tobacco",1,Grain milling and fruit processing = ISIC 103/106
+45102035,Sugar,Food Producers,"Food, Beverage and Tobacco",Consumer Staples,C10T12,FOOD,"Food, beverages and tobacco",1,Sugar = ISIC 1072
+45103010,Tobacco,Tobacco,"Food, Beverage and Tobacco",Consumer Staples,C10T12,FOOD,"Food, beverages and tobacco",1,Tobacco = ISIC 12
+45201010,Food Retailers and Wholesalers,"Personal Care, Drug and Grocery Stores","Personal Care, Drug and Grocery Stores",Consumer Staples,G,TRAD,Wholesale and retail trade,1,Food retail and wholesale = ISIC 4711/463
+45201015,Drug Retailers,"Personal Care, Drug and Grocery Stores","Personal Care, Drug and Grocery Stores",Consumer Staples,G,TRAD,Wholesale and retail trade,1,Pharmacies = ISIC 4772
+45201020,Personal Products,"Personal Care, Drug and Grocery Stores","Personal Care, Drug and Grocery Stores",Consumer Staples,C20,CHEM,Chemicals and personal/household products,1,Personal care products = ISIC 2023
+45201030,Nondurable Household Products,"Personal Care, Drug and Grocery Stores","Personal Care, Drug and Grocery Stores",Consumer Staples,C20,CHEM,Chemicals and personal/household products,1,Soaps and detergents / household chemicals = ISIC 2023
+45201040,Miscellaneous Consumer Staple Goods,"Personal Care, Drug and Grocery Stores","Personal Care, Drug and Grocery Stores",Consumer Staples,C20,CHEM,Chemicals and personal/household products,1,Miscellaneous consumer staples (household consumables) = mostly ISIC 20
+50101010,Construction,Construction and Materials,Construction and Materials,Industrials,F,CONS,Construction,1,Construction = ISIC 41-43
+50101015,Engineering and Contracting Services,Construction and Materials,Construction and Materials,Industrials,F,CONS,Construction,1,Engineering & contracting (civil engineering ISIC 42; architects ISIC 711 secondary)
+50101020,"Building, Roofing/Wallboard and Plumbing",Construction and Materials,Construction and Materials,Industrials,C23,NMMN,"Building materials, glass and cement",1,"Building products: plasterboard, ceramics, sanitaryware = ISIC 23"
+50101025,Building: Climate Control,Construction and Materials,Construction and Materials,Industrials,C28,MACH,Machinery,1,HVAC equipment = ISIC 2819
+50101030,Cement,Construction and Materials,Construction and Materials,Industrials,C23,NMMN,"Building materials, glass and cement",1,Cement = ISIC 2394
+50101035,Building Materials: Other,Construction and Materials,Construction and Materials,Industrials,C23,NMMN,"Building materials, glass and cement",1,"Aggregates, bricks, other building materials = ISIC 239"
+50201010,Aerospace,Aerospace and Defense,Industrial Goods and Services,Industrials,C302T309,OTRN,"Aerospace, defence, rail and ships",1,Aircraft and spacecraft = ISIC 3030
+50201020,Defense,Aerospace and Defense,Industrial Goods and Services,Industrials,C302T309,OTRN,"Aerospace, defence, rail and ships",1,Military vehicles = ISIC 3040 (weapons & ammunition 2520 secondary)
+50202010,Electrical Components,Electronic and Electrical Equipment,Industrial Goods and Services,Industrials,C27,EEQP,Electrical equipment,1,Electrical components = ISIC 27
+50202020,Electronic Equipment: Control and Filter,Electronic and Electrical Equipment,Industrial Goods and Services,Industrials,C27,EEQP,Electrical equipment,1,Electrical control & distribution apparatus = ISIC 2710
+50202025,Electronic Equipment: Gauges and Meters,Electronic and Electrical Equipment,Industrial Goods and Services,Industrials,C26,ELEC,"Computers, electronics and semiconductors",1,Measuring/testing instruments = ISIC 2651
+50202030,Electronic Equipment: Pollution Control,Electronic and Electrical Equipment,Industrial Goods and Services,Industrials,C28,MACH,Machinery,1,Pollution-control and filtering machinery = ISIC 2819/2829
+50202040,Electronic Equipment: Other,Electronic and Electrical Equipment,Industrial Goods and Services,Industrials,C27,EEQP,Electrical equipment,1,Electrical equipment n.e.c. = ISIC 2790
+50203000,Diversified Industrials,General Industrials,Industrial Goods and Services,Industrials,C28,MACH,Machinery,1,Conglomerates: no dominant line by definition; assigned to general machinery ISIC 28 as the modal activity
+50203010,Paints and Coatings,General Industrials,Industrial Goods and Services,Industrials,C20,CHEM,Chemicals and personal/household products,1,Paints and coatings = ISIC 2022
+50203015,Plastics,General Industrials,Industrial Goods and Services,Industrials,C22,RUBP,"Rubber, plastics and packaging",1,Plastics products = ISIC 222
+50203020,Glass,General Industrials,Industrial Goods and Services,Industrials,C23,NMMN,"Building materials, glass and cement",1,Glass = ISIC 2310
+50203030,Containers and Packaging,General Industrials,Industrial Goods and Services,Industrials,C22,RUBP,"Rubber, plastics and packaging",1,"Packaging spans paper (17), plastics (22), glass (23) and metal (25); assigned to plastics as the modal activity"
+50204000,Machinery: Industrial,Industrial Engineering,Industrial Goods and Services,Industrials,C28,MACH,Machinery,1,Machinery = ISIC 28
+50204010,Machinery: Agricultural,Industrial Engineering,Industrial Goods and Services,Industrials,C28,MACH,Machinery,1,Agricultural machinery = ISIC 2821
+50204020,Machinery: Construction and Handling,Industrial Engineering,Industrial Goods and Services,Industrials,C28,MACH,Machinery,1,Construction & lifting machinery = ISIC 2816/2824
+50204030,Machinery: Engines,Industrial Engineering,Industrial Goods and Services,Industrials,C28,MACH,Machinery,1,Engines & turbines = ISIC 2811
+50204040,Machinery: Tools,Industrial Engineering,Industrial Goods and Services,Industrials,C28,MACH,Machinery,1,Machine tools = ISIC 2822
+50204050,Machinery: Specialty,Industrial Engineering,Industrial Goods and Services,Industrials,C28,MACH,Machinery,1,Special-purpose machinery = ISIC 2829
+50205010,Industrial Suppliers,Industrial Support Services,Industrial Goods and Services,Industrials,G,TRAD,Wholesale and retail trade,1,Industrial distributors = ISIC 46
+50205015,Transaction Processing Services,Industrial Support Services,Industrial Goods and Services,Industrials,K,FINS,Financials (banks and insurance),1,Payment processing / card networks = ISIC 6619
+50205020,Professional Business Support Services,Industrial Support Services,Industrial Goods and Services,Industrials,M,PROF,Professional and technical services,1,"Consulting, tax and business advisory = ISIC 69-70"
+50205025,Business Training and Employment Agencies,Industrial Support Services,Industrial Goods and Services,Industrials,N,ADMN,Administrative and support services,1,Employment activities = ISIC 78
+50205030,Forms and Bulk Printing Services,Industrial Support Services,Industrial Goods and Services,Industrials,C17_18,PAPR,Paper and printing,1,Printing = ISIC 1811
+50205040,Security Services,Industrial Support Services,Industrial Goods and Services,Industrials,N,ADMN,Administrative and support services,1,Security services = ISIC 80
+50206010,Trucking,Industrial Transportation,Industrial Goods and Services,Industrials,H49,LTRN,Land transport and pipelines,1,Road freight = ISIC 4923
+50206015,Commercial Vehicles and Parts,Industrial Transportation,Industrial Goods and Services,Industrials,C29,AUTO,Motor vehicles and parts,1,Trucks and vans = ISIC 2910
+50206020,Railroads,Industrial Transportation,Industrial Goods and Services,Industrials,H49,LTRN,Land transport and pipelines,1,Rail transport = ISIC 491-492
+50206025,Railroad Equipment,Industrial Transportation,Industrial Goods and Services,Industrials,C302T309,OTRN,"Aerospace, defence, rail and ships",1,Railway rolling stock = ISIC 3020
+50206030,Marine Transportation,Industrial Transportation,Industrial Goods and Services,Industrials,H50,WTRN,Water transport,1,Water transport = ISIC 50
+50206040,Delivery Services,Industrial Transportation,Industrial Goods and Services,Industrials,H53,POST,Postal and courier,1,Courier and delivery = ISIC 53
+50206050,Commercial Vehicle-Equipment Leasing,Industrial Transportation,Industrial Goods and Services,Industrials,N,ADMN,Administrative and support services,1,Leasing of machinery & vehicles = ISIC 7730
+50206060,Transportation Services,Industrial Transportation,Industrial Goods and Services,Industrials,H52,TSRV,Warehousing and transport infrastructure,1,"Airports, toll roads, ports, logistics = ISIC 52"
+55101000,Diversified Materials,Industrial Materials,Basic Resources,Basic Materials,C23,NMMN,"Building materials, glass and cement",1,"Abrasives, composites, other non-metallic minerals = ISIC 2399"
+55101010,Forestry,Industrial Materials,Basic Resources,Basic Materials,A02;C16,FORE,Forestry and wood,1,"Timber tracts and nurseries (ISIC 02) and sawmills (ISIC 1610): spans A02 and C16, so they are merged"
+55101015,Paper,Industrial Materials,Basic Resources,Basic Materials,C17_18,PAPR,Paper and printing,1,Paper and pulp = ISIC 17
+55101020,Textile Products,Industrial Materials,Basic Resources,Basic Materials,C13T15,TEXT,"Textiles, apparel and leather",1,Textiles = ISIC 13
+55102000,General Mining,Industrial Metals and Mining,Basic Resources,Basic Materials,B07;B08,METL,"Metals and mining (ores, minerals, basic metals)",1,"Diversified metals & mining, minerals n.e.c.: spans ISIC 07 and 08"
+55102010,Iron and Steel,Industrial Metals and Mining,Basic Resources,Basic Materials,B07;C241_2431,METL,"Metals and mining (ores, minerals, basic metals)",1,ICB definition includes iron-ore mining (ISIC 0710) and steelmaking (ISIC 241): spans B07 and C241
+55102015,Metal Fabricating,Industrial Metals and Mining,Basic Resources,Basic Materials,C25,FMET,Fabricated metal products,1,Fabricated metal products = ISIC 25
+55102035,Aluminum,Industrial Metals and Mining,Basic Resources,Basic Materials,B07;C242_2432,METL,"Metals and mining (ores, minerals, basic metals)",1,ICB definition includes bauxite mining (ISIC 0729) and aluminium production (ISIC 2420)
+55102040,Copper,Industrial Metals and Mining,Basic Resources,Basic Materials,B07;C242_2432,METL,"Metals and mining (ores, minerals, basic metals)",1,Copper mining (ISIC 0729) and refining (ISIC 2420)
+55102050,Nonferrous Metals,Industrial Metals and Mining,Basic Resources,Basic Materials,C242_2432,METL,"Metals and mining (ores, minerals, basic metals)",1,Non-ferrous metals = ISIC 2420
+55103020,Diamonds and Gemstones,Precious Metals and Mining,Basic Resources,Basic Materials,B08,METL,"Metals and mining (ores, minerals, basic metals)",1,Diamonds and gemstones = ISIC 0899
+55103025,Gold Mining,Precious Metals and Mining,Basic Resources,Basic Materials,B07,METL,"Metals and mining (ores, minerals, basic metals)",1,Gold mining = ISIC 0729
+55103030,Platinum and Precious Metals,Precious Metals and Mining,Basic Resources,Basic Materials,B07,METL,"Metals and mining (ores, minerals, basic metals)",1,Platinum group metal mining = ISIC 0729
+55201000,Chemicals: Diversified,Chemicals,Chemicals,Basic Materials,C20,CHEM,Chemicals and personal/household products,1,Chemicals = ISIC 20
+55201010,Chemicals and Synthetic Fibers,Chemicals,Chemicals,Basic Materials,C20,CHEM,Chemicals and personal/household products,1,Basic chemicals and synthetic fibres = ISIC 2011/2030
+55201015,Fertilizers,Chemicals,Chemicals,Basic Materials,C20,CHEM,Chemicals and personal/household products,1,Fertilisers = ISIC 2012 (potash mining B08 secondary)
+55201020,Specialty Chemicals,Chemicals,Chemicals,Basic Materials,C20,CHEM,Chemicals and personal/household products,1,Specialty chemicals = ISIC 2029
+60101000,Integrated Oil and Gas,"Oil, Gas and Coal",Energy,Energy,B06;C19,OILG,Oil and gas (extraction and refining),1,"Integrated oil & gas: crude/gas extraction (ISIC 06) and refining (ISIC 19): spans B06 and C19, so they are merged"
+60101010,Oil: Crude Producers,"Oil, Gas and Coal",Energy,Energy,B06,OILG,Oil and gas (extraction and refining),1,Crude and gas extraction = ISIC 06
+60101015,Offshore Drilling and Other Services,"Oil, Gas and Coal",Energy,Energy,B09,OSRV,Oil and mining services,1,Offshore drilling and oilfield services = ISIC 0910
+60101020,Oil Refining and Marketing,"Oil, Gas and Coal",Energy,Energy,C19,OILG,Oil and gas (extraction and refining),1,Refining = ISIC 1920
+60101030,Oil Equipment and Services,"Oil, Gas and Coal",Energy,Energy,B09,OSRV,Oil and mining services,1,Oil equipment and services = ISIC 0910
+60101035,Pipelines,"Oil, Gas and Coal",Energy,Energy,H49,LTRN,Land transport and pipelines,1,Pipeline transport = ISIC 4930
+60101040,Coal,"Oil, Gas and Coal",Energy,Energy,B05,COAL,Coal mining,1,Coal mining = ISIC 05
+60102010,Alternative Fuels,Alternative Energy,Energy,Energy,C20,CHEM,Chemicals and personal/household products,1,Biofuels/ethanol/hydrogen = ISIC 2011/2029
+60102020,Renewable Energy Equipment,Alternative Energy,Energy,Energy,C28,MACH,Machinery,1,Renewable energy equipment: wind turbines (ISIC 2811) are the modal activity; solar cells (ISIC 2610) secondary
+65101010,Alternative Electricity,Electricity,Utilities,Utilities,D,UTIL,Electricity and gas utilities,1,Electricity from renewables = ISIC 3510
+65101015,Conventional Electricity,Electricity,Utilities,Utilities,D,UTIL,Electricity and gas utilities,1,Electricity = ISIC 3510
+65102000,Multi-Utilities,"Gas, Water and Multi-utilities",Utilities,Utilities,D,UTIL,Electricity and gas utilities,1,Multi-utilities: electricity and gas dominate (ISIC 35); water (ISIC 36) secondary
+65102020,Gas Distribution,"Gas, Water and Multi-utilities",Utilities,Utilities,D,UTIL,Electricity and gas utilities,1,Gas distribution = ISIC 3520
+65102030,Water,"Gas, Water and Multi-utilities",Utilities,Utilities,E,WATR,Water and waste,1,Water supply = ISIC 36
+65103035,Waste and Disposal Services,Waste and Disposal Services,Utilities,Utilities,E,WATR,Water and waste,1,Waste collection and treatment = ISIC 38-39
