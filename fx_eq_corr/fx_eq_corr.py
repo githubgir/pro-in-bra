@@ -1,25 +1,27 @@
-"""Rolling correlation between equity indices and their currency vs USD, using FRED data.
+"""Rolling correlation of USD and EUR (priced in local currency) with local equity markets.
 
-FX returns are signed so that positive = the non-USD currency appreciates vs USD:
-    JPY : -dlog(DEXJPUS)   (DEXJPUS = JPY per USD)
-    CHF : -dlog(DEXSZUS)   (DEXSZUS = CHF per USD)
-    EUR : +dlog(DEXUSEU)   (DEXUSEU = USD per EUR; EUR up = USD down)
+For each market with local currency LOC, correlate
+    equity index return in LOC   vs   dlog(price of 1 USD / 1 EUR in LOC)
+so a positive FX return = the foreign currency appreciates, i.e. LOC weakens.
+A negative correlation means the local currency strengthens when local equities
+fall (safe-haven / funding-currency behaviour).
 
-Pairs
-    jpy_nikkei   NIKKEI225 (daily)              vs JPY, weekly returns
-    eur_nasdaq   NASDAQCOM (daily)              vs EUR, weekly returns
-    eur_sp500    SP500 (daily, FRED keeps 10y)  vs EUR, weekly returns
-    chf_oecd     OECD Swiss share prices (monthly, SPASTT01CHM661N) vs CHF, monthly
-    usd_oecd     OECD US share prices    (monthly, SPASTT01USM661N) vs EUR, monthly
-    jpy_oecd     OECD Japan share prices (monthly, SPASTT01JPM661N) vs JPY, monthly
+FX from FRED H.10 noon NY buying rates; crosses (EUR/JPY, EUR/CHF) are built from
+the same fixings, so both legs are synchronous:
+    DEXJPUS JPY per USD, DEXSZUS CHF per USD, DEXUSEU USD per EUR
 
-FRED carries no SMI series, so Switzerland uses the OECD monthly index. OECD share
-price indices are monthly averages of daily prices, so the matching FX series is
-also averaged by month. The monthly OECD pairs give a like-for-like cross-country
-comparison.
+Markets
+    nikkei   NIKKEI225 (daily)                   LOC=JPY  weekly returns
+    jp_oecd  OECD Japan share prices (monthly)   LOC=JPY  monthly
+    ch_oecd  OECD Swiss share prices (monthly)   LOC=CHF  monthly  (FRED has no SMI)
+    nasdaq   NASDAQCOM (daily)                   LOC=USD  weekly
+    sp500    SP500 (daily, FRED keeps 10y only)  LOC=USD  weekly
+    us_oecd  OECD US share prices (monthly)      LOC=USD  monthly
+    ez_oecd  OECD euro-area share prices (monthly) LOC=EUR monthly
 
-Daily FX is the NY noon fix, which is non-synchronous with Asian/European closes,
-hence weekly (Fri-Fri) returns for the daily index pairs.
+OECD share price indices are monthly averages of daily prices, so FX is averaged by
+month too. Daily FX (NY noon) is non-synchronous with Tokyo closes, hence weekly
+(Fri-Fri) returns for the daily index series.
 
 Usage: python fx_eq_corr.py [--years 20] [--outdir output]
 """
@@ -37,22 +39,21 @@ import matplotlib.pyplot as plt
 
 FRED_URL = "https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}&cosd={start}"
 
-FX = {  # FRED id, sign so that + = currency appreciates vs USD
-    "JPY": ("DEXJPUS", -1),
-    "CHF": ("DEXSZUS", -1),
-    "EUR": ("DEXUSEU", +1),
-}
+# value of one unit of each currency in USD, as (FRED id, exponent)
+USD_VALUE = {"EUR": ("DEXUSEU", +1), "JPY": ("DEXJPUS", -1), "CHF": ("DEXSZUS", -1)}
+FOREIGN = ["USD", "EUR"]
 
 WEEKLY_WINDOWS = {"26w": 26, "52w": 52, "3y": 156}
 MONTHLY_WINDOWS = {"12m": 12, "24m": 24, "3y": 36}
 
-PAIRS = {
-    "jpy_nikkei": dict(eq="NIKKEI225", eq_name="Nikkei 225", ccy="JPY", freq="W"),
-    "eur_nasdaq": dict(eq="NASDAQCOM", eq_name="Nasdaq Composite", ccy="EUR", freq="W"),
-    "eur_sp500": dict(eq="SP500", eq_name="S&P 500 (10y on FRED)", ccy="EUR", freq="W"),
-    "chf_oecd": dict(eq="SPASTT01CHM661N", eq_name="Swiss share prices (OECD)", ccy="CHF", freq="M"),
-    "usd_oecd": dict(eq="SPASTT01USM661N", eq_name="US share prices (OECD)", ccy="EUR", freq="M"),
-    "jpy_oecd": dict(eq="SPASTT01JPM661N", eq_name="Japan share prices (OECD)", ccy="JPY", freq="M"),
+MARKETS = {
+    "nikkei": dict(eq="NIKKEI225", name="Nikkei 225", loc="JPY", freq="W"),
+    "jp_oecd": dict(eq="SPASTT01JPM661N", name="Japan share prices (OECD)", loc="JPY", freq="M"),
+    "ch_oecd": dict(eq="SPASTT01CHM661N", name="Swiss share prices (OECD)", loc="CHF", freq="M"),
+    "nasdaq": dict(eq="NASDAQCOM", name="Nasdaq Composite", loc="USD", freq="W"),
+    "sp500": dict(eq="SP500", name="S&P 500 (10y on FRED)", loc="USD", freq="W"),
+    "us_oecd": dict(eq="SPASTT01USM661N", name="US share prices (OECD)", loc="USD", freq="M"),
+    "ez_oecd": dict(eq="SPASTT01EZM661N", name="Euro-area share prices (OECD)", loc="EUR", freq="M"),
 }
 
 
@@ -73,57 +74,79 @@ class Fred:
         return self._mem[sid]
 
 
-def pair_returns(fred: Fred, cfg: dict) -> pd.DataFrame:
-    fx_id, sign = FX[cfg["ccy"]]
-    eq, fx = fred(cfg["eq"]), fred(fx_id)
+def fx_in_loc(fred: Fred, foreign: str, loc: str) -> pd.Series:
+    """Daily price of one unit of `foreign` in units of `loc`."""
+    def usd_value(ccy):
+        if ccy == "USD":
+            return None
+        sid, p = USD_VALUE[ccy]
+        return fred(sid) ** p
+
+    num, den = usd_value(foreign), usd_value(loc)
+    if den is None:
+        return num
+    if num is None:
+        return 1.0 / den
+    # cross rate: both legs are the same NY noon fixing, align on common dates
+    return (num / den).dropna()
+
+
+def market_returns(fred: Fred, cfg: dict) -> pd.DataFrame:
+    """Returns: column 'eq' plus one FX column per foreign currency (price in LOC)."""
+    eq = fred(cfg["eq"])
+    fx = {f: fx_in_loc(fred, f, cfg["loc"]) for f in FOREIGN if f != cfg["loc"]}
     if cfg["freq"] == "W":
-        # stop at the last date both series have, and keep only complete weeks,
+        # stop at the last date all series have and keep only complete weeks,
         # so stale forward-filled prices never create artificial zero returns
-        last = min(eq.index[-1], fx.index[-1])
-        lv = pd.DataFrame({"eq": eq, "fx": fx}).loc[:last].ffill().resample("W-FRI").last()
-        lv = lv.loc[:last]
+        last = min([eq.index[-1]] + [s.index[-1] for s in fx.values()])
+        lv = pd.DataFrame({"eq": eq, **fx}).loc[:last].ffill().resample("W-FRI").last().loc[:last]
     else:  # OECD index is a monthly average -> average FX over the month too
-        fx_m = fx.resample("MS").mean()
-        if fx.index[-1] < fx_m.index[-1] + pd.offsets.MonthEnd(0) - pd.Timedelta(days=7):
-            fx_m = fx_m.iloc[:-1]  # drop a month with too little FX history for a fair average
-        lv = pd.DataFrame({"eq": eq.resample("MS").last(), "fx": fx_m})
-    r = np.log(lv.dropna()).diff().dropna()
-    return pd.DataFrame({"eq": r["eq"], "fx": sign * r["fx"]})
+        cols = {"eq": eq.resample("MS").last()}
+        for f, s in fx.items():
+            m = s.resample("MS").mean()
+            if s.index[-1] < m.index[-1] + pd.offsets.MonthEnd(0) - pd.Timedelta(days=7):
+                m = m.iloc[:-1]  # too little FX history in the last month for a fair average
+            cols[f] = m
+        lv = pd.DataFrame(cols)
+    return np.log(lv.dropna()).diff().dropna()
 
 
-def rolling(r: pd.DataFrame, windows: dict) -> pd.DataFrame:
-    return pd.DataFrame({k: r["eq"].rolling(w, min_periods=int(w * 0.8)).corr(r["fx"])
+def rolling(r: pd.DataFrame, f: str, windows: dict) -> pd.DataFrame:
+    return pd.DataFrame({k: r["eq"].rolling(w, min_periods=int(w * 0.8)).corr(r[f])
                          for k, w in windows.items()})
 
 
-def plot_pair(name, cfg, corr, r, out):
+def plot_market(key, cfg, corrs: dict, r, out):
     fig, ax = plt.subplots(figsize=(12, 5))
-    styles = [dict(lw=0.8, color="#9aa7b8"), dict(lw=1.6, color="#1f4e8c"), dict(lw=1.6, color="#c0392b")]
-    for col, st in zip(corr.columns, styles):
-        ax.plot(corr.index, corr[col], label=col, **st)
+    colors = {"USD": "#1f4e8c", "EUR": "#c0392b"}
+    long_w, short_w = list(corrs[next(iter(corrs))].columns)[-1], list(corrs[next(iter(corrs))].columns)[1]
+    for f, c in corrs.items():
+        ax.plot(c.index, c[short_w], lw=0.8, alpha=0.5, color=colors[f])
+        ax.plot(c.index, c[long_w], lw=1.8, color=colors[f],
+                label=f"{f}/{cfg['loc']}  ({short_w} thin, {long_w} thick)  full-sample {r['eq'].corr(r[f]):+.2f}")
     ax.axhline(0, color="black", lw=0.6)
     ax.set_ylim(-1, 1)
     ax.set_ylabel("Correlation")
     unit = "weekly" if cfg["freq"] == "W" else "monthly"
-    ax.set_title(f"Rolling correlation: {cfg['eq_name']} vs {cfg['ccy']} (+ = {cfg['ccy']} up vs USD), "
-                 f"{unit} returns  -  full-sample {r.corr().iloc[0, 1]:+.2f}")
-    ax.legend(loc="upper left", frameon=False, ncol=3)
+    ax.set_title(f"{cfg['name']} (in {cfg['loc']}) vs price of USD / EUR in {cfg['loc']}  -  {unit} returns"
+                 f"\n+ = foreign currency up / {cfg['loc']} down")
+    ax.legend(loc="upper left", frameon=False)
     ax.grid(alpha=0.3)
     fig.tight_layout()
-    fig.savefig(out / f"{name}.png", dpi=130)
+    fig.savefig(out / f"{key}.png", dpi=130)
     plt.close(fig)
 
 
 def plot_compare(series: dict, title: str, path: Path):
-    colors = ["#1f4e8c", "#c0392b", "#e67e22", "#27ae60"]
-    fig, ax = plt.subplots(figsize=(12, 5))
-    for (lab, s), c in zip(series.items(), colors):
-        ax.plot(s.index, s, lw=1.6, color=c, label=lab)
+    """series: label -> (Series, color, linestyle)"""
+    fig, ax = plt.subplots(figsize=(12, 5.5))
+    for lab, (s, c, ls) in series.items():
+        ax.plot(s.index, s, lw=1.6, color=c, ls=ls, label=lab)
     ax.axhline(0, color="black", lw=0.6)
     ax.set_ylim(-1, 1)
     ax.set_ylabel("Correlation")
     ax.set_title(title)
-    ax.legend(loc="upper left", frameon=False)
+    ax.legend(loc="lower left", frameon=False, ncol=3, fontsize=9)
     ax.grid(alpha=0.3)
     fig.tight_layout()
     fig.savefig(path, dpi=130)
@@ -143,48 +166,67 @@ def main():
     # extra history so the 3y rolling window is populated from `start`
     fred = Fred((start - pd.DateOffset(years=3)).strftime("%Y-%m-%d"), out / "data")
 
-    summary, latest, corrs = [], {}, {}
-    for name, cfg in PAIRS.items():
-        r = pair_returns(fred, cfg)
-        corr = rolling(r, WEEKLY_WINDOWS if cfg["freq"] == "W" else MONTHLY_WINDOWS).loc[start:]
-        r = r.loc[start:]
-        corrs[name] = corr
-        corr.to_csv(out / f"rolling_corr_{name}.csv", float_format="%.4f")
-        plot_pair(name, cfg, corr, r, out)
-
+    summary, rows, all_corrs = [], {}, {}
+    for key, cfg in MARKETS.items():
+        r_full = market_returns(fred, cfg)
+        r = r_full.loc[start:]
+        windows = WEEKLY_WINDOWS if cfg["freq"] == "W" else MONTHLY_WINDOWS
+        unit = "weekly" if cfg["freq"] == "W" else "monthly"
         min_obs = 20 if cfg["freq"] == "W" else 6
-        yearly = r.groupby(r.index.year).apply(
-            lambda g: g["eq"].corr(g["fx"]) if len(g) >= min_obs else np.nan).dropna()
-        summary += [
-            f"=== {name}: {cfg['eq_name']} ({cfg['eq']}) vs {cfg['ccy']} ({FX[cfg['ccy']][0]}) ===",
-            f"Sample {r.index[0].date()} to {r.index[-1].date()}, {len(r)} "
-            f"{'weekly' if cfg['freq'] == 'W' else 'monthly'} obs; full-sample corr {r.corr().iloc[0, 1]:+.3f}",
-            corr.describe().T[["mean", "min", "25%", "50%", "75%", "max"]].round(3).to_string(),
-            f"latest: {corr.dropna().iloc[-1].round(3).to_dict()}",
-            "by calendar year: " + ", ".join(f"{y}:{v:+.2f}" for y, v in yearly.items()),
-            "",
-        ]
-        latest[name] = {"full_sample": r.corr().iloc[0, 1],
-                        "pre_2020": r.loc[:"2019"].corr().iloc[0, 1],
-                        "2020_on": r.loc["2020":].corr().iloc[0, 1],
-                        **corr.dropna().iloc[-1].to_dict()}
+        corrs = {}
+        summary.append(f"=== {key}: {cfg['name']} ({cfg['eq']}), LOC={cfg['loc']}, {unit} returns, "
+                       f"{r.index[0].date()} to {r.index[-1].date()} ({len(r)} obs) ===")
+        for f in [c for c in r.columns if c != "eq"]:
+            pair = f"{f}/{cfg['loc']}"
+            c = rolling(r_full, f, windows).loc[start:]
+            corrs[f] = all_corrs[(key, f)] = c
+            c.to_csv(out / f"rolling_corr_{key}_{f.lower()}.csv", float_format="%.4f")
+            yearly = r.groupby(r.index.year).apply(
+                lambda g: g["eq"].corr(g[f]) if len(g) >= min_obs else np.nan).dropna()
+            summary += [
+                f"--- vs {pair}: full-sample corr {r['eq'].corr(r[f]):+.3f}",
+                c.describe().T[["mean", "min", "25%", "50%", "75%", "max"]].round(3).to_string(),
+                f"latest: {c.dropna().iloc[-1].round(3).to_dict()}",
+                "by calendar year: " + ", ".join(f"{y}:{v:+.2f}" for y, v in yearly.items()),
+            ]
+            last = c.dropna().iloc[-1]
+            rows[(cfg["name"], pair)] = {
+                "freq": unit,
+                "full_sample": r["eq"].corr(r[f]),
+                "pre_2020": r.loc[:"2019"].pipe(lambda d: d["eq"].corr(d[f])),
+                "2020_on": r.loc["2020":].pipe(lambda d: d["eq"].corr(d[f])),
+                "latest_1y": last.iloc[1] if cfg["freq"] == "W" else last.iloc[0],
+                "latest_3y": last["3y"],
+            }
+        summary.append("")
+        plot_market(key, cfg, corrs, r, out)
 
-    table = pd.DataFrame(latest).T.round(3)
-    text = "Summary (full-sample / sub-period corr and latest rolling values)\n" \
-        + table.to_string(na_rep="") \
-        + "\n\n" + "\n".join(summary)
+    table = pd.DataFrame(rows).T
+    table.index.names = ["market (in LOC)", "FX (price in LOC)"]
+    num = table.columns.drop("freq")
+    table[num] = table[num].astype(float).round(3)
+    table.to_csv(out / "summary_table.csv")
+    text = ("Correlation of local equity returns with the price of USD / EUR in local currency\n"
+            "(+ FX = local currency weakens). latest_1y = 52w (weekly) or 12m (monthly) window.\n\n"
+            + table.to_string() + "\n\n" + "\n".join(summary))
     (out / "summary.txt").write_text(text)
     print(text)
 
-    plot_compare({"Japan (OECD) vs JPY": corrs["jpy_oecd"]["3y"],
-                  "Switzerland (OECD) vs CHF": corrs["chf_oecd"]["3y"],
-                  "US (OECD) vs EUR": corrs["usd_oecd"]["3y"]},
-                 "3y rolling correlation, monthly returns: local equities vs currency (+ = currency up vs USD)",
+    c = {"JPY": "#1f4e8c", "CHF": "#c0392b", "USD": "#e67e22", "EUR": "#27ae60"}
+    plot_compare({f"{lab}: {f}/{MARKETS[k]['loc']}": (all_corrs[(k, f)]["3y"], c[MARKETS[k]["loc"]],
+                                                         "-" if f == "USD" else "--")
+                  for k, lab in [("jp_oecd", "Japan"), ("ch_oecd", "Switzerland"),
+                                 ("us_oecd", "US"), ("ez_oecd", "Euro area")]
+                  for f in FOREIGN if (k, f) in all_corrs},
+                 "3y rolling corr, monthly OECD share prices (in LOC) vs price of USD (solid) / EUR (dashed) in LOC"
+                 "\n+ = local currency weakens with local equities rising",
                  out / "compare_monthly_3y.png")
-    plot_compare({"Nikkei 225 vs JPY": corrs["jpy_nikkei"]["52w"],
-                  "Nasdaq vs EUR": corrs["eur_nasdaq"]["52w"],
-                  "S&P 500 vs EUR": corrs["eur_sp500"]["52w"]},
-                 "52w rolling correlation, weekly returns: equities vs currency (+ = currency up vs USD)",
+    plot_compare({f"{lab}: {f}/{MARKETS[k]['loc']}": (all_corrs[(k, f)]["52w"], col, ls)
+                  for k, lab, f, col, ls in [("nikkei", "Nikkei", "USD", c["JPY"], "-"),
+                                             ("nikkei", "Nikkei", "EUR", c["JPY"], "--"),
+                                             ("nasdaq", "Nasdaq", "EUR", c["USD"], "--"),
+                                             ("sp500", "S&P 500", "EUR", c["EUR"], "--")]},
+                 "52w rolling corr, weekly returns: equities (in LOC) vs price of USD (solid) / EUR (dashed) in LOC",
                  out / "compare_weekly_52w.png")
 
 
