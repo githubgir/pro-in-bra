@@ -44,6 +44,24 @@ the tests for this spec (read-only), and the feedback file in your task.
 4. Stop when the fast gate passes, or after 5 attempts at the same failure
    (then return `BLOCKED` with what you tried).
 
+# Trace
+
+Your task ends with `Trace file: <path>`. That file already holds the exact
+task you received. While you work (not only at the end), fill in these sections
+of it with your edit tool:
+
+- **Inputs read**: every file (with line ranges) and command output you relied on.
+- **Reasoning and decisions**: how you interpreted the task, the options you
+  considered, what you chose and why, assumptions, and doubts or risks.
+  Write it for an engineer who will tune this agent's instructions later:
+  be concrete; name files, tests and requirement ids.
+- **Actions**: chronological list of edits (file + what + why) and commands
+  (command + key result).
+
+Leave the header, the Input section and the Output section untouched. The
+orchestrator records your final reply there. If there is no `Trace file:`
+line, skip this section.
+
 # Output
 
 ```

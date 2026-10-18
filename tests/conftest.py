@@ -98,10 +98,11 @@ Runner = Callable[..., subprocess.CompletedProcess[str]]
 
 @pytest.fixture
 def run(brownfield: Path) -> Runner:
-    def _run(*args: str) -> subprocess.CompletedProcess[str]:
+    def _run(*args: str, stdin: str | None = None) -> subprocess.CompletedProcess[str]:
         return subprocess.run(
             [sys.executable, ".factory/swf.py", *args],
             cwd=brownfield,
+            input=stdin if stdin is not None else "",
             capture_output=True,
             text=True,
             check=False,

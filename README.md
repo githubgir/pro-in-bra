@@ -128,10 +128,57 @@ and the agent file locations in the VS Code settings for your version.
 | `gate final <ID>` | green + **mutation score** ≥ 70% on changed lines (built-in AST mutator, no extra dependency) + hold-out tests pass |
 | `holdout run <ID>` | hidden tests pass; failures are reported **only** as `REQ-003: 2 hidden check(s) failed` |
 | `round <ID> <loop>` | exit 3 after `max_rounds` → escalate; `--reset` after human guidance |
+| `trace start/finish/append/log/index` | per agent x iteration trace files (see below) |
 | `baseline`, `status`, `changed`, `phase`, `unlock`, `mutation-restore` | housekeeping |
 
 Every gate run is appended to `specs/<ID>/gate-log.md`. Thresholds are in
 `.factory/config.toml`.
+
+## Traces: every agent x iteration on disk
+
+Each subagent call produces its own file, e.g.
+
+```
+specs/RISK-42/traces/
+  index.md                     table: #, agent, loop, round, status, start/finish
+  orchestrator.md              interview Q/A, approvals, routing decisions, escalations
+  001-scout-r1.md
+  002-spec-writer-r1.md
+  003-test-writer-r1.md
+  004-test-reviewer-r1.md
+  005-test-writer-r2.md        2nd tests round after review feedback
+  ...
+  011-coder-r3.md
+```
+
+A trace file has fixed sections, filled by two parties so it doesn't depend
+only on the agent's own diligence:
+
+| Section | Written by | Content |
+|---|---|---|
+| Header | `swf trace start` | agent, loop, round, phase, timestamps, status |
+| Input | orchestrator via `swf trace start` (stdin) | the exact task text sent |
+| Inputs read | agent | files + line ranges, command outputs relied on |
+| Reasoning and decisions | agent | interpretation, options considered, choice and why, assumptions, doubts |
+| Actions | agent | chronological edits and commands with key results |
+| Output | orchestrator via `swf trace finish` | the agent's complete reply |
+| Gate: ... | orchestrator via `swf trace append` | gate output that followed the call |
+
+The hold-out writer's trace is moved outside the workspace along with its
+tests. The index shows it as hidden.
+
+"Reasoning" here is the agent's **written rationale**, not the model's hidden
+internal reasoning, which Copilot doesn't expose. For raw request/response logs
+of a session, use VS Code's chat debug and export features alongside these traces.
+
+Using traces to tune the factory:
+
+- Rounds per loop and the reviewer's "Must fix" items across specs show which
+  agent instructions are underspecified. Fix the `.agent.md`, not the symptoms.
+- Compare *Inputs read* with what the agent should have read, to catch missed
+  context or token-wasting over-reading.
+- Hold-out failures plus the coder's reasoning show whether the spec or the
+  coder was at fault.
 
 ## Design notes, and what was added beyond your original list
 
@@ -152,8 +199,9 @@ Every gate run is appended to `specs/<ID>/gate-log.md`. Thresholds are in
   rather than overfitting to specific cases.
 - **Loop budgets + escalation.** Each loop has a round budget; when it runs
   out, the orchestrator asks you instead of looping forever.
-- **File-based memory.** Specs, reviews, gate logs and state live in
-  `specs/<ID>/`. Runs can be resumed, audited and committed with the code.
+- **File-based memory.** Specs, reviews, gate logs, state and per-agent
+  traces live in `specs/<ID>/`. Runs can be resumed, audited, optimised and
+  committed with the code.
 - **Role separation via tool restrictions.** The orchestrator can't edit
   files; the hold-out writer can't run anything; reviewers write only
   review files.

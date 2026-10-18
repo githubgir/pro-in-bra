@@ -37,6 +37,39 @@ Read these before starting: `.factory/config.toml`, `docs/coding-standards.md`,
    2-4 concrete options and your recommendation first, marked
    "(Recommended)". The human can always type a free answer.
 6. Keep a todo list (todos tool) mirroring the phases so progress is visible.
+7. **Trace every subagent call** (protocol below). No exceptions: the traces
+   are how the human inspects and optimises this factory.
+
+# Tracing protocol
+
+Every subagent invocation gets its own file `specs/<ID>/traces/NNN-<agent>-r<round>.md`
+(agent x iteration). Content goes in via stdin, so text is stored verbatim.
+
+1. **Before** calling a subagent, compose the full task text, then record it:
+
+   ```bash
+   python .factory/swf.py trace start <ID> <agent> <<'TASK'
+   <the exact task text you are about to send>
+   TASK
+   ```
+
+   On Windows PowerShell use a here-string instead:
+   `@'` newline `<task text>` newline `'@ | python .factory/swf.py trace start <ID> <agent>`.
+   It prints `trace <seq>: <path>`. In hardening, add `--loop hardening`.
+2. Send the subagent **the same task text plus a final line**
+   `Trace file: <path>`. The subagent fills its own sections in that file.
+3. **After** it returns, store its complete reply (not a summary):
+   `python .factory/swf.py trace finish <ID> <seq> --status <RESULT status> <<'OUT' ... OUT`
+4. When you run a gate because of that call, attach the gate output to the
+   same trace: `python .factory/swf.py trace append <ID> <seq> --heading "Gate: red" <<'OUT' ... OUT`
+5. Your own decisions go into the orchestrator journal with
+   `python .factory/swf.py trace log <ID> --heading "<topic>" <<'MD' ... MD`:
+   each interview question and answer, spec approval, routing decisions after
+   a gate (why you sent it back to whom), escalations and their resolution.
+
+For `factory-holdout-writer` the trace is created in the staging folder and
+moves outside the workspace on `swf holdout stash`; `trace finish` works before
+or after the stash. Never paste that trace's path or content anywhere else.
 
 # Phases
 
@@ -79,7 +112,8 @@ first, then cover anything still unclear from this checklist:
 - Explicit non-goals.
 
 Skip questions the issue or codebase already answers; state your assumption
-instead. Typically 5-12 questions. Keep a running Q/A list.
+instead. Typically 5-12 questions. Keep a running Q/A list and journal each
+answer with `trace log <ID> --heading "Interview Q<n>"`.
 
 ## 3. Spec
 
@@ -163,6 +197,7 @@ change, addition or deletion.
 - Rounds used per loop (`swf status <ID>`), final coverage and mutation score.
 - Review notes that were deliberately not addressed.
 - A proposed commit message in Conventional Commits form referencing `<ID>`.
+- A link to `specs/<ID>/traces/index.md`.
 
 Ask: "Commit now / I'll review the diff first". Commit only if approved
 (`git add -A && git commit -m ...`). Never push or open merge requests unless asked.

@@ -16,6 +16,8 @@ Usage (from the repository root):
     python .factory/swf.py holdout stash SPEC-ID
     python .factory/swf.py status [SPEC-ID]
     python .factory/swf.py changed SPEC-ID       # files changed since the spec started
+    python .factory/swf.py trace start SPEC-ID factory-coder < task.txt
+    python .factory/swf.py trace finish SPEC-ID 7 --status DONE < reply.txt
 
 Exit codes: 0 pass, 1 gate failed, 2 usage error, 3 escalate to human.
 """
@@ -1031,10 +1033,18 @@ def cmd_holdout(cfg: Config, args: argparse.Namespace) -> int:
         for file in files:
             reqs |= test_requirements(file.read_text(encoding="utf-8"))
             shutil.move(str(file), target / file.name)
-        shutil.rmtree(staging)
         state = load_state(cfg, sid)
+        hidden_traces = target / "traces"
+        for trace in sorted(staging.glob("*.md")):
+            hidden_traces.mkdir(exist_ok=True)
+            shutil.move(str(trace), hidden_traces / trace.name)
+            for entry in _trace_entries(state):
+                if Path(str(entry["path"])).name == trace.name:
+                    entry["path"] = str(hidden_traces / trace.name)
+        shutil.rmtree(staging)
         _history(state, f"holdout stashed: {len(files)} files")
         save_state(cfg, sid, state)
+        write_trace_index(cfg, sid, state)
         covered = ", ".join(f"REQ-{n:03d}" for n in sorted(reqs)) or "none"
         print(f"Stashed {len(files)} hold-out files outside the workspace. Covers: {covered}")
         return EXIT_OK
@@ -1066,6 +1076,207 @@ def holdout_check(cfg: Config, sid: str) -> Check:
     extra = [f"{req}: {count} hidden check(s) failed" for req, count in sorted(per_req.items())]
     detail = "all passed" if not per_req else f"{len(res.failed)} hidden checks failed"
     return Check("hold-out tests", not per_req, detail, extra)
+
+
+# --------------------------------------------------------------------------- traces
+
+AGENT_LOOP = {
+    "factory-scout": "scout",
+    "factory-spec-writer": "spec",
+    "factory-test-writer": "tests",
+    "factory-test-reviewer": "tests",
+    "factory-holdout-writer": "holdout",
+    "factory-coder": "code",
+    "factory-code-reviewer": "code",
+}
+HIDDEN_AGENTS = {"factory-holdout-writer"}
+TRACE_TEMPLATE = """\
+# Trace {seq:03d}: {agent} - {loop} round {round}
+
+- Spec: {sid}
+- Agent: {agent}
+- Loop / round: {loop} / {round}
+- Phase: {phase}
+- Started: {started}
+- Status: running
+
+## Input (task as given by the orchestrator)
+
+{input}
+
+## Inputs read
+
+<!-- AGENT: files (with line ranges), docs and command outputs that informed the work. -->
+
+## Reasoning and decisions
+
+<!-- AGENT: how you read the task; options considered; what you chose and why;
+assumptions; doubts and risks. Update as you go, not only at the end. -->
+
+## Actions
+
+<!-- AGENT: chronological - each edit (file + what/why), each command + key result. -->
+
+## Output (returned to the orchestrator)
+
+<!-- Filled by `swf trace finish`. -->
+"""
+
+
+def traces_dir(cfg: Config, sid: str) -> Path:
+    return spec_dir(cfg, sid) / "traces"
+
+
+def _trace_entries(state: dict[str, object]) -> list[dict[str, Any]]:
+    entries = state.setdefault("traces", [])
+    assert isinstance(entries, list)
+    return entries
+
+
+def _trace_entry(state: dict[str, object], seq: int) -> dict[str, Any]:
+    for entry in _trace_entries(state):
+        if entry["seq"] == seq:
+            return entry
+    raise SystemExit(f"No trace #{seq}; see specs/<ID>/traces/index.md")
+
+
+def _fenced(text: str, lang: str = "text") -> str:
+    """Wrap text in a code fence longer than any backtick run inside it."""
+    longest = max((len(run) for run in re.findall(r"`+", text)), default=0)
+    fence = "`" * max(3, longest + 1)
+    return f"{fence}{lang}\n{text.rstrip()}\n{fence}"
+
+
+def _read_stdin() -> str:
+    return "" if sys.stdin is None or sys.stdin.isatty() else sys.stdin.read()
+
+
+def _display(cfg: Config, path: Path) -> str:
+    try:
+        return str(path.relative_to(cfg.root))
+    except ValueError:
+        return str(path)
+
+
+def _trace_path(cfg: Config, entry: dict[str, Any]) -> Path:
+    path = Path(str(entry["path"]))
+    return path if path.is_absolute() else cfg.root / path
+
+
+def write_trace_index(cfg: Config, sid: str, state: dict[str, object]) -> None:
+    entries = _trace_entries(state)
+    if not entries and not (traces_dir(cfg, sid) / "orchestrator.md").exists():
+        return
+    lines = [
+        f"# Agent traces for {sid}",
+        "",
+        "One file per agent invocation (agent x iteration).",
+        "Orchestrator decisions and the interview: [orchestrator.md](orchestrator.md).",
+        "Gate runs: [../gate-log.md](../gate-log.md).",
+        "",
+        "| # | Agent | Loop | Round | Status | Started | Finished | File |",
+        "|---|-------|------|-------|--------|---------|----------|------|",
+    ]
+    for e in entries:
+        if e.get("hidden"):
+            link = "hidden (outside workspace)"
+        else:
+            link = f"[{Path(str(e['path'])).name}]({Path(str(e['path'])).name})"
+        lines.append(
+            f"| {e['seq']:03d} | {e['agent']} | {e['loop']} | {e['round']} | {e['status']} "
+            f"| {e['started']} | {e.get('finished', '')} | {link} |"
+        )
+    directory = traces_dir(cfg, sid)
+    directory.mkdir(parents=True, exist_ok=True)
+    (directory / "index.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def cmd_trace(cfg: Config, args: argparse.Namespace) -> int:
+    sid = args.spec_id
+    state = load_state(cfg, sid)
+    action = args.action
+    text = _read_stdin()
+
+    if action == "start":
+        agent = args.agent
+        loop = args.loop or AGENT_LOOP.get(agent, "other")
+        rounds = state.get("rounds", {})
+        assert isinstance(rounds, dict)
+        rnd = args.round or max(1, int(rounds.get(loop, 0)))
+        seq = len(_trace_entries(state)) + 1
+        name = f"{seq:03d}-{agent.removeprefix('factory-')}-r{rnd}.md"
+        hidden = agent in HIDDEN_AGENTS
+        directory = cfg.factory_dir / "holdout-staging" / sid if hidden else traces_dir(cfg, sid)
+        directory.mkdir(parents=True, exist_ok=True)
+        path = directory / name
+        started = _now()
+        path.write_text(
+            TRACE_TEMPLATE.format(
+                seq=seq,
+                agent=agent,
+                loop=loop,
+                round=rnd,
+                sid=sid,
+                phase=state.get("phase"),
+                started=started,
+                input=_fenced(text or "(no input captured)"),
+            ),
+            encoding="utf-8",
+        )
+        _trace_entries(state).append(
+            {
+                "seq": seq,
+                "agent": agent,
+                "loop": loop,
+                "round": rnd,
+                "path": _display(cfg, path),
+                "hidden": hidden,
+                "status": "running",
+                "started": started,
+            }
+        )
+        save_state(cfg, sid, state)
+        write_trace_index(cfg, sid, state)
+        print(f"trace {seq}: {_display(cfg, path)}")
+        return EXIT_OK
+
+    if action == "log":
+        directory = traces_dir(cfg, sid)
+        directory.mkdir(parents=True, exist_ok=True)
+        journal = directory / "orchestrator.md"
+        if not journal.exists():
+            journal.write_text(f"# Orchestrator journal for {sid}\n", encoding="utf-8")
+        with journal.open("a", encoding="utf-8") as fh:
+            fh.write(f"\n## {_now()} - {args.heading}\n\n{text.rstrip()}\n")
+        write_trace_index(cfg, sid, state)
+        print(f"logged to {_display(cfg, journal)}")
+        return EXIT_OK
+
+    if action == "index":
+        write_trace_index(cfg, sid, state)
+        print(f"wrote {_display(cfg, traces_dir(cfg, sid) / 'index.md')}")
+        return EXIT_OK
+
+    entry = _trace_entry(state, args.seq)
+    path = _trace_path(cfg, entry)
+    if not path.exists():
+        print(f"Trace file missing: {path}")
+        return EXIT_FAIL
+    body = path.read_text(encoding="utf-8")
+    if action == "append":
+        body = body.rstrip() + f"\n\n## {args.heading}\n\n{_fenced(text)}\n"
+    else:  # finish
+        finished = _now()
+        body = body.replace("- Status: running", f"- Status: {args.status}", 1)
+        body = body.rstrip() + f"\n\n{_fenced(text or '(no output captured)')}\n"
+        body += f"\n- Finished: {finished}\n- Status: {args.status}\n"
+        entry["status"] = args.status
+        entry["finished"] = finished
+        save_state(cfg, sid, state)
+        write_trace_index(cfg, sid, state)
+    path.write_text(body, encoding="utf-8")
+    print(f"trace {entry['seq']}: {action} -> {_display(cfg, path)}")
+    return EXIT_OK
 
 
 # --------------------------------------------------------------------------- cli
@@ -1123,6 +1334,28 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("action", choices=("stash", "run"))
     p.add_argument("spec_id")
     p.set_defaults(func=cmd_holdout)
+
+    p = sub.add_parser("trace", help="per agent x iteration trace files (stdin = content)")
+    trace = p.add_subparsers(dest="action", required=True)
+    t = trace.add_parser("start", help="create a trace; stdin = the exact task sent")
+    t.add_argument("spec_id")
+    t.add_argument("agent")
+    t.add_argument("--loop", help="override the loop (default derived from the agent)")
+    t.add_argument("--round", type=int, help="override the round (default: current round)")
+    t = trace.add_parser("finish", help="record the agent's reply; stdin = reply")
+    t.add_argument("spec_id")
+    t.add_argument("seq", type=int)
+    t.add_argument("--status", required=True)
+    t = trace.add_parser("append", help="add a section, e.g. gate output; stdin = content")
+    t.add_argument("spec_id")
+    t.add_argument("seq", type=int)
+    t.add_argument("--heading", required=True)
+    t = trace.add_parser("log", help="orchestrator journal entry; stdin = markdown")
+    t.add_argument("spec_id")
+    t.add_argument("--heading", required=True)
+    t = trace.add_parser("index", help="rebuild traces/index.md")
+    t.add_argument("spec_id")
+    p.set_defaults(func=cmd_trace)
 
     p = sub.add_parser("mutation-restore", help="restore sources after an interrupted mutation run")
     p.set_defaults(func=cmd_mutation_restore)
