@@ -1,0 +1,24 @@
+# Software factory configuration. Adjust per repository.
+
+[project]
+base_branch = "main"
+src_paths = ["src"]          # where production code lives (e.g. ["src"], ["mypkg"], ["."])
+test_paths = ["tests"]       # where pytest should look
+specs_dir = "specs"
+
+[loops]
+max_rounds = 4               # per loop (tests, code, holdout, hardening); then escalate to a human
+
+[gates]
+coverage_min = 90.0          # % of changed lines + branches covered
+mutation_min = 70.0          # % of mutants on changed lines killed by the locked tests
+mutation_max_mutants = 200   # sample above this (deterministic)
+mutation_timeout_s = 120     # hard cap per mutant run
+ruff = true
+mypy = true
+mypy_args = []               # e.g. ["--strict"] or ["--config-file", "pyproject.toml"]
+pytest_args = []             # e.g. ["-n", "auto"] with pytest-xdist
+
+[holdout]
+holdout_root = "~/.factory-holdout"   # outside the workspace on purpose
+holdout_required = false
