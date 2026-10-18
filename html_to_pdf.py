@@ -12,6 +12,11 @@ h2{margin-top:28px}
 thead th{position:static}
 .kpis{grid-template-columns:repeat(5,1fr)}
 .findings{break-inside:auto}
+.two{grid-template-columns:1fr}
+.tbl{overflow:visible}
+table{font-size:8.6pt}
+th,td{padding:4px 6px}
+tbody th{white-space:normal}
 """
 with sync_playwright() as p:
     b = p.chromium.launch(executable_path="/opt/pw-browsers/chromium-1194/chrome-linux/chrome")
