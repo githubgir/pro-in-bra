@@ -201,3 +201,69 @@ for kk, v in facts.items():
     print(f"{kk:12s} {v}")
 pickle.dump({"FIG": FIG, "T": dict(T_DD_MAIN=T_DD_MAIN, T_DD_OOS=T_DD_OOS, T_DD_LEV=T_DD_LEV, T_EPS=T_EPS, QC=QC),
              "facts": facts}, open("results/report_dd_parts.pkl", "wb"))
+
+# ================================================================ residual (industry - beta x market) variants
+fit_ea = DC.fit(x48, Q["assets"], MKT, RF, exante=60)
+HED, _ = DC.hedged_returns(x48, MKT, RF)
+QA48, QC48 = R["levels"][48]["quads"]["a"], fit48["quads"]
+c2_un = P.build(x48, P.static(fit_ea["quads"]), "ERC", "ERC", S70)["aw"]
+HV = {}
+for nm, qd in [("(a) macro", QA48), ("(c) drawdown, full-sample β", QC48), ("(c2) drawdown, ex-ante β residuals", fit_ea["quads"])]:
+    for wi, ac in [("EW", "EW"), ("ERC", "ERC")]:
+        HV[f"{nm} · {wi}/{ac}"] = P.build(HED, P.static(qd), wi, ac, S70, end=END)["aw"]
+mm = MKT.loc[S70:END]; rff = RF.reindex(mm.index)
+EPN = {"1973–74": ("1972-12", "1974-09"), "1980–82": ("1980-11", "1982-07"), "2000–02": ("2000-08", "2002-09"),
+       "2007–09": ("2007-10", "2009-02"), "2020": ("2020-01", "2020-03"), "2022": ("2021-12", "2022-09")}
+
+
+def _eprow(r):
+    return {k: (1 + r.loc[pd.Period(s) + 1:e]).prod() - 1 for k, (s, e) in EPN.items()}
+
+
+rows = {"US equity market": {**st(MKT, S70)[["CAGR", "Vol", "Sharpe", "MaxDD", "Beta"]].to_dict(), **_eprow(MKT)}}
+for k_, r_ in HV.items():
+    rows["Hedged AW " + k_] = {**st(r_, S70)[["CAGR", "Vol", "Sharpe", "MaxDD", "Beta"]].to_dict(), **_eprow(r_)}
+HT = pd.DataFrame(rows).T
+T_HEDGED = table(HT, {**{c: STAT_FMT[c] for c in ["CAGR", "Vol", "Sharpe", "MaxDD", "Beta"]}, **{k: (lambda v: PF(v, 0)) for k in EPN}})
+
+rows = {"US equity market": st(MKT, S70),
+        "AW (c) full-sample β · ERC/ERC (long-only)": st(aw_c(48, "c"), S70),
+        "AW (c2) ex-ante β residuals · ERC/ERC (long-only)": st(c2_un, S70)}
+for nm in ["(a) macro · EW/EW", "(c2) drawdown, ex-ante β residuals · EW/EW"]:
+    for kk in [1, 2]:
+        rows[f"Market + {kk}× hedged AW {nm}"] = st(mm + kk * (HV[nm] - rff), S70)
+T_OVERLAY = table(pd.DataFrame(rows).T[["CAGR", "Vol", "Sharpe", "MaxDD", "Calmar", "Beta"]], STAT_FMT)
+
+agree_c2 = (fit_ea["label"] == fit48["label"].reindex(fit_ea["label"].index)).mean()
+QC2 = "".join(f"<div class='qcard q-{q}'><h4>{QNAME[q]}</h4><p>{', '.join(fit_ea['quads'][q])}</p></div>" for q in QORDER)
+
+
+def f_hedbars(fig_, T):
+    ax = fig_.subplots()
+    xs = np.arange(len(EPS)); w = 0.26
+    mk = [(1 + MKT.loc[e.peak + 1:e.trough]).prod() - 1 for _, e in EPS.iterrows()]
+    ax.bar(xs - w, mk, w * 0.9, color=T["ref"], label="Market", zorder=3)
+    for j, (nm, c) in enumerate([("(a) macro · EW/EW", 0), ("(c2) drawdown, ex-ante β residuals · EW/EW", 1)]):
+        v = [(1 + HV[nm].loc[e.peak + 1:e.trough]).prod() - 1 for _, e in EPS.iterrows()]
+        ax.bar(xs + j * w, v, w * 0.9, color=T["s"][c], label="Hedged AW " + nm.split(" · ")[0].split(",")[0], zorder=3)
+    ax.axhline(0, color=T["axis"], lw=1)
+    ax.set_xticks(xs, [f"{e.peak.strftime('%b %y')}\n–{e.trough.strftime('%b %y')}" for _, e in EPS.iterrows()], fontsize=7.5)
+    pct(ax); ax.set_ylabel("total return over the episode")
+    ax.legend(ncol=3, fontsize=8, loc="lower center", bbox_to_anchor=(0.5, 1.0))
+FIG["hedbars"] = render(f_hedbars, (10, 4.0))
+
+hx = HV["(a) macro · EW/EW"]
+facts.update(
+    agree_c2=PF(agree_c2, 0), n_q2=" / ".join(str(len(fit_ea["quads"][q])) for q in QORDER),
+    dd_c2=PF(st(c2_un, S70)["MaxDD"], 0), sh_c2=NF(st(c2_un, S70)["Sharpe"]),
+    h_sh=NF(st(hx, S70)["Sharpe"]), h_vol=PF(st(hx, S70)["Vol"]), h_beta=NF(st(hx, S70)["Beta"]),
+    h_dd=PF(st(hx, S70)["MaxDD"], 0),
+    h_7374=PF(_eprow(hx)["1973–74"], 0), h_8082=PF(_eprow(hx)["1980–82"], 0), h_0002=PF(_eprow(hx)["2000–02"], 0),
+    h_0709=PF(_eprow(hx)["2007–09"], 0),
+    ov_dd=PF(st(mm + hx - rff, S70)["MaxDD"], 0), ov_sh=NF(st(mm + hx - rff, S70)["Sharpe"]),
+    ov2_dd=PF(st(mm + 2 * (hx - rff), S70)["MaxDD"], 0),
+)
+print({k: facts[k] for k in ["agree_c2", "n_q2", "dd_c2", "sh_c2", "h_sh", "h_vol", "h_beta", "h_dd", "h_7374", "h_8082", "h_0002", "h_0709", "ov_dd", "ov_sh", "ov2_dd"]})
+pickle.dump({"FIG": FIG, "T": dict(T_DD_MAIN=T_DD_MAIN, T_DD_OOS=T_DD_OOS, T_DD_LEV=T_DD_LEV, T_EPS=T_EPS, QC=QC,
+                                   T_HEDGED=T_HEDGED, T_OVERLAY=T_OVERLAY, QC2=QC2),
+             "facts": facts}, open("results/report_dd_parts.pkl", "wb"))

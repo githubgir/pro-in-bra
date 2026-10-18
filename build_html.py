@@ -92,6 +92,21 @@ footer{margin-top:60px;padding-top:16px;border-top:1px solid var(--rule);font-si
 @media (max-width:560px){body{font-size:15px}.aw-diagram{grid-template-columns:1fr}.aw-diagram .hd:empty{display:none}}
 """
 
+SUB = '''<h3>Variant: industry − β × market residuals</h3>
+<div class="col">
+<p>Two further tests use residual returns, industry − β × market. <b>(c2)</b> keeps the drawdown clustering but estimates β over the 60 months <i>before</i> each episode, not over the full sample. Industry betas drift (technology's beta was far higher going into 2000 than on average), so ex-ante residuals should separate industries more cleanly. <b>Hedged All Weather</b> goes further and holds the residuals: each industry is held long and β × market (trailing 60-month β, known at t−1) is shorted. The quadrant portfolios then contain only the regime tilts, with no market beta.</p>
+<p>The ex-ante betas change {chg_c2} of the 48 assignments (cluster sizes {n_q2}). As a long-only portfolio, (c2) still has a {dd_c2} maximum drawdown and a Sharpe ratio of {sh_c2}.</p>
+</div>
+<div class="quadgrid">{QC2}</div>
+{fig_hedbars}
+<div class="col"><p>Hedged, the quadrants differentiate strongly in crashes driven by a regime. The beta-neutral All Weather (a, equal-weighted) made {h_7374} in 1973–74, {h_8082} in 1980–82 and {h_0002} in 2000–02, while the market fell. In 2007–09 it made only {h_0709}. The GFC was a pure beta event: after removing beta, every quadrant's residual was close to zero. On its own the hedged portfolio has {h_vol} volatility, beta {h_beta} and a Sharpe ratio of only {h_sh}. Its maximum drawdown of {h_dd} came in the late-1990s tech melt-up, when short-beta, long-defensive positions lost.</p></div>
+<h3>Hedged All Weather: standalone, with returns in each episode</h3>
+{T_HEDGED}
+<div class="col"><p>Added to the market as an overlay, it helps less than these episodes suggest. Market + 1× hedged AW has a {ov_dd} maximum drawdown (Sharpe {ov_sh}), and 2× gives {ov2_dd}. The overlay pays off in 1973–74, 1980–82 and 2000–02, but the worst drawdown is 2008, when it contributed almost nothing.</p></div>
+<h3>Long-only (c2) and market + hedged-overlay combinations</h3>
+{T_OVERLAY}
+'''
+
 SEC = '''
 <h2 id="drawdown"><span class="n">8</span>Drawdown-anchored classification (c)</h2>
 <div class="col">
@@ -126,6 +141,7 @@ SEC = '''
 {T_DD_OOS}
 <h3>Across industry levels (ERC within and across)</h3>
 {T_DD_LEV}
+SUB_HEDGE
 <div class="note">The drawdown you expected is a property of the asset mix, not of the industry classification. Industries give a robust relative-value regime map, worth about +0.05 Sharpe. Crash protection needs assets whose beta to equities is near zero or negative, namely Treasuries and gold, sized by risk. A practical hybrid: use the macro-classified industry quadrants as the equity sleeve inside an asset-class All Weather.</div>
 '''
 
@@ -161,7 +177,7 @@ H = f"""<meta charset="utf-8"><title>Industry All Weather</title>
 <li><b>It does not deliver Bridgewater-style crash protection.</b> Beta is {f['beta_a']} and correlation {f['corr_a']}. Balancing industries only diversifies the part of returns that is <i>relative</i> to the market (tracking error {f['te_a']}). Market-wide crashes hit almost in full: 1973–74 {f['oil_a']} (market {f['oil_m']}), 2007–09 {f['gfc_a']} ({f['gfc_m']}).</li>
 <li><b>It shines when the market is concentrated in one regime bet</b>: 2000–02 {f['dot_a']} vs {f['dot_m']}, 2022 {f['i22_a']} vs {f['i22_m']}. It lags when one regime's winners dominate cap weights, as with mega-cap tech after 2011.</li>
 <li><b>Judgement beats regression.</b> The macro view (a) gives the best Sharpe ratio at every granularity except 10 industries. Full-sample regressions (b) agree with (a) on {f['agree48']} of the 48 industries. Out-of-sample regressions (b-OOS) only roughly match the market's Sharpe ratio, because t-statistics of 1–2 make the quadrant labels noisy.</li>
-<li><b>Drawdown-anchored clusters (c) do not cut drawdowns.</b> Assigning industries to quadrants by how their beta-adjusted returns in the market's 10 worst drawdowns resemble gold/TIPS, commodities, Treasuries and cyclicals gives a maximum drawdown of {g['dd_c']} (market {g['dd_m']}). The maximum drawdown is set by 2008, when every quadrant lost {g['gfc_best_q']} or more. Industries alone bottom out near {g['dd_lb']} (the 10 lowest-beta industries). Bridgewater's asset classes, levered to equity volatility, reach {g['dd_aawl']}.</li>
+<li><b>Drawdown-anchored clusters (c) do not cut drawdowns.</b> Assigning industries to quadrants by how their beta-adjusted returns in the market's 10 worst drawdowns resemble gold/TIPS, commodities, Treasuries and cyclicals gives a maximum drawdown of {g['dd_c']} (market {g['dd_m']}). The maximum drawdown is set by 2008, when every quadrant lost {g['gfc_best_q']} or more. Industries alone bottom out near {g['dd_lb']} (the 10 lowest-beta industries). Bridgewater's asset classes, levered to equity volatility, reach {g['dd_aawl']}. Residuals (industry − β·market) do separate the quadrants: a beta-hedged All Weather made {g['h_0002']} in 2000–02 and {g['h_7374']} in 1973–74. But it made only {g['h_0709']} in 2008, so a market + hedged overlay still draws down {g['ov_dd']}.</li>
 <li><b>Granularity matters little.</b> From 5 to 49 industries the Sharpe ratio of (a) ERC/ERC stays in a 0.51–0.53 band. What matters is the regime structure, not the number of industries. Equal-weighting all industries gets worse as the set gets finer, while All Weather does not.</li>
 </ol>
 </section>
@@ -248,10 +264,10 @@ SECTION_DD
 <ul>
 <li>The growth/inflation framework transfers well to equity industries as a <b>relative-value</b> map. Industries sort reliably into regime winners and losers, and an economically reasoned classification holds up better than a fitted one.</li>
 <li>An industry-only All Weather is a <b>better-diversified equity portfolio</b>: Sharpe 0.50–0.53 vs 0.46, slightly smaller drawdowns, strong protection against concentration unwinds. It is not a multi-asset crash hedge.</li>
-<li>Clustering industries on their behaviour in the 10 worst market drawdowns (c) does <b>not</b> reduce drawdowns, because every industry falls in a systemic crash. Lower drawdowns need lower beta: low-beta industries reach about −40%, and real bonds and gold reach −16% unlevered.</li>
+<li>Clustering industries on their behaviour in the 10 worst market drawdowns (c) does <b>not</b> reduce drawdowns, because every industry falls in a systemic crash. Lower drawdowns need lower beta: low-beta industries reach about −40%, and real bonds and gold reach −16% unlevered. Beta-hedged residuals protect in regime-driven crashes (1973–74, 1980–82, 2000–02) but not in the 2008 beta crash.</li>
 <li>Prefer <b>ERC across quadrants</b>, the step that actually equalises regime risk, together with the macro classification. Industry granularity is a second-order choice; 17–48 industries is a sensible range.</li>
 </ul>
-<p><b>Suggested extensions.</b> (1) Isolate the regime overlay: long each quadrant, short the market, ERC across the four spreads. This is a market-neutral macro factor that could sit alongside bonds and commodities in a true multi-asset All Weather. (2) Measure surprises against expectations (Survey of Professional Forecasters, breakevens) rather than as changes in realised data. (3) Use time-varying, shrunk betas for (b), Bayesian-blended with the (a) priors. (4) Lever to a target volatility and add transaction costs.</p>
+<p><b>Suggested extensions.</b> (1) Use the macro-classified industry quadrants as the equity sleeve of an asset-class All Weather (Treasuries, gold/TIPS, commodities), or run the beta-hedged industry All Weather of section 8 as a separate sleeve. It pays off in regime-driven crashes and is uncorrelated with the market. (2) Measure surprises against expectations (Survey of Professional Forecasters, breakevens) rather than as changes in realised data. (3) Use time-varying, shrunk betas for (b), Bayesian-blended with the (a) priors. (4) Lever to a target volatility and add transaction costs.</p>
 </div>
 
 <h2 id="method"><span class="n">10</span>Method and data notes</h2>
@@ -273,6 +289,11 @@ SEC_FILLED = SEC.format(T_EPS=T["T_EPS"], QC=T["QC"], T_DD_MAIN=T["T_DD_MAIN"], 
     fig_epbars=fig("dd_epbars", "Quadrant returns per drawdown episode", "Total return of the market and of each (c) quadrant portfolio (48 industries, equal-weighted) over each of the 10 drawdown episodes."),
     fig_dd2=fig("dd_dd2", "Drawdown comparison", "Drawdowns since 1970. The asset All Weather is ERC across the four anchor quadrants, levered with a constant multiple (financed at the T-bill rate) to the market's realised volatility. This is ex-post scaling, shown for illustration."),
     **g)
+SUB_FILLED = SUB.format(QC2=T["QC2"], T_HEDGED=T["T_HEDGED"], T_OVERLAY=T["T_OVERLAY"],
+    chg_c2=f"{100 - int(g['agree_c2'].rstrip('%'))}%",
+    fig_hedbars=fig("dd_hedbars", "Hedged All Weather returns per drawdown episode", "Total return over each of the 10 market drawdowns: market vs beta-hedged All Weather (industry − β·market, trailing 60-month β), equal weights within and across quadrants."),
+    **g)
+SEC_FILLED = SEC_FILLED.replace("SUB_HEDGE", SUB_FILLED)
 H = H.replace("SECTION_DD", SEC_FILLED)
 open("results/industry_all_weather.html", "w", encoding="utf-8").write(H)
 print(len(H) / 1e6, "MB")

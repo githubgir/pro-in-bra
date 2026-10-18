@@ -59,11 +59,16 @@ def betas(rets, mkt, rf, start=None, end=None):
     return pd.Series(out)
 
 
-def episode_returns(rets, mkt, rf, episodes, beta):
-    """Beta-adjusted excess return of each column in each episode (NaN if data missing)."""
+def episode_returns(rets, mkt, rf, episodes, beta, exante=None):
+    """Beta-adjusted excess return of each column in each episode (NaN if data missing).
+
+    exante: if an int W, beta is re-estimated per episode on the W months before the peak
+    (residual = r - beta_t * r_m, beta known before the drawdown started)."""
     rows = {}
     for _, e in episodes.iterrows():
         sl = slice(e.peak + 1, e.trough)
+        if exante:
+            beta = betas(rets, mkt, rf, e.peak - exante + 1, e.peak).reindex(rets.columns)
         ex = rets.loc[sl].sub(rf.loc[sl], axis=0)
         mx = (mkt - rf).loc[sl]
         a = ex.sub(np.outer(mx.values, beta.reindex(rets.columns).values), axis=0)
@@ -101,7 +106,7 @@ def assign_from_corr(corr):
     return q
 
 
-def fit(ind, assets, mkt, rf, n=10, start="1970-01", end=None, completed_before=None, demean=True, beta_adjust=True):
+def fit(ind, assets, mkt, rf, n=10, start="1970-01", end=None, completed_before=None, demean=True, beta_adjust=True, exante=None):
     eps = market_drawdowns(mkt, n, start, end, completed_before)
     stop = end if completed_before is None else completed_before - 1
     b_i = betas(ind, mkt, rf, start, stop)
@@ -109,8 +114,8 @@ def fit(ind, assets, mkt, rf, n=10, start="1970-01", end=None, completed_before=
     if not beta_adjust:                     # plain excess-of-market returns instead
         b_i[:] = 1.0
         b_a[:] = 1.0
-    ind_ep = episode_returns(ind[b_i.index], mkt, rf, eps, b_i)
-    ast_ep = episode_returns(assets, mkt, rf, eps, b_a)
+    ind_ep = episode_returns(ind[b_i.index], mkt, rf, eps, b_i, exante)
+    ast_ep = episode_returns(assets, mkt, rf, eps, b_a, exante)
     if demean:
         # remove the episode's common industry component (e.g. equal-weight beating cap-weight in 2000-02)
         xs_mean = ind_ep.mean(axis=0)
@@ -122,10 +127,20 @@ def fit(ind, assets, mkt, rf, n=10, start="1970-01", end=None, completed_before=
             "anchors": anchors, "corr": corr, "label": lab, "quads": assign_from_corr(corr)}
 
 
-def rolling_quads(ind, assets, mkt, rf, first_year=2000, last_year=None, n=10, start="1970-01"):
+def rolling_quads(ind, assets, mkt, rf, first_year=2000, last_year=None, n=10, start="1970-01", **kw):
     """Out-of-sample: every January re-fit using only drawdowns whose trough is before that January."""
     last_year = last_year or ind.index[-1].year
-    fits = {y: fit(ind, assets, mkt, rf, n, start, completed_before=pd.Period(f"{y}-01", "M"))
+    fits = {y: fit(ind, assets, mkt, rf, n, start, completed_before=pd.Period(f"{y}-01", "M"), **kw)
             for y in range(first_year, last_year + 1)}
     cache = {y: f["quads"] for y, f in fits.items()}
     return (lambda t: cache[max(first_year, min(t.year, last_year))]), fits
+
+
+def hedged_returns(rets, mkt, rf, window=60, min_obs=36):
+    """Beta-hedged industry returns: r_i - beta_i,t * (r_m - rf), beta from the trailing window to t-1.
+    Long the industry, short beta x market (futures-style, so the cash return stays in)."""
+    ex, m = rets.sub(rf, axis=0), mkt - rf
+    cov = ex.rolling(window, min_periods=min_obs).cov(m)
+    var = m.rolling(window, min_periods=min_obs).var()
+    beta = cov.div(var, axis=0).shift(1)
+    return rets.sub(beta.mul(m, axis=0)), beta
