@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "optattr"
+version = "0.1.0"
+description = "Optimization attribution: target/constraint pressure decomposition with covariance propagation"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "scipy>=1.11", "pandas>=2.1", "cvxpy>=1.5", "clarabel>=0.7"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["optattr"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
