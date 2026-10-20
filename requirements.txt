@@ -1,0 +1,6 @@
+cvxpy>=1.5
+clarabel
+numpy
+pandas
+scipy
+pytest
